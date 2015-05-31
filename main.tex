@@ -11,8 +11,7 @@
 %
 % License:
 % CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-% Compiling this template:
+%% Compiling this template:
 % This template uses biber for its bibliography and makeindex for its index.
 % When you first open the template, compile it from the command line with the 
 % commands below to make sure your LaTeX distribution is configured correctly:
@@ -52,21 +51,61 @@
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
-%$$$#%
-%$$$#%begingroup
-%$$$#%thispagestyle{empty}
-%$$$#%\begin{tikzpicture}[remember picture,overlay]
-%$$$#%\coordinate [below=12cm] (midpoint) at (current page.north);
-%$$$#%\node at (current page.north west)
-%$$$#%{\begin{tikzpicture}[remember picture,overlay]
-%$$$#%\node[anchor=north west,inner sep=0pt] at (0,0) {\includegraphics[width=\paperwidth]{background}}; % Background image
-%$$$#%\draw[anchor=north] (midpoint) node [fill=ocre!30!white,fill opacity=0.6,text opacity=1,inner sep=1cm]%$$$#%{\Huge\centering\bfseries\sffamily\parbox[c][][t]{\paperwidth}{\centering The Search for a Title\\[15pt] % Book title
-%$$$#%{\Large A Profound Subtitle}\\[20pt] % Subtitle
-%$$$#%{\huge Dr. John Smith}}}; % Author name
-%$$$#%\end{tikzpicture}};
-%$$$#%\end{tikzpicture}
-%$$$#%\vfill
-%$$$#%\endgroup
+%%
+
+
+\begin{center}
+        \par\nobreak
+        {\color{ocre}\thickhrule}
+        \vspace*{2cm}%
+       \par\nobreak
+    \makebox[0pt]{\Huge \bfseries  Book Title} 
+        \vspace*{2cm}%
+\par\nobreak
+{\includegraphics[width=\linewidth,height=10cm]{chapter_head_1.pdf}}
+        \par\nobreak
+ \vspace*{2cm}%
+ \makebox[0pt]{\Huge \bfseries  HONR 268N} 
+ \par\nobreak
+        \vspace*{2cm}%
+       {\color{ocre}\thickhrule}
+  \end{center}
+  
+ 
+%\titleimage{chapter_head_1.pdf} % Table of contents heading image
+%\title{Book Title}
+\pagestyle{empty} % No headers
+
+%\makebox[0pt][l]{%
+%\raisebox{-\totalheight}[0pt][0pt]{%
+%   {\transparent{0.4}\includegraphics[width=8in, height=11in]{chapter_head_1.pdf}}}}%%
+%\BgThispage
+ %Some content
+%{\Huge\centering\bfseries\sffamily\parbox[c][][t]{\paperwidth}{\centering The Search for a Title\\[15pt] % Book title
+%{\Large A Profound Subtitle}\\[20pt] % Subtitle
+%{\huge Dr. John Smith}}}; % Author name
+
+% \clearpage
+% text
+
+%\begingroup
+%\thispagestyle{empty}
+%\AddToShipoutPictureBG*
+%\begin{tikzpicture}[remember picture,overlay]
+%%%%sj\coordinate [below=12cm] (midpoint) at (current page.north);
+%%%%sj\node at (current page.north west)
+%%%%sj{\begin{tikzpicture}[remember picture,overlay]
+%%%%sj\node[anchor=north west,inner sep=0pt] at (0,0) 
+%{\includegraphics[width=\paperwidth, height=\paperwidth]{chapter_head_1.pdf}}; % Background image
+%%%%sj\draw[anchor=north] (midpoint) node [fill=ocre!30!white,fill opacity=0.6,text opacity=1,inner sep=1cm]
+%{\Huge\centering\bfseries\sffamily\parbox[c][][t]{\paperwidth}{\centering The Search for a Title\\[15pt] % Book title
+%{\Large A Profound Subtitle}\\[20pt] % Subtitle
+%{\huge Dr. John Smith}}}; % Author name
+%%%%sj\end{tikzpicture}};
+%%%%sj\end{tikzpicture}
+%%%%sj\vfill
+%\clearpage
+%\endgroup
 
 %----------------------------------------------------------------------------------------
 %	COPYRIGHT PAGE
@@ -90,13 +129,28 @@
 %	TABLE OF CONTENTS
 %----------------------------------------------------------------------------------------
 
-\chapterimage{chapter_head_1.pdf} % Table of contents heading image
-
-\pagestyle{empty} % No headers
+\chapterimage{line.pdf} % Table of contents heading image
+%\chapter{Table of Contents}
+%%%\begin{center}
+  %%%      \par\nobreak
+  %%%      {\color{ocre}\thickhrule}
+  %%%      \vspace*{1cm}%
+  %%%     \par\nobreak
+ %%%   \makebox[0pt]{\Huge \bfseries  Table of Contents} 
+ %%%       \vspace*{1cm}%
+%%%\par\nobreak
+%{\includegraphics[width=\linewidth,height=10cm]{chapter_head_1.pdf}}
+%%%        \par\nobreak
+%%%      {\color{ocre}\thickhrule}
+%%%  \end{center}
 
 \tableofcontents  % Print the table of contents itself
 
-\cleardoublepage % Forces the first chapter to start on an odd page so it's on the right
+ 
+\pagestyle{empty} % No headers
+\vspace*{-10cm}%
+
+%\cleardoublepage % Forces the first chapter to start on an odd page so it's on the right
 
 \pagestyle{fancy} % Print headers again
 
@@ -109,12 +163,18 @@
 %----------------------------------------------------------------------------------------
 %	CHAPTER 1
 %----------------------------------------------------------------------------------------
-
 \chapterimage{chapter_head_2.pdf} % Chapter heading image
+\chapter{Elementary Particles and Forces}
+\input{1-StandardModel}
 
+%----------------------------------------------------------------------------------------
+%	CHAPTER 2
+%----------------------------------------------------------------------------------------
+\chapterimage{EMc2ImageTheSun.pdf} % Chapter heading image
 \chapter{Special Relativity}
+\input{2-Relativity}
 
-\input{./relativity/2-Relativity}
+
 
 
 \end{document}
@@ -236,25 +296,25 @@ The concepts presented here are now in conventional employment in mathematics. V
 
 %------------------------------------------------
 
-\section{Propositions}\index{Propositions}
+%%%\section{Propositions}\index{Propositions}
 
-This is an example of propositions.
+%%%This is an example of propositions.
 
-\subsection{Several equations}\index{Propositions!Several Equations}
+%%%\subsection{Several equations}\index{Propositions!Several Equations}
 
-\begin{proposition}[Proposition name]
-It has the properties:
-\begin{align}
-& \big| ||\mathbf{x}|| - ||\mathbf{y}|| \big|\leq || \mathbf{x}- \mathbf{y}||\\
-&  ||\sum_{i=1}^n\mathbf{x}_i||\leq \sum_{i=1}^n||\mathbf{x}_i||\quad\text{where $n$ is a finite integer}
-\end{align}
-\end{proposition}
+%%%\begin{proposition}[Proposition name]
+%%%It has the properties:
+%%%\begin{align}
+%%%& \big| ||\mathbf{x}|| - ||\mathbf{y}|| \big|\leq || \mathbf{x}- \mathbf{y}||\\
+%%%&  ||\sum_{i=1}^n\mathbf{x}_i||\leq \sum_{i=1}^n||\mathbf{x}_i||\quad\text{where $n$ is a finite integer}
+%%%\end{align}
+%%%\end{proposition}
 
-\subsection{Single Line}\index{Propositions!Single Line}
+%%%\subsection{Single Line}\index{Propositions!Single Line}
 
-\begin{proposition} 
-Let $f,g\in L^2(G)$; if $\forall \varphi\in\mathcal{D}(G)$, $(f,\varphi)_0=(g,\varphi)_0$ then $f = g$. 
-\end{proposition}
+%%%\begin{proposition} 
+%%%Let $f,g\in L^2(G)$; if $\forall \varphi\in\mathcal{D}(G)$, $(f,\varphi)_0=(g,\varphi)_0$ then $f = g$. 
+%%%\end{proposition}
 
 %------------------------------------------------
 
