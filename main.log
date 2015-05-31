@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.5.25)  31 MAY 2015 16:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.5.25)  31 MAY 2015 16:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -947,17 +947,17 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 9E066C9EDE92485048F2FBF99C6198B5;2544
-(rerunfilecheck)             After:  8A6F5BF95B889790FA53F7688168E149;2601.
+(rerunfilecheck)             Before: 44FB5EFFE4BE14249A8D78512A2E38D5;2608
+(rerunfilecheck)             After:  4CA1ADDD8E24325A30ED3B3AA1224F1E;2619.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 250.
  ) 
 Here is how much of TeX's memory you used:
- 7895 strings out of 493118
- 111946 string characters out of 6135459
- 226644 words of memory out of 5000000
- 11196 multiletter control sequences out of 15000+600000
+ 7897 strings out of 493118
+ 111977 string characters out of 6135459
+ 226739 words of memory out of 5000000
+ 11198 multiletter control sequences out of 15000+600000
  20362 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  31i,12n,55p,1170b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (39 pages, 124212 bytes).
+Output written on main.dvi (39 pages, 124792 bytes).
