@@ -61,7 +61,7 @@ One important parameter regarding this energy lose is called $dE/dx$, pronounced
 
 Figure ~\ref{fig:pdgdedx} shows the energy dependence of dedx for muons.  Note that the length unit is strange: it is $cm^2/g$.  You can convert this to length by multiplying by the density of the material
 \begin{equation}
-$ {{MeV cm^2}\over{g}} \cdot {{g}\over{cm^3}} = {{MeV}\over{cm}}$
+{{MeV cm^2}\over{g}} \cdot {{g}\over{cm^3}} = {{MeV}\over{cm}}
 \end{equation}
 
 \begin{figure}[h]
@@ -81,5 +81,7 @@ stop inside the material.  The thickness of material that will stop a particle (
 
 Here we call them “gamma rays” instead of photons because we are going to discuss only those photons of interest to particle physics: ones with energies above a keV or so.
 
-
+There are several ways a gamma ray can interaction with matter:
+\begin{itemize}
+\end{itemize}
 
