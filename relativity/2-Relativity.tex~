@@ -13,7 +13,7 @@ With special relativity, instead of these 3-vectors, we will work with 4 compone
 
 In special relativity, the speed of light is very special.  It is a constant, and all observers, regardless of their relative velocity, will get the same result when they measure it.  We’ll discuss this more later.  Since this is a special number, one of the “fundamental constants” of nature, along with   the fundamental constant of quantum physics, and a few other fundamental numbers.  We can use c to convert time to a distance and write our 4 vector for an “event” (something that has a time and a position) as
 
-	 \center  $d=(ct,x,y,z)$
+	 \center  {$d=(ct,x,y,z)$}
 
 Every 3-vector will be augmented this way, although the associated “time-like “component may not be obvious to you at this stage.  Most importantly, momentum becomes 4-momentum, defined
 
@@ -30,20 +30,20 @@ We will use red to denote 4 vectors and the usual vector notation to denote 3 ve
 
 
 	
-\vspace{.2cm} 
-\begin{minipage}{0.7\textwidth} 
-\begin{framed}
+%\vspace{.2cm} 
+%\begin{minipage}{0.7\textwidth} 
+%\begin{framed}
 %\vspace{.1cm}
-\begin{exercise}
+%\begin{exercise}
 %\begin{frshaded}
 %\fcolorbox{\bordercolor}{\backgroundcolor} 
-{show that E and cp have the same units. Remember that the ith component of force is related to energy by  and to momentum by.....}
-\end{exercise}
+%{show that E and cp have the same units. Remember that the ith component of force is related to energy by  and to momentum by.....}
+%\end{exercise}
 %\end{frshaded}
 %\vspace{.1cm}
-\end{framed} 
-\end{minipage}
-\vspace{.2cm}
+%\end{framed} 
+%\end{minipage}
+%\vspace{.2cm}
 
 
 
@@ -51,16 +51,16 @@ We will use red to denote 4 vectors and the usual vector notation to denote 3 ve
 
 As you may remember from your high school physics, there are several important mathematical operations that are used with vectors.  One is the dot product – a way of making a scalar out of two vectors.  You may remember that:
 
-                                        \center $C=\vec A \dot \vec B = A-xB_x +A-yB_y +A-zB_z $
+                                        \center{ $C=\vec A \dot \vec B = A-xB_x +A-yB_y +A-zB_z $}
 
 The dot product of a vector with itself gives the square of the magnitude of the vector.
-      \center $| vec{A^2} =\vec A \dot \vec A  $
+      \center{ $| vec{A^2} =\vec A \dot \vec A  $}
 	  
 The dot product, in Newtonian physics, is used in calculating work from force and displacement.
 
 There is a dot-like product associated with 4 vectors, and it has some very interesting, useful, and sometimes bewildering properties.
 
-	    \center  $c = \vec a \dot \vec b = a_0b_0 - \vec a \dot \vec b$
+	    \center { $c = \vec a \dot \vec b = a_0b_0 - \vec a \dot \vec b$}
 
 More on this useful operation later.
 
@@ -249,22 +249,22 @@ A related variable is the pseudorapidity, defined as:
 	 \eta  = - ln (tab (\frac{\theta}{2}))
 \end{equation} 
 
-
-\vspace{.2cm} 
-\begin{minipage}{0.7\textwidth} 
-\begin{framed}
+%%
+%\vspace{.2cm} 
+%\begin{minipage}{0.7\textwidth} 
+%\begin{framed}
 %\vspace{.1cm}
-\begin{exercise}
+%\begin{exercise}
 %\begin{frshaded}
 %\fcolorbox{\bordercolor}{\backgroundcolor} 
-{show that rapidity and pseudorapidity are equal for massless particles.}
-\end{exercise}
+%{show that rapidity and pseudorapidity are equal for massless particles.}
+%\end{exercise}
 %\end{frshaded}
 %\vspace{.1cm}
-\end{framed} 
-\end{minipage}
-\vspace{.2cm}
-
+%\end{framed} 
+%\end{minipage}
+%\vspace{.2cm}
+%%
 
 
 \section{Further reading}
