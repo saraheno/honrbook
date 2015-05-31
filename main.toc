@@ -24,22 +24,22 @@
 \contentsline {section}{\numberline {3.1}Introduction}{19}{section.3.1}
 \contentsline {section}{\numberline {3.2}Interactions of charged particles with matter}{20}{section.3.2}
 \contentsline {section}{\numberline {3.3}Interactions of gamma rays with matter}{20}{section.3.3}
-\contentsline {chapter}{\numberline {4}Statistics}{21}{chapter.4}
-\contentsline {section}{\numberline {4.1}Statistics}{21}{section.4.1}
-\contentsline {chapter}{\numberline {5}Particle accelerators}{23}{chapter.5}
-\contentsline {section}{\numberline {5.1}Disclaimer}{23}{section.5.1}
-\contentsline {chapter}{\numberline {6}Calorimeters}{25}{chapter.6}
-\contentsline {section}{\numberline {6.1}Disclaimer}{25}{section.6.1}
-\contentsline {chapter}{\numberline {7}Trackers}{27}{chapter.7}
-\contentsline {section}{\numberline {7.1}Disclaimer}{27}{section.7.1}
-\contentsline {chapter}{\numberline {8}Particle Identification}{29}{chapter.8}
-\contentsline {section}{\numberline {8.1}Disclaimer}{29}{section.8.1}
-\contentsline {chapter}{\numberline {9}The LHC Detectors}{31}{chapter.9}
-\contentsline {section}{\numberline {9.1}The LHC Detectors}{31}{section.9.1}
-\contentsline {chapter}{\numberline {10}Structure of the proton and proton-proton collisions}{33}{chapter.10}
-\contentsline {section}{\numberline {10.1}Disclaimer}{33}{section.10.1}
-\contentsline {chapter}{\numberline {11}Monte Carlos}{35}{chapter.11}
-\contentsline {section}{\numberline {11.1}Disclaimer}{35}{section.11.1}
-\contentsline {chapter}{\numberline {12}Higgs Discovery}{37}{chapter.12}
-\contentsline {section}{\numberline {12.1}higgs to four leptons}{37}{section.12.1}
+\contentsline {chapter}{\numberline {4}Statistics}{23}{chapter.4}
+\contentsline {section}{\numberline {4.1}Statistics}{23}{section.4.1}
+\contentsline {chapter}{\numberline {5}Particle accelerators}{25}{chapter.5}
+\contentsline {section}{\numberline {5.1}Disclaimer}{25}{section.5.1}
+\contentsline {chapter}{\numberline {6}Calorimeters}{27}{chapter.6}
+\contentsline {section}{\numberline {6.1}Disclaimer}{27}{section.6.1}
+\contentsline {chapter}{\numberline {7}Trackers}{29}{chapter.7}
+\contentsline {section}{\numberline {7.1}Disclaimer}{29}{section.7.1}
+\contentsline {chapter}{\numberline {8}Particle Identification}{31}{chapter.8}
+\contentsline {section}{\numberline {8.1}Disclaimer}{31}{section.8.1}
+\contentsline {chapter}{\numberline {9}The LHC Detectors}{33}{chapter.9}
+\contentsline {section}{\numberline {9.1}The LHC Detectors}{33}{section.9.1}
+\contentsline {chapter}{\numberline {10}Structure of the proton and proton-proton collisions}{35}{chapter.10}
+\contentsline {section}{\numberline {10.1}Disclaimer}{35}{section.10.1}
+\contentsline {chapter}{\numberline {11}Monte Carlos}{37}{chapter.11}
+\contentsline {section}{\numberline {11.1}Disclaimer}{37}{section.11.1}
+\contentsline {chapter}{\numberline {12}Higgs Discovery}{39}{chapter.12}
+\contentsline {section}{\numberline {12.1}higgs to four leptons}{39}{section.12.1}
 \contentsfinish 
