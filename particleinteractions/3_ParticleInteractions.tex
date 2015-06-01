@@ -49,11 +49,12 @@ We will first look at possible signals from charged particles (electrons, muons,
 
 Possible interactions between these particles and bulk matter include:
 \begin{itemize}
-\item ionizaiton and excitation of the molecules in the material
+\item ionization and excitation of the molecules in the material
+\item multiple scattering
 \item bremsstrahlung
 \item nuclear interactions (for the particles that interact via the strong force because they contain quarks, the pions and protons)
 \end{itemize}
-We will postphone the discussion of the later two until our discussion of ``calorimetry'' and discuss only the first in this chapter.
+We will postphone the discussion of the last two until our discussion of ``calorimetry''.
 
 When a charged particle passes through some material (detectors are often made of Argon gas, silicon, iron, lead, steel, plastic, and other such materials), it will interact with the electrons in the molecules that make up that material via the electric force.  The charged particle loses energy as it passes through the material, and the material gains energy.  What effect does that energy have on the material?  It can cause the electrons in the material to ``be excited'' into higher quantum states or it can even detach an electron from its atom (``ionization'').  
 
@@ -63,18 +64,36 @@ Figure ~\ref{fig:pdgdedx} shows the energy dependence of dedx for muons.  Note t
 \begin{equation}
 {{MeV cm^2}\over{g}} \cdot {{g}\over{cm^3}} = {{MeV}\over{cm}}
 \end{equation}
+The reason the authors use these units is that it allows the dedx curves for high Z and low Z elements to fit onto the same graph.
 
 \begin{figure}[h]
 \centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/dedx.eps}
 \caption{Stolen from the particle data group, this picture shows the energy
-loss per unit length as a function of particle energy for muons}
+loss per unit length as a function of particle energy}
 \label{fig:pdgdedx}
 \end{figure}
 
 What kind of signals can be produced this way?  If the material is a gas, the electrons produced through ionization can be gathered on a wire (using an electric field produced by voltages on metal pads on the structure holding the gas or on wires running through the gas) to produce a current.  The signals from silicon are similar.  If the material is a plastic scintilator, some of the ``excited'' molecules will ``de-excite'' by emitting photons, which can be detected with a photomulitplier tube or other light sensitive device.
 
 If the material is thick and high-Z (iron, lead), the particle may lose all its energy and 
-stop inside the material.  The thickness of material that will stop a particle (of a given energy) is called the particle's range.
+stop inside the material.  The thickness of material that will stop a particle (of a given energy) is called the particle's range.  Fig~\ref{fig:pdgrange} shows the range for various particles in various materials as a function of particle energy.
+
+
+\begin{figure}[h]
+\centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/pdgrange.eps}
+\caption{Stolen from the particle data group, this picture shows the range of a particle in various materials as a function of particle energy }
+\label{fig:pdgrange}
+\end{figure}
+
+Sometimes a particle passes close enough to an atom to interact with the nucleus, instead of the electrons.  The mass of the nucleus, and the force binding it into its places in the crystal lattice, are large compared to the mass of the particle.  The particle usually bounces off the nucleus the way a ball bounces off a wall, changing direction, but without losing energy.  For a material that is not very thin, this can happen multiple times, and thus this is called "multiple scattering".  Fig~\ref{fig:pdgmultscattcartoon} shows a cartoon of this process.
+
+
+\begin{figure}[h]
+\centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/multscattcartoon.eps}
+\caption{Stolen from the particle data group, this picture shows a cartoon showing the path of a charged particle undergoing multiple scattering in matter }
+\label{fig:pdgmultscattcartoon}
+\end{figure}
+
 
 
 \section{Interactions of gamma rays with matter}\index{gammainteractions}
@@ -85,6 +104,15 @@ There are several ways a gamma ray can interaction with matter:
 \begin{itemize}
 \item photoelectric effect
 \end{itemize}
+
+
+\begin{figure}[h]
+\centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/photoninteractions.eps}
+\caption{Stolen from the particle data group, this picture shows the cross sections for possible interactions of photons with matter as a function of photon energy }
+\label{fig:photoninteractions}
+\end{figure}
+
+
 
 The most important of these is pair production.  We will discuss this more when we discuss calorimetry.
 
