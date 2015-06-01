@@ -24,6 +24,7 @@
 \contentsline {section}{\numberline {3.1}Introduction}{19}{section.3.1}
 \contentsline {section}{\numberline {3.2}Interactions of charged particles with matter}{20}{section.3.2}
 \contentsline {section}{\numberline {3.3}Interactions of gamma rays with matter}{21}{section.3.3}
+<<<<<<< HEAD
 \contentsline {chapter}{\numberline {4}Statistics}{23}{chapter.4}
 \contentsline {section}{\numberline {4.1}Statistics}{23}{section.4.1}
 \contentsline {chapter}{\numberline {5}Particle accelerators}{25}{chapter.5}
@@ -49,4 +50,24 @@
 \contentsline {section}{\numberline {11.1}Disclaimer}{45}{section.11.1}
 \contentsline {chapter}{\numberline {12}Higgs Discovery}{47}{chapter.12}
 \contentsline {section}{\numberline {12.1}higgs to four leptons}{47}{section.12.1}
+=======
+\contentsline {chapter}{\numberline {4}Statistics}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}Statistics}{25}{section.4.1}
+\contentsline {chapter}{\numberline {5}Particle accelerators}{27}{chapter.5}
+\contentsline {section}{\numberline {5.1}Disclaimer}{27}{section.5.1}
+\contentsline {chapter}{\numberline {6}Calorimeters}{29}{chapter.6}
+\contentsline {section}{\numberline {6.1}Disclaimer}{29}{section.6.1}
+\contentsline {chapter}{\numberline {7}Trackers}{31}{chapter.7}
+\contentsline {section}{\numberline {7.1}Disclaimer}{31}{section.7.1}
+\contentsline {chapter}{\numberline {8}Particle Identification}{33}{chapter.8}
+\contentsline {section}{\numberline {8.1}Disclaimer}{33}{section.8.1}
+\contentsline {chapter}{\numberline {9}The LHC Detectors}{35}{chapter.9}
+\contentsline {section}{\numberline {9.1}The LHC Detectors}{35}{section.9.1}
+\contentsline {chapter}{\numberline {10}Structure of the proton and proton-proton collisions}{37}{chapter.10}
+\contentsline {section}{\numberline {10.1}Disclaimer}{37}{section.10.1}
+\contentsline {chapter}{\numberline {11}Monte Carlos}{39}{chapter.11}
+\contentsline {section}{\numberline {11.1}Disclaimer}{39}{section.11.1}
+\contentsline {chapter}{\numberline {12}Higgs Discovery}{41}{chapter.12}
+\contentsline {section}{\numberline {12.1}higgs to four leptons}{41}{section.12.1}
+>>>>>>> 40bfc1742353da01f18896ee9b07b71d1ff2a843
 \contentsfinish 

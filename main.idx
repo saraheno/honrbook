@@ -7,11 +7,11 @@
 \indexentry{Introduction|hyperpage}{19}
 \indexentry{chargedinteractions|hyperpage}{20}
 \indexentry{gammainteractions|hyperpage}{21}
-\indexentry{Statistics|hyperpage}{23}
-\indexentry{Disclaimer|hyperpage}{25}
+\indexentry{Statistics|hyperpage}{25}
 \indexentry{Disclaimer|hyperpage}{27}
 \indexentry{Disclaimer|hyperpage}{29}
 \indexentry{Disclaimer|hyperpage}{31}
+<<<<<<< HEAD
 \indexentry{lhcdetectors|hyperpage}{33}
 \indexentry{Cross Section|hyperpage}{35}
 \indexentry{s, t, u, and q squared|hyperpage}{36}
@@ -23,3 +23,10 @@
 \indexentry{Further Reading|hyperpage}{39}
 \indexentry{Disclaimer|hyperpage}{45}
 \indexentry{higgs4l|hyperpage}{47}
+=======
+\indexentry{Disclaimer|hyperpage}{33}
+\indexentry{lhcdetectors|hyperpage}{35}
+\indexentry{Disclaimer|hyperpage}{37}
+\indexentry{Disclaimer|hyperpage}{39}
+\indexentry{higgs4l|hyperpage}{41}
+>>>>>>> 40bfc1742353da01f18896ee9b07b71d1ff2a843

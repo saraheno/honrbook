@@ -30,6 +30,7 @@ There are only a few types of particles (and their antiparticles) that satisfy t
 \item from the mesons
 \begin{itemize}
 \item charged pions
+\item charged kaons (remember: these contain a strange quark)
 \item k-longs (a very rare particle)
 \end{itemize}
 \item from the baryons
@@ -49,32 +50,60 @@ We will first look at possible signals from charged particles (electrons, muons,
 
 Possible interactions between these particles and bulk matter include:
 \begin{itemize}
-\item ionizaiton and excitation of the molecules in the material
+\item ionization and excitation of the molecules in the material
+\item multiple scattering
 \item bremsstrahlung
 \item nuclear interactions (for the particles that interact via the strong force because they contain quarks, the pions and protons)
 \end{itemize}
-We will postphone the discussion of the later two until our discussion of ``calorimetry'' and discuss only the first in this chapter.
+We will postphone the discussion of the last two until our discussion of ``calorimetry''.
 
 When a charged particle passes through some material (detectors are often made of Argon gas, silicon, iron, lead, steel, plastic, and other such materials), it will interact with the electrons in the molecules that make up that material via the electric force.  The charged particle loses energy as it passes through the material, and the material gains energy.  What effect does that energy have on the material?  It can cause the electrons in the material to ``be excited'' into higher quantum states or it can even detach an electron from its atom (``ionization'').  
 
-One important parameter regarding this energy lose is called $dE/dx$, pronounced ``d-E-d-x''.  $dE/dx$ is the amount of energy lost by the particle per unit length transversed.  The average amount of energy lost per unit length depends on the energy of the particle: low energy particles lose more energy per unit length than high energy particles.  You can imagine why this might be true: the lower energy (slower) particles linger near each atom in the material longer, and thus have a longer time to interact with each one and lose more energy.
+One important parameter regarding this energy lose is called $dE/dx$, pronounced ``d-E-d-x''.  $dE/dx$ is the amount of energy lost by the particle per unit length transversed.  The average amount of energy lost per unit length depends on the energy of the particle: low energy particles lose more energy per unit length than high energy particles.  You can imagine why this might be true: the lower energy (slower) particles linger near each atom in the material longer, and thus have a longer time to interact with each one and lose more energy.  The energy loss decreases as $1/\beta^2$ until a momentum around 0.1 GeV, where it has its minimum value.  The loss then increases slowly with increasing energy.  Particles in the momentum range of 0.1 to 100 GeV are called "minimum ionizing particles" or "mips".
 
 Figure ~\ref{fig:pdgdedx} shows the energy dependence of dedx for muons.  Note that the length unit is strange: it is $cm^2/g$.  You can convert this to length by multiplying by the density of the material
 \begin{equation}
 {{MeV cm^2}\over{g}} \cdot {{g}\over{cm^3}} = {{MeV}\over{cm}}
 \end{equation}
+The reason the authors use these units is that it allows the dedx curves for high Z and low Z elements to fit onto the same graph.
 
 \begin{figure}[h]
 \centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/dedx.eps}
 \caption{Stolen from the particle data group, this picture shows the energy
-loss per unit length as a function of particle energy for muons}
+loss per unit length as a function of particle energy}
 \label{fig:pdgdedx}
 \end{figure}
 
 What kind of signals can be produced this way?  If the material is a gas, the electrons produced through ionization can be gathered on a wire (using an electric field produced by voltages on metal pads on the structure holding the gas or on wires running through the gas) to produce a current.  The signals from silicon are similar.  If the material is a plastic scintilator, some of the ``excited'' molecules will ``de-excite'' by emitting photons, which can be detected with a photomulitplier tube or other light sensitive device.
 
 If the material is thick and high-Z (iron, lead), the particle may lose all its energy and 
-stop inside the material.  The thickness of material that will stop a particle (of a given energy) is called the particle's range.
+stop inside the material.  The thickness of material that will stop a particle (of a given energy) is called the particle's range.  Fig~\ref{fig:pdgrange} shows the range for various particles in various materials as a function of particle energy.
+
+
+\begin{figure}[h]
+\centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/pdgrange.eps}
+\caption{Stolen from the particle data group, this picture shows the range of a particle in various materials as a function of particle energy }
+\label{fig:pdgrange}
+\end{figure}
+
+Of course, because each particle that goes through the material will randomly interact with different numbers of atomic electrons, exchanging more energy when it happens to go close to one, and exchanging less when it is further away, particle by particle the amount of energy varies.  The disttribution of deposted energies follows a "Landau" distribution, as shown in Fig~\ref{fig:landau}.
+
+
+\begin{figure}[h]
+\centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/landau.eps}
+\caption{Stolen from the particle data group, this picture shows the distribution of energy deposits for a 10 GeV muon transversing 1.7 mm of silicon. }
+\label{fig:landau}
+\end{figure}
+
+Sometimes a particle passes close enough to an atom to interact with the nucleus, instead of the electrons.  The mass of the nucleus, and the force binding it into its places in the crystal lattice, are large compared to the mass of the particle.  The particle usually bounces off the nucleus the way a ball bounces off a wall, changing direction, but without losing energy.  For a material that is not very thin, this can happen multiple times, and thus this is called "multiple scattering".  Fig~\ref{fig:pdgmultscattcartoon} shows a cartoon of this process.
+
+
+\begin{figure}[h]
+\centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/multscattcartoon.eps}
+\caption{Stolen from the particle data group, this picture shows a cartoon showing the path of a charged particle undergoing multiple scattering in matter }
+\label{fig:pdgmultscattcartoon}
+\end{figure}
+
 
 
 \section{Interactions of gamma rays with matter}\index{gammainteractions}
@@ -84,7 +113,38 @@ Here we call them “gamma rays” instead of photons because we are going to di
 There are several ways a gamma ray can interaction with matter:
 \begin{itemize}
 \item photoelectric effect
+\item Rayleigh scattering
+\item Compton scattering
+\item pair production in the field of the nucleus
+\item pair production in the field of the electron
+\item photonuclear interactions
 \end{itemize}
 
-The most important of these is pair production.  We will discuss this more when we discuss calorimetry.
+The photoelectric effect was very important in the development of quantum mechanics.  Einstein was awarded the Nobel Prize for his work on its understanding.  It is an interaction between a photon and an atom electron.  If the photon has energy greater than the binding energy of the electron to the atom, it can eject the electron.  The electron will have a kinetic energy equal to the energy of the photon minus the binding energy.
+
+Rayleigh scattering is scattering of a photon off the nucleus of the atom.  The Feynman diagram 
+
+Compton scatting is scatting of a photon off an electron.  The Feynman diagram is shown below.  
+
+Pair production is the conversion of a photon into an electron-position pair through an interaction (usually) with a nucleus.  The Feynmann diagram is shown below.
+
+
+\begin{figure}[h]
+\centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/pairproductioneps}
+\caption{Feynmann diagram for pair production in the field of a nucleus}
+\label{fig:pairproduction}
+\end{figure}
+
+
+
+Figure~\ref{fig:photoninteractions} shows the cross section for each mechanism as a 
+function of photon energy.  As you can see, for photons with energy greater than twice the 
+electron mass, pair production is the most important mechanism.  We will discuss this in more detail when we discuss calorimetry.
+
+
+\begin{figure}[h]
+\centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/photoninteractions.eps}
+\caption{Stolen from the particle data group, this picture shows the cross sections for possible interactions of photons with matter as a function of photon energy }
+\label{fig:photoninteractions}
+\end{figure}
 
