@@ -15,7 +15,7 @@
 \contentsline {section}{\numberline {2.4}Length of 4 vectors}{15}{section.2.4}
 \contentsline {section}{\numberline {2.5}HEP units}{16}{section.2.5}
 \contentsline {section}{\numberline {2.6}Lifetimes of particles}{16}{section.2.6}
-\contentsline {section}{\numberline {2.7}Breit-Wigner}{16}{section.2.7}
+\contentsline {section}{\numberline {2.7}Breit-Wigner}{17}{section.2.7}
 \contentsline {section}{\numberline {2.8}The coordinate system for a collider experiment}{17}{section.2.8}
 \contentsline {section}{\numberline {2.9}Collisions (conservation of 4-momentum)}{17}{section.2.9}
 \contentsline {section}{\numberline {2.10}Rapidity and Pseudorapidity}{18}{section.2.10}
@@ -37,9 +37,16 @@
 \contentsline {chapter}{\numberline {9}The LHC Detectors}{33}{chapter.9}
 \contentsline {section}{\numberline {9.1}The LHC Detectors}{33}{section.9.1}
 \contentsline {chapter}{\numberline {10}Structure of the proton and proton-proton collisions}{35}{chapter.10}
-\contentsline {section}{\numberline {10.1}Disclaimer}{35}{section.10.1}
-\contentsline {chapter}{\numberline {11}Monte Carlos}{37}{chapter.11}
-\contentsline {section}{\numberline {11.1}Disclaimer}{37}{section.11.1}
-\contentsline {chapter}{\numberline {12}Higgs Discovery}{39}{chapter.12}
-\contentsline {section}{\numberline {12.1}higgs to four leptons}{39}{section.12.1}
+\contentsline {section}{\numberline {10.1}Cross section}{35}{section.10.1}
+\contentsline {section}{\numberline {10.2}s, t, u, and q squared}{36}{section.10.2}
+\contentsline {section}{\numberline {10.3}What is in a Proton}{37}{section.10.3}
+\contentsline {section}{\numberline {10.4}Calculation of a cross section in proton proton collisions}{38}{section.10.4}
+\contentsline {section}{\numberline {10.5}What happens when two protons collide?}{38}{section.10.5}
+\contentsline {section}{\numberline {10.6}Minimum bias interaction}{38}{section.10.6}
+\contentsline {section}{\numberline {10.7}Jets}{39}{section.10.7}
+\contentsline {section}{\numberline {10.8}Further Reading}{39}{section.10.8}
+\contentsline {chapter}{\numberline {11}Monte Carlos}{45}{chapter.11}
+\contentsline {section}{\numberline {11.1}Disclaimer}{45}{section.11.1}
+\contentsline {chapter}{\numberline {12}Higgs Discovery}{47}{chapter.12}
+\contentsline {section}{\numberline {12.1}higgs to four leptons}{47}{section.12.1}
 \contentsfinish 
