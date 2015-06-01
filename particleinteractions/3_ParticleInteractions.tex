@@ -30,6 +30,7 @@ There are only a few types of particles (and their antiparticles) that satisfy t
 \item from the mesons
 \begin{itemize}
 \item charged pions
+\item charged kaons (remember: these contain a strange quark)
 \item k-longs (a very rare particle)
 \end{itemize}
 \item from the baryons
@@ -58,7 +59,7 @@ We will postphone the discussion of the last two until our discussion of ``calor
 
 When a charged particle passes through some material (detectors are often made of Argon gas, silicon, iron, lead, steel, plastic, and other such materials), it will interact with the electrons in the molecules that make up that material via the electric force.  The charged particle loses energy as it passes through the material, and the material gains energy.  What effect does that energy have on the material?  It can cause the electrons in the material to ``be excited'' into higher quantum states or it can even detach an electron from its atom (``ionization'').  
 
-One important parameter regarding this energy lose is called $dE/dx$, pronounced ``d-E-d-x''.  $dE/dx$ is the amount of energy lost by the particle per unit length transversed.  The average amount of energy lost per unit length depends on the energy of the particle: low energy particles lose more energy per unit length than high energy particles.  You can imagine why this might be true: the lower energy (slower) particles linger near each atom in the material longer, and thus have a longer time to interact with each one and lose more energy.
+One important parameter regarding this energy lose is called $dE/dx$, pronounced ``d-E-d-x''.  $dE/dx$ is the amount of energy lost by the particle per unit length transversed.  The average amount of energy lost per unit length depends on the energy of the particle: low energy particles lose more energy per unit length than high energy particles.  You can imagine why this might be true: the lower energy (slower) particles linger near each atom in the material longer, and thus have a longer time to interact with each one and lose more energy.  The energy loss decreases as $1/\beta^2$ until a momentum around 0.1 GeV, where it has its minimum value.  The loss then increases slowly with increasing energy.  Particles in the momentum range of 0.1 to 100 GeV are called "minimum ionizing particles" or "mips".
 
 Figure ~\ref{fig:pdgdedx} shows the energy dependence of dedx for muons.  Note that the length unit is strange: it is $cm^2/g$.  You can convert this to length by multiplying by the density of the material
 \begin{equation}
@@ -83,6 +84,15 @@ stop inside the material.  The thickness of material that will stop a particle (
 \centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/pdgrange.eps}
 \caption{Stolen from the particle data group, this picture shows the range of a particle in various materials as a function of particle energy }
 \label{fig:pdgrange}
+\end{figure}
+
+Of course, because each particle that goes through the material will randomly interact with different numbers of atomic electrons, exchanging more energy when it happens to go close to one, and exchanging less when it is further away, particle by particle the amount of energy varies.  The disttribution of deposted energies follows a "Landau" distribution, as shown in Fig~\ref{fig:landau}.
+
+
+\begin{figure}[h]
+\centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/landau.eps}
+\caption{Stolen from the particle data group, this picture shows the distribution of energy deposits for a 10 GeV muon transversing 1.7 mm of silicon. }
+\label{fig:landau}
 \end{figure}
 
 Sometimes a particle passes close enough to an atom to interact with the nucleus, instead of the electrons.  The mass of the nucleus, and the force binding it into its places in the crystal lattice, are large compared to the mass of the particle.  The particle usually bounces off the nucleus the way a ball bounces off a wall, changing direction, but without losing energy.  For a material that is not very thin, this can happen multiple times, and thus this is called "multiple scattering".  Fig~\ref{fig:pdgmultscattcartoon} shows a cartoon of this process.
@@ -116,7 +126,14 @@ Rayleigh scattering is scattering of a photon off the nucleus of the atom.  The 
 
 Compton scatting is scatting of a photon off an electron.  The Feynman diagram is shown below.  
 
-Pair production is the conversion of a photon into an electron-position pair through an interaction (usually) with a nucleus.  The feynmann diagram is shown below.
+Pair production is the conversion of a photon into an electron-position pair through an interaction (usually) with a nucleus.  The Feynmann diagram is shown below.
+
+
+\begin{figure}[h]
+\centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/pairproductioneps}
+\caption{Feynmann diagram for pair production in the field of a nucleus}
+\label{fig:pairproduction}
+\end{figure}
 
 
 
