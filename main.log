@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  1 JUN 2015 13:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  1 JUN 2015 18:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -432,47 +432,7 @@ Package hyperref Warning: Option `bookmarks' has already been used,
 (hyperref)                setting the option has no effect on input line 569.
 
 Package hyperref Info: Option `bookmarksopen' set `false' on input line 569.
-) (./main.aux
-
-LaTeX Warning: Label `fig:pdgdedx' multiply defined.
-
-
-LaTeX Warning: Label `fig:pdgdedx' multiply defined.
-
-
-LaTeX Warning: Label `fig:pdgdedx' multiply defined.
-
-
-LaTeX Warning: Label `fig:pdgdedx' multiply defined.
-
-
-LaTeX Warning: Label `fig:pdgdedx' multiply defined.
-
-
-LaTeX Warning: Label `fig:pdgdedx' multiply defined.
-
-
-LaTeX Warning: Label `fig:pdgdedx' multiply defined.
-
-
-LaTeX Warning: Label `fig:pdgdedx' multiply defined.
-
-
-LaTeX Warning: Label `fig:pdgdedx' multiply defined.
-
-
-LaTeX Warning: Label `fig:pdgdedx' multiply defined.
-
-
-LaTeX Warning: Label `fig:pdgdedx' multiply defined.
-
-
-LaTeX Warning: Label `fig:pdgdedx' multiply defined.
-
-
-LaTeX Warning: Label `fig:pdgdedx' multiply defined.
-
-)
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
@@ -1053,50 +1013,43 @@ nput line 181.
 (pdftex.def)             Requested size: 426.83315pt x 284.5341pt.
 
 (./particleinteractions/3_ParticleInteractions.tex
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 21.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 23.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
  [19
 
 ]
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 66.
+(amsmath)                 on input line 68.
 
+[20]
 Package epstopdf Info: Source file: <./particleinteractions/Pictures/dedx.eps>
 (epstopdf)                    date: 2015-06-01 09:33:48
 (epstopdf)                    size: 460416 bytes
 (epstopdf)             Output file: <./particleinteractions/Pictures/dedx-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2015-06-01 13:22:38
-(epstopdf)                    size: 163218 bytes
+(epstopdf)                    date: 2015-06-01 18:49:57
+(epstopdf)                    size: 59115 bytes
 (epstopdf)             Command: <repstopdf --outfile=./particleinteractions/Pic
 tures/dedx-eps-converted-to.pdf ./particleinteractions/Pictures/dedx.eps>
-(epstopdf)             \includegraphics on input line 71.
+(epstopdf)             \includegraphics on input line 73.
 Package epstopdf Info: Output file is already uptodate.
 
-<./particleinteractions/Pictures/dedx-eps-converted-to.pdf, id=424, 858.20625pt
- x 536.0025pt>
+<./particleinteractions/Pictures/dedx-eps-converted-to.pdf, id=429, 563.10374pt
+ x 458.71375pt>
 File: ./particleinteractions/Pictures/dedx-eps-converted-to.pdf Graphic file (t
 ype pdf)
- <use ./particleinteractions/Pictures/dedx-eps-converted-to.pdf>
+
+<use ./particleinteractions/Pictures/dedx-eps-converted-to.pdf>
 Package pdftex.def Info: ./particleinteractions/Pictures/dedx-eps-converted-to.
-pdf used on input line 71.
-(pdftex.def)             Requested size: 429.10208pt x 268.0006pt.
-
-Overfull \hbox (2.31073pt too wide) in paragraph at lines 71--73
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[20]
+pdf used on input line 73.
+(pdftex.def)             Requested size: 281.55118pt x 229.35631pt.
 Package epstopdf Info: Source file: <./particleinteractions/Pictures/pdgrange.e
 ps>
 (epstopdf)                    date: 2015-06-01 09:37:41
@@ -1108,17 +1061,17 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=./particleinteractions/Pic
 tures/pdgrange-eps-converted-to.pdf ./particleinteractions/Pictures/pdgrange.ep
 s>
-(epstopdf)             \includegraphics on input line 84.
+(epstopdf)             \includegraphics on input line 86.
 Package epstopdf Info: Output file is already uptodate.
 
-<./particleinteractions/Pictures/pdgrange-eps-converted-to.pdf, id=432, 614.295
+<./particleinteractions/Pictures/pdgrange-eps-converted-to.pdf, id=431, 614.295
 pt x 794.97pt>
 File: ./particleinteractions/Pictures/pdgrange-eps-converted-to.pdf Graphic fil
 e (type pdf)
 
 <use ./particleinteractions/Pictures/pdgrange-eps-converted-to.pdf>
 Package pdftex.def Info: ./particleinteractions/Pictures/pdgrange-eps-converted
--to.pdf used on input line 84.
+-to.pdf used on input line 86.
 (pdftex.def)             Requested size: 307.14674pt x 397.48402pt.
 
 
@@ -1134,16 +1087,16 @@ Package epstopdf Info: Source file: <./particleinteractions/Pictures/landau.eps
 (epstopdf)                    size: 118346 bytes
 (epstopdf)             Command: <repstopdf --outfile=./particleinteractions/Pic
 tures/landau-eps-converted-to.pdf ./particleinteractions/Pictures/landau.eps>
-(epstopdf)             \includegraphics on input line 93.
+(epstopdf)             \includegraphics on input line 95.
 Package epstopdf Info: Output file is already uptodate.
 
-<./particleinteractions/Pictures/landau-eps-converted-to.pdf, id=434, 614.295pt
+<./particleinteractions/Pictures/landau-eps-converted-to.pdf, id=433, 614.295pt
  x 794.97pt>
 File: ./particleinteractions/Pictures/landau-eps-converted-to.pdf Graphic file 
 (type pdf)
  <use ./particleinteractions/Pictures/landau-eps-converted-to.pdf>
 Package pdftex.def Info: ./particleinteractions/Pictures/landau-eps-converted-t
-o.pdf used on input line 93.
+o.pdf used on input line 95.
 (pdftex.def)             Requested size: 307.14674pt x 397.48402pt.
 
 
@@ -1160,17 +1113,17 @@ artoon-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=./particleinteractions/Pic
 tures/multscattcartoon-eps-converted-to.pdf ./particleinteractions/Pictures/mul
 tscattcartoon.eps>
-(epstopdf)             \includegraphics on input line 102.
+(epstopdf)             \includegraphics on input line 104.
 Package epstopdf Info: Output file is already uptodate.
 
-<./particleinteractions/Pictures/multscattcartoon-eps-converted-to.pdf, id=436,
+<./particleinteractions/Pictures/multscattcartoon-eps-converted-to.pdf, id=435,
  614.295pt x 794.97pt>
 File: ./particleinteractions/Pictures/multscattcartoon-eps-converted-to.pdf Gra
 phic file (type pdf)
 
 <use ./particleinteractions/Pictures/multscattcartoon-eps-converted-to.pdf>
 Package pdftex.def Info: ./particleinteractions/Pictures/multscattcartoon-eps-c
-onverted-to.pdf used on input line 102.
+onverted-to.pdf used on input line 104.
 (pdftex.def)             Requested size: 307.14674pt x 397.48402pt.
 
 
@@ -1197,7 +1150,7 @@ tures/compton-eps-converted-to.pdf ./particleinteractions/Pictures/compton.eps>
 (epstopdf)             \includegraphics on input line 131.
 Package epstopdf Info: Output file is already uptodate.
 
-<./particleinteractions/Pictures/compton-eps-converted-to.pdf, id=449, 569.1262
+<./particleinteractions/Pictures/compton-eps-converted-to.pdf, id=455, 569.1262
 5pt x 259.97125pt>
 File: ./particleinteractions/Pictures/compton-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -1206,7 +1159,7 @@ File: ./particleinteractions/Pictures/compton-eps-converted-to.pdf Graphic file
 Package pdftex.def Info: ./particleinteractions/Pictures/compton-eps-converted-
 to.pdf used on input line 131.
 (pdftex.def)             Requested size: 284.56242pt x 129.9853pt.
-
+ [22 <./particleinteractions/Pictures/pdgrange-eps-converted-to.pdf>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1224,7 +1177,7 @@ roduction.eps>
 (epstopdf)             \includegraphics on input line 140.
 Package epstopdf Info: Output file is already uptodate.
 
-<./particleinteractions/Pictures/pairproduction-eps-converted-to.pdf, id=450, 5
+<./particleinteractions/Pictures/pairproduction-eps-converted-to.pdf, id=463, 5
 69.12625pt x 259.97125pt>
 File: ./particleinteractions/Pictures/pairproduction-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -1234,7 +1187,6 @@ Package pdftex.def Info: ./particleinteractions/Pictures/pairproduction-eps-con
 verted-to.pdf used on input line 140.
 (pdftex.def)             Requested size: 284.56242pt x 129.9853pt.
 
-[22 <./particleinteractions/Pictures/pdgrange-eps-converted-to.pdf>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1253,7 +1205,7 @@ hotoninteractions.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./particleinteractions/Pictures/photoninteractions-eps-converted-to.pdf, id=46
-0, 614.295pt x 794.97pt>
+5, 614.295pt x 794.97pt>
 File: ./particleinteractions/Pictures/photoninteractions-eps-converted-to.pdf G
 raphic file (type pdf)
 
@@ -1434,7 +1386,7 @@ Missing character: There is no Ò in font ptmr7t!
 Missing character: There is no Ó in font ptmr7t!
 Missing character: There is no Õ in font ptmr7t!
 
-<./protonprotoncollisions/Pictures/fig1.pdf, id=562, 504.88625pt x 230.8625pt>
+<./protonprotoncollisions/Pictures/fig1.pdf, id=568, 504.88625pt x 230.8625pt>
 File: ./protonprotoncollisions/Pictures/fig1.pdf Graphic file (type pdf)
 
 <use ./protonprotoncollisions/Pictures/fig1.pdf>
@@ -1454,7 +1406,7 @@ Missing character: There is no Ó in font ptmr7t!
 Missing character: There is no Ò in font ptmr7t!
 Missing character: There is no Ó in font ptmr7t!
 
-<./protonprotoncollisions/Pictures/fig2.pdf, id=584, 722.7pt x 485.815pt>
+<./protonprotoncollisions/Pictures/fig2.pdf, id=590, 722.7pt x 485.815pt>
 File: ./protonprotoncollisions/Pictures/fig2.pdf Graphic file (type pdf)
 
 <use ./protonprotoncollisions/Pictures/fig2.pdf>
@@ -1480,7 +1432,7 @@ Missing character: There is no Ó in font ptmr7t!
 [41]
 Missing character: There is no Õ in font ptmr7t!
 
-<./protonprotoncollisions/Pictures/fig3.pdf, id=589, 722.7pt x 308.15125pt>
+<./protonprotoncollisions/Pictures/fig3.pdf, id=595, 722.7pt x 308.15125pt>
 File: ./protonprotoncollisions/Pictures/fig3.pdf Graphic file (type pdf)
 
 <use ./protonprotoncollisions/Pictures/fig3.pdf>
@@ -1491,7 +1443,7 @@ ut line 76.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./protonprotoncollisions/Pictures/fig4.pdf, id=590, 766.865pt x 527.9725pt>
+<./protonprotoncollisions/Pictures/fig4.pdf, id=596, 766.865pt x 527.9725pt>
 File: ./protonprotoncollisions/Pictures/fig4.pdf Graphic file (type pdf)
 
 <use ./protonprotoncollisions/Pictures/fig4.pdf>
@@ -1502,7 +1454,7 @@ ut line 83.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./protonprotoncollisions/Pictures/fig5.pdf, id=591, 766.865pt x 524.96124pt>
+<./protonprotoncollisions/Pictures/fig5.pdf, id=597, 766.865pt x 524.96124pt>
 File: ./protonprotoncollisions/Pictures/fig5.pdf Graphic file (type pdf)
 
 <use ./protonprotoncollisions/Pictures/fig5.pdf>
@@ -1514,7 +1466,7 @@ ut line 88.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<./protonprotoncollisions/Pictures/fig6.pdf, id=592, 411.5375pt x 308.15125pt>
+<./protonprotoncollisions/Pictures/fig6.pdf, id=598, 411.5375pt x 308.15125pt>
 File: ./protonprotoncollisions/Pictures/fig6.pdf Graphic file (type pdf)
 
 <use ./protonprotoncollisions/Pictures/fig6.pdf>
@@ -1525,7 +1477,7 @@ ut line 101.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./protonprotoncollisions/Pictures/fig7.pdf, id=593, 435.6275pt x 194.7275pt>
+<./protonprotoncollisions/Pictures/fig7.pdf, id=599, 435.6275pt x 194.7275pt>
 File: ./protonprotoncollisions/Pictures/fig7.pdf Graphic file (type pdf)
 
 <use ./protonprotoncollisions/Pictures/fig7.pdf>
@@ -1537,7 +1489,7 @@ ut line 109.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<./protonprotoncollisions/Pictures/fig8.pdf, id=615, 304.13625pt x 138.5175pt>
+<./protonprotoncollisions/Pictures/fig8.pdf, id=621, 304.13625pt x 138.5175pt>
 File: ./protonprotoncollisions/Pictures/fig8.pdf Graphic file (type pdf)
 
 <use ./protonprotoncollisions/Pictures/fig8.pdf>
@@ -1548,7 +1500,7 @@ ut line 115.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./protonprotoncollisions/Pictures/fig9.pdf, id=616, 722.7pt x 534.99875pt>
+<./protonprotoncollisions/Pictures/fig9.pdf, id=622, 722.7pt x 534.99875pt>
 File: ./protonprotoncollisions/Pictures/fig9.pdf Graphic file (type pdf)
 
 <use ./protonprotoncollisions/Pictures/fig9.pdf>
@@ -1560,7 +1512,7 @@ ut line 121.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<./protonprotoncollisions/Pictures/fig10.pdf, id=617, 431.6125pt x 396.48125pt>
+<./protonprotoncollisions/Pictures/fig10.pdf, id=623, 431.6125pt x 396.48125pt>
 File: ./protonprotoncollisions/Pictures/fig10.pdf Graphic file (type pdf)
 <use ./protonprotoncollisions/Pictures/fig10.pdf>
 Package pdftex.def Info: ./protonprotoncollisions/Pictures/fig10.pdf used on in
@@ -1570,7 +1522,7 @@ put line 127.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./protonprotoncollisions/Pictures/fig11.pdf, id=618, 411.5375pt x 285.065pt>
+<./protonprotoncollisions/Pictures/fig11.pdf, id=624, 411.5375pt x 285.065pt>
 File: ./protonprotoncollisions/Pictures/fig11.pdf Graphic file (type pdf)
 
 <use ./protonprotoncollisions/Pictures/fig11.pdf>
@@ -1581,7 +1533,7 @@ put line 133.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./protonprotoncollisions/Pictures/fig12.pdf, id=619, 391.4625pt x 313.17pt>
+<./protonprotoncollisions/Pictures/fig12.pdf, id=625, 391.4625pt x 313.17pt>
 File: ./protonprotoncollisions/Pictures/fig12.pdf Graphic file (type pdf)
 
 <use ./protonprotoncollisions/Pictures/fig12.pdf>
@@ -1593,7 +1545,7 @@ put line 139.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<./protonprotoncollisions/Pictures/fig13.pdf, id=620, 511.9125pt x 390.45876pt>
+<./protonprotoncollisions/Pictures/fig13.pdf, id=626, 511.9125pt x 390.45876pt>
 File: ./protonprotoncollisions/Pictures/fig13.pdf Graphic file (type pdf)
 <use ./protonprotoncollisions/Pictures/fig13.pdf>
 Package pdftex.def Info: ./protonprotoncollisions/Pictures/fig13.pdf used on in
@@ -1666,18 +1618,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: FA765ECF4F2EF1563FFD2B604E4681C4;3322.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 250.
  ) 
 Here is how much of TeX's memory you used:
- 8724 strings out of 493117
- 126781 string characters out of 6135433
- 231419 words of memory out of 5000000
- 11804 multiletter control sequences out of 15000+600000
- 42734 words of font info for 87 fonts, out of 8000000 for 9000
+ 8734 strings out of 493117
+ 126885 string characters out of 6135433
+ 232344 words of memory out of 5000000
+ 11815 multiletter control sequences out of 15000+600000
+ 41627 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 31i,12n,55p,1196b,532s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 31i,12n,55p,1196b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -1689,10 +1641,10 @@ ist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/fonts/t
 ype1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/ti
 mes/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (51 pages, 2480650 bytes).
+Output written on main.pdf (51 pages, 2378898 bytes).
 PDF statistics:
- 909 PDF objects out of 1000 (max. 8388607)
- 702 compressed objects within 8 object streams
+ 916 PDF objects out of 1000 (max. 8388607)
+ 707 compressed objects within 8 object streams
  141 named destinations out of 1000 (max. 500000)
  511 words of extra memory for PDF output out of 10000 (max. 10000000)
 
