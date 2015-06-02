@@ -1,44 +1,28 @@
 
 \section{Introduction}\index{Introduction}
 
-The purpose of a particle physics detector is find all the particles produced
-in a collision, identify which type of particle each is, and measure its 4-momenta.
+The purpose of a particle physics detector is to find all the particles produced
+in a collision, identify their types, and measure their 4-momenta.
 At the LHC, in a single collision, thousands of particles can be produced.
 The particle physics detector must make signals that somehow can yield this information.
 To understand how this can happen, we first must understand how particles interact
-with matter, so we can learn of the possible types of signals particles could produce.
+with matter, so we can learn of the possible types of signals particles can produce.
 
 What kinds of particles can an LHC detector detect?  First, the particle must live long 
-enough to reach the detector, without decaying.  The beam pipe of the LHC has a 
-radius with dimensions measured in cm.  The particle must exist the beam pipe to
+enough to reach the detector without decaying.  The beam pipe of the LHC has a 
+radius with dimensions measured in cm.  The particle must exist long enough to escape the beam pipe and
 reach the detector and make a signal.  If we take the diameter to be 1 cm, then
 the particle life time must be large enough to travel this far before decay.
+The formula for the probability of a particle traveling a distance $x_0$ or more before decaying is:
+\begin{equation}
+P(x_0)=e^{-{t_0 Mc^2 \Gamma} \over {E \bar{h}}}=e^{{-x_0\Gamma Mc^2}\over{pc\bar{h}c}}
+\end{equation}
+where $\Gamma$ is the decay width of the particle (remember that $\Gamma=\bar{h}/\tau$ where $\tau$ is the particle lifetime. Also remember that $\gamma=E/mc^2$ and $\beta=pc/E$.)
 
-The particle must also interact strongly enough with matter to produce a signal in a detector that is small enough to be affordable.  While specialized very large detectors exist which can detect neutrinos, this is not possible at a collider detector.
+The particle must also interact  with matter in a way that produces a large enough signal to measure in a detector that is small enough to be affordable.  While specialized very large detectors exist which can detect neutrinos, this is not possible at a collider detector.
 
-There are only a few types of particles (and their antiparticles) that satisfy these requirements, and they are:
-\begin{itemize}
-\item from the leptons
-\begin{itemize}
-\item electrons
-\item muons
-\end{itemize}
-\item from the bosons
-\begin{itemize}
-\item photons
-\end{itemize}
-\item from the mesons
-\begin{itemize}
-\item charged pions
-\item charged kaons (remember: these contain a strange quark)
-\item k-longs (a very rare particle)
-\end{itemize}
-\item from the baryons
-\begin{itemize}
-\item protons
-\item neutrons
-\end{itemize}
-\end{itemize}
+There are only a few types of particles (and their antiparticles) that satisfy these requirements, and they are:  From the leptons: electrons and muons; From the bosons: photons; From the mesons:
+charged pions, charged kaons (remember: these contain a strange quark), k-longs (a very rare particle); From the baryons: protons, neutrons.
 
 The most common particle produced in a proton-proton collision is the pion.  Neutral pions decay very quickly to two photons. Most of the particles we detect, therefore, will be charged pions and photons.  However, as we will discuss, particles like electrons and muons are signatures of Higgs decays, and so we need to have a detector well optimized for identifying and measuring these particles as well.
 
@@ -53,19 +37,19 @@ Possible interactions between these particles and bulk matter include:
 \item ionization and excitation of the molecules in the material
 \item multiple scattering
 \item bremsstrahlung
-\item nuclear interactions (for the particles that interact via the strong force because they contain quarks, the pions and protons)
+\item strong interactions with atomic nucleii (only for mesons and baryons, as these contain quarks)
 \end{itemize}
-We will postphone the discussion of the last two until our discussion of ``calorimetry''.
+We will postphone the discussion of the last two of these interactions until our discussion of ``calorimetry''.
 
 When a charged particle passes through some material (detectors are often made of Argon gas, silicon, iron, lead, steel, plastic, and other such materials), it will interact with the electrons in the molecules that make up that material via the electric force.  The charged particle loses energy as it passes through the material, and the material gains energy.  What effect does that energy have on the material?  It can cause the electrons in the material to ``be excited'' into higher quantum states or it can even detach an electron from its atom (``ionization'').  
 
-One important parameter regarding this energy lose is called $dE/dx$, pronounced ``d-E-d-x''.  $dE/dx$ is the amount of energy lost by the particle per unit length transversed.  The average amount of energy lost per unit length depends on the energy of the particle: low energy particles lose more energy per unit length than high energy particles.  You can imagine why this might be true: the lower energy (slower) particles linger near each atom in the material longer, and thus have a longer time to interact with each one and lose more energy.  The energy loss decreases as $1/\beta^2$ until a momentum around 0.1 GeV, where it has its minimum value.  The loss then increases slowly with increasing energy.  Particles in the momentum range of 0.1 to 100 GeV are called "minimum ionizing particles" or "mips".
+We are often interested in how much energy the particle loses (material gains) per unit length.  This is called $dE/dx$, pronounced ``d-E-d-x''.    The average amount of energy lost per unit length depends on the energy of the particle: low energy particles lose more energy per unit length than high energy particles.  You can imagine why this might be true: the lower energy (slower) particles linger near each atom in the materi[al longer, and thus have a longer time to interact with each one and lose more energy.  The energy loss per unit length decreases as $1/\beta^2$ until a momentum around 0.1 GeV, where it has its minimum value.  The loss then increases slowly with increasing energy until about 100 GeV.  Above this energy, relativistic effects cause dEdx to increase more quickly with energy.  Particles in the momentum range of 0.1 to 100 GeV are called "minimum ionizing particles" or "mips".
 
-Figure ~\ref{fig:pdgdedx} shows the energy dependence of dedx for muons.  Note that the length unit is strange: it is $cm^2/g$.  You can convert this to length by multiplying by the density of the material
+Figure ~\ref{fig:pdgdedx} shows the energy dependence of dEdx for various charged particles.  Note that the length unit is strange: it is $cm^2/g$.  You can convert this to a more convention length unit by multiplying by the density of the material
 \begin{equation}
 {{MeV cm^2}\over{g}} \cdot {{g}\over{cm^3}} = {{MeV}\over{cm}}
 \end{equation}
-The reason the authors use these units is that it allows the dedx curves for high Z and low Z elements to fit onto the same graph.
+The reason the authors use these units is that it allows the dEdx curves for high Z and low Z elements to fit onto the same graph.
 
 \begin{figure}[h]
 \centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/dedx.eps}
@@ -113,7 +97,6 @@ Here we call them “gamma rays” instead of photons because we are going to di
 There are several ways a gamma ray can interaction with matter:
 \begin{itemize}
 \item photoelectric effect
-\item Rayleigh scattering
 \item Compton scattering
 \item pair production in the field of the nucleus
 \item pair production in the field of the electron
@@ -122,13 +105,12 @@ There are several ways a gamma ray can interaction with matter:
 
 The photoelectric effect was very important in the development of quantum mechanics.  Einstein was awarded the Nobel Prize for his work on its understanding.  It is an interaction between a photon and an atom electron.  If the photon has energy greater than the binding energy of the electron to the atom, it can eject the electron.  The electron will have a kinetic energy equal to the energy of the photon minus the binding energy.
 
-Rayleigh scattering is scattering of a photon off the nucleus of the atom.  The Feynman diagram 
 
 Compton scatting is scatting of a photon off an electron.  The Feynman diagram is shown in Figure ~\ref{fig:compton}. 
 
 
 \begin{figure}[h]
-\centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/pairproduction.eps}
+\centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/compton.eps}
 \caption{Feynmann diagram for Compton scattering of a photon by an electron}
 \label{fig:compton}
 \end{figure}
