@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  1 JUN 2015 19:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  1 JUN 2015 20:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1013,74 +1013,68 @@ nput line 181.
 (pdftex.def)             Requested size: 426.83315pt x 284.5341pt.
 
 (./particleinteractions/3_ParticleInteractions.tex
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 23.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
- [19
-
-]
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 68.
+(amsmath)                 on input line 18.
 
-[20]
+[19
+
+]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 37.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
 Package epstopdf Info: Source file: <./particleinteractions/Pictures/dedx.eps>
 (epstopdf)                    date: 2015-06-01 09:33:48
 (epstopdf)                    size: 460416 bytes
 (epstopdf)             Output file: <./particleinteractions/Pictures/dedx-eps-c
 onverted-to.pdf>
+(epstopdf)                    date: 2015-06-01 19:05:53
+(epstopdf)                    size: 159814 bytes
 (epstopdf)             Command: <repstopdf --outfile=./particleinteractions/Pic
 tures/dedx-eps-converted-to.pdf ./particleinteractions/Pictures/dedx.eps>
-(epstopdf)             \includegraphics on input line 73.
-runsystem(repstopdf --outfile=./particleinteractions/Pictures/dedx-eps-converte
-d-to.pdf ./particleinteractions/Pictures/dedx.eps)...executed safely (allowed).
+(epstopdf)             \includegraphics on input line 55.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <./particleinteractions/Pictures/dedx-eps-c
-onverted-to.pdf>
-(epstopdf)                    date: 2015-06-01 19:05:53
-(epstopdf)                    size: 159814 bytes.
-
-<./particleinteractions/Pictures/dedx-eps-converted-to.pdf, id=429, 563.10374pt
+<./particleinteractions/Pictures/dedx-eps-converted-to.pdf, id=425, 563.10374pt
  x 458.71375pt>
 File: ./particleinteractions/Pictures/dedx-eps-converted-to.pdf Graphic file (t
 ype pdf)
 
 <use ./particleinteractions/Pictures/dedx-eps-converted-to.pdf>
 Package pdftex.def Info: ./particleinteractions/Pictures/dedx-eps-converted-to.
-pdf used on input line 73.
+pdf used on input line 55.
 (pdftex.def)             Requested size: 281.55118pt x 229.35631pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[20]
 Package epstopdf Info: Source file: <./particleinteractions/Pictures/pdgrange.e
 ps>
 (epstopdf)                    date: 2015-06-01 19:04:11
 (epstopdf)                    size: 441314 bytes
 (epstopdf)             Output file: <./particleinteractions/Pictures/pdgrange-e
 ps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-01 19:05:55
+(epstopdf)                    size: 65836 bytes
 (epstopdf)             Command: <repstopdf --outfile=./particleinteractions/Pic
 tures/pdgrange-eps-converted-to.pdf ./particleinteractions/Pictures/pdgrange.ep
 s>
-(epstopdf)             \includegraphics on input line 86.
-runsystem(repstopdf --outfile=./particleinteractions/Pictures/pdgrange-eps-conv
-erted-to.pdf ./particleinteractions/Pictures/pdgrange.eps)...executed safely (a
-llowed).
+(epstopdf)             \includegraphics on input line 68.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <./particleinteractions/Pictures/pdgrange-e
-ps-converted-to.pdf>
-(epstopdf)                    date: 2015-06-01 19:05:55
-(epstopdf)                    size: 65836 bytes.
-
-<./particleinteractions/Pictures/pdgrange-eps-converted-to.pdf, id=431, 438.638
+<./particleinteractions/Pictures/pdgrange-eps-converted-to.pdf, id=433, 438.638
 75pt x 549.05125pt>
 File: ./particleinteractions/Pictures/pdgrange-eps-converted-to.pdf Graphic fil
 e (type pdf)
 
 <use ./particleinteractions/Pictures/pdgrange-eps-converted-to.pdf>
 Package pdftex.def Info: ./particleinteractions/Pictures/pdgrange-eps-converted
--to.pdf used on input line 86.
+-to.pdf used on input line 68.
 (pdftex.def)             Requested size: 219.31883pt x 274.52495pt.
 
 
@@ -1092,26 +1086,21 @@ Package epstopdf Info: Source file: <./particleinteractions/Pictures/landau.eps
 (epstopdf)                    size: 324373 bytes
 (epstopdf)             Output file: <./particleinteractions/Pictures/landau-eps
 -converted-to.pdf>
+(epstopdf)                    date: 2015-06-01 19:05:56
+(epstopdf)                    size: 118333 bytes
 (epstopdf)             Command: <repstopdf --outfile=./particleinteractions/Pic
 tures/landau-eps-converted-to.pdf ./particleinteractions/Pictures/landau.eps>
-(epstopdf)             \includegraphics on input line 95.
-runsystem(repstopdf --outfile=./particleinteractions/Pictures/landau-eps-conver
-ted-to.pdf ./particleinteractions/Pictures/landau.eps)...executed safely (allow
-ed).
+(epstopdf)             \includegraphics on input line 77.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <./particleinteractions/Pictures/landau-eps
--converted-to.pdf>
-(epstopdf)                    date: 2015-06-01 19:05:56
-(epstopdf)                    size: 118333 bytes.
-
-<./particleinteractions/Pictures/landau-eps-converted-to.pdf, id=433, 526.96875
+<./particleinteractions/Pictures/landau-eps-converted-to.pdf, id=435, 526.96875
 pt x 377.41pt>
 File: ./particleinteractions/Pictures/landau-eps-converted-to.pdf Graphic file 
 (type pdf)
 
 <use ./particleinteractions/Pictures/landau-eps-converted-to.pdf>
 Package pdftex.def Info: ./particleinteractions/Pictures/landau-eps-converted-t
-o.pdf used on input line 95.
+o.pdf used on input line 77.
 (pdftex.def)             Requested size: 263.48372pt x 188.70453pt.
 
 
@@ -1123,27 +1112,22 @@ artoon.eps>
 (epstopdf)                    size: 217456 bytes
 (epstopdf)             Output file: <./particleinteractions/Pictures/multscattc
 artoon-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-01 19:05:57
+(epstopdf)                    size: 17952 bytes
 (epstopdf)             Command: <repstopdf --outfile=./particleinteractions/Pic
 tures/multscattcartoon-eps-converted-to.pdf ./particleinteractions/Pictures/mul
 tscattcartoon.eps>
-(epstopdf)             \includegraphics on input line 104.
-runsystem(repstopdf --outfile=./particleinteractions/Pictures/multscattcartoon-
-eps-converted-to.pdf ./particleinteractions/Pictures/multscattcartoon.eps)...ex
-ecuted safely (allowed).
+(epstopdf)             \includegraphics on input line 86.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <./particleinteractions/Pictures/multscattc
-artoon-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-06-01 19:05:57
-(epstopdf)                    size: 17952 bytes.
-
-<./particleinteractions/Pictures/multscattcartoon-eps-converted-to.pdf, id=435,
+<./particleinteractions/Pictures/multscattcartoon-eps-converted-to.pdf, id=437,
  448.67625pt x 211.79124pt>
 File: ./particleinteractions/Pictures/multscattcartoon-eps-converted-to.pdf Gra
 phic file (type pdf)
 
 <use ./particleinteractions/Pictures/multscattcartoon-eps-converted-to.pdf>
 Package pdftex.def Info: ./particleinteractions/Pictures/multscattcartoon-eps-c
-onverted-to.pdf used on input line 104.
+onverted-to.pdf used on input line 86.
 (pdftex.def)             Requested size: 224.33757pt x 105.89536pt.
 
 
@@ -1162,27 +1146,22 @@ s>
 (epstopdf)                    size: 8192 bytes
 (epstopdf)             Output file: <./particleinteractions/Pictures/compton-ep
 s-converted-to.pdf>
+(epstopdf)                    date: 2015-06-01 19:06:00
+(epstopdf)                    size: 7074 bytes
 (epstopdf)             Command: <repstopdf --outfile=./particleinteractions/Pic
 tures/compton-eps-converted-to.pdf ./particleinteractions/Pictures/compton.eps>
 
-(epstopdf)             \includegraphics on input line 131.
-runsystem(repstopdf --outfile=./particleinteractions/Pictures/compton-eps-conve
-rted-to.pdf ./particleinteractions/Pictures/compton.eps)...executed safely (all
-owed).
+(epstopdf)             \includegraphics on input line 113.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <./particleinteractions/Pictures/compton-ep
-s-converted-to.pdf>
-(epstopdf)                    date: 2015-06-01 19:06:00
-(epstopdf)                    size: 7074 bytes.
-
-<./particleinteractions/Pictures/compton-eps-converted-to.pdf, id=448, 569.1262
+<./particleinteractions/Pictures/compton-eps-converted-to.pdf, id=449, 569.1262
 5pt x 259.97125pt>
 File: ./particleinteractions/Pictures/compton-eps-converted-to.pdf Graphic file
  (type pdf)
 
 <use ./particleinteractions/Pictures/compton-eps-converted-to.pdf>
 Package pdftex.def Info: ./particleinteractions/Pictures/compton-eps-converted-
-to.pdf used on input line 131.
+to.pdf used on input line 113.
 (pdftex.def)             Requested size: 284.56242pt x 129.9853pt.
 
 
@@ -1194,27 +1173,22 @@ tion.eps>
 (epstopdf)                    size: 8491 bytes
 (epstopdf)             Output file: <./particleinteractions/Pictures/pairproduc
 tion-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-01 19:06:03
+(epstopdf)                    size: 7104 bytes
 (epstopdf)             Command: <repstopdf --outfile=./particleinteractions/Pic
 tures/pairproduction-eps-converted-to.pdf ./particleinteractions/Pictures/pairp
 roduction.eps>
-(epstopdf)             \includegraphics on input line 140.
-runsystem(repstopdf --outfile=./particleinteractions/Pictures/pairproduction-ep
-s-converted-to.pdf ./particleinteractions/Pictures/pairproduction.eps)...execut
-ed safely (allowed).
+(epstopdf)             \includegraphics on input line 122.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <./particleinteractions/Pictures/pairproduc
-tion-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-06-01 19:06:03
-(epstopdf)                    size: 7104 bytes.
-
-<./particleinteractions/Pictures/pairproduction-eps-converted-to.pdf, id=449, 5
+<./particleinteractions/Pictures/pairproduction-eps-converted-to.pdf, id=450, 5
 69.12625pt x 259.97125pt>
 File: ./particleinteractions/Pictures/pairproduction-eps-converted-to.pdf Graph
 ic file (type pdf)
 
 <use ./particleinteractions/Pictures/pairproduction-eps-converted-to.pdf>
 Package pdftex.def Info: ./particleinteractions/Pictures/pairproduction-eps-con
-verted-to.pdf used on input line 140.
+verted-to.pdf used on input line 122.
 (pdftex.def)             Requested size: 284.56242pt x 129.9853pt.
 
 
@@ -1226,27 +1200,22 @@ ractions.eps>
 (epstopdf)                    size: 588615 bytes
 (epstopdf)             Output file: <./particleinteractions/Pictures/photoninte
 ractions-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-01 19:06:04
+(epstopdf)                    size: 342472 bytes
 (epstopdf)             Command: <repstopdf --outfile=./particleinteractions/Pic
 tures/photoninteractions-eps-converted-to.pdf ./particleinteractions/Pictures/p
 hotoninteractions.eps>
-(epstopdf)             \includegraphics on input line 153.
-runsystem(repstopdf --outfile=./particleinteractions/Pictures/photoninteraction
-s-eps-converted-to.pdf ./particleinteractions/Pictures/photoninteractions.eps).
-..executed safely (allowed).
-
-Package epstopdf Info: Result file: <./particleinteractions/Pictures/photoninte
-ractions-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-06-01 19:06:04
-(epstopdf)                    size: 342472 bytes.
+(epstopdf)             \includegraphics on input line 135.
+Package epstopdf Info: Output file is already uptodate.
 
 <./particleinteractions/Pictures/photoninteractions-eps-converted-to.pdf, id=45
-1, 532.99126pt x 702.625pt>
+2, 532.99126pt x 702.625pt>
 File: ./particleinteractions/Pictures/photoninteractions-eps-converted-to.pdf G
 raphic file (type pdf)
 
 <use ./particleinteractions/Pictures/photoninteractions-eps-converted-to.pdf>
 Package pdftex.def Info: ./particleinteractions/Pictures/photoninteractions-eps
--converted-to.pdf used on input line 153.
+-converted-to.pdf used on input line 135.
 (pdftex.def)             Requested size: 266.49498pt x 351.31163pt.
 
 
@@ -1422,7 +1391,7 @@ Missing character: There is no Ò in font ptmr7t!
 Missing character: There is no Ó in font ptmr7t!
 Missing character: There is no Õ in font ptmr7t!
 
-<./protonprotoncollisions/Pictures/fig1.pdf, id=553, 504.88625pt x 230.8625pt>
+<./protonprotoncollisions/Pictures/fig1.pdf, id=554, 504.88625pt x 230.8625pt>
 File: ./protonprotoncollisions/Pictures/fig1.pdf Graphic file (type pdf)
 
 <use ./protonprotoncollisions/Pictures/fig1.pdf>
@@ -1442,7 +1411,7 @@ Missing character: There is no Ó in font ptmr7t!
 Missing character: There is no Ò in font ptmr7t!
 Missing character: There is no Ó in font ptmr7t!
 
-<./protonprotoncollisions/Pictures/fig2.pdf, id=575, 722.7pt x 485.815pt>
+<./protonprotoncollisions/Pictures/fig2.pdf, id=576, 722.7pt x 485.815pt>
 File: ./protonprotoncollisions/Pictures/fig2.pdf Graphic file (type pdf)
 
 <use ./protonprotoncollisions/Pictures/fig2.pdf>
@@ -1468,7 +1437,7 @@ Missing character: There is no Ó in font ptmr7t!
 [39]
 Missing character: There is no Õ in font ptmr7t!
 
-<./protonprotoncollisions/Pictures/fig3.pdf, id=580, 722.7pt x 308.15125pt>
+<./protonprotoncollisions/Pictures/fig3.pdf, id=581, 722.7pt x 308.15125pt>
 File: ./protonprotoncollisions/Pictures/fig3.pdf Graphic file (type pdf)
 
 <use ./protonprotoncollisions/Pictures/fig3.pdf>
@@ -1479,7 +1448,7 @@ ut line 76.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./protonprotoncollisions/Pictures/fig4.pdf, id=581, 766.865pt x 527.9725pt>
+<./protonprotoncollisions/Pictures/fig4.pdf, id=582, 766.865pt x 527.9725pt>
 File: ./protonprotoncollisions/Pictures/fig4.pdf Graphic file (type pdf)
 
 <use ./protonprotoncollisions/Pictures/fig4.pdf>
@@ -1490,7 +1459,7 @@ ut line 83.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./protonprotoncollisions/Pictures/fig5.pdf, id=582, 766.865pt x 524.96124pt>
+<./protonprotoncollisions/Pictures/fig5.pdf, id=583, 766.865pt x 524.96124pt>
 File: ./protonprotoncollisions/Pictures/fig5.pdf Graphic file (type pdf)
 
 <use ./protonprotoncollisions/Pictures/fig5.pdf>
@@ -1502,7 +1471,7 @@ ut line 88.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<./protonprotoncollisions/Pictures/fig6.pdf, id=583, 411.5375pt x 308.15125pt>
+<./protonprotoncollisions/Pictures/fig6.pdf, id=584, 411.5375pt x 308.15125pt>
 File: ./protonprotoncollisions/Pictures/fig6.pdf Graphic file (type pdf)
 
 <use ./protonprotoncollisions/Pictures/fig6.pdf>
@@ -1513,7 +1482,7 @@ ut line 101.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./protonprotoncollisions/Pictures/fig7.pdf, id=584, 435.6275pt x 194.7275pt>
+<./protonprotoncollisions/Pictures/fig7.pdf, id=585, 435.6275pt x 194.7275pt>
 File: ./protonprotoncollisions/Pictures/fig7.pdf Graphic file (type pdf)
 
 <use ./protonprotoncollisions/Pictures/fig7.pdf>
@@ -1525,7 +1494,7 @@ ut line 109.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<./protonprotoncollisions/Pictures/fig8.pdf, id=606, 304.13625pt x 138.5175pt>
+<./protonprotoncollisions/Pictures/fig8.pdf, id=607, 304.13625pt x 138.5175pt>
 File: ./protonprotoncollisions/Pictures/fig8.pdf Graphic file (type pdf)
 
 <use ./protonprotoncollisions/Pictures/fig8.pdf>
@@ -1536,7 +1505,7 @@ ut line 115.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./protonprotoncollisions/Pictures/fig9.pdf, id=607, 722.7pt x 534.99875pt>
+<./protonprotoncollisions/Pictures/fig9.pdf, id=608, 722.7pt x 534.99875pt>
 File: ./protonprotoncollisions/Pictures/fig9.pdf Graphic file (type pdf)
 
 <use ./protonprotoncollisions/Pictures/fig9.pdf>
@@ -1548,7 +1517,7 @@ ut line 121.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<./protonprotoncollisions/Pictures/fig10.pdf, id=608, 431.6125pt x 396.48125pt>
+<./protonprotoncollisions/Pictures/fig10.pdf, id=609, 431.6125pt x 396.48125pt>
 File: ./protonprotoncollisions/Pictures/fig10.pdf Graphic file (type pdf)
 <use ./protonprotoncollisions/Pictures/fig10.pdf>
 Package pdftex.def Info: ./protonprotoncollisions/Pictures/fig10.pdf used on in
@@ -1558,7 +1527,7 @@ put line 127.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./protonprotoncollisions/Pictures/fig11.pdf, id=609, 411.5375pt x 285.065pt>
+<./protonprotoncollisions/Pictures/fig11.pdf, id=610, 411.5375pt x 285.065pt>
 File: ./protonprotoncollisions/Pictures/fig11.pdf Graphic file (type pdf)
 
 <use ./protonprotoncollisions/Pictures/fig11.pdf>
@@ -1569,7 +1538,7 @@ put line 133.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./protonprotoncollisions/Pictures/fig12.pdf, id=610, 391.4625pt x 313.17pt>
+<./protonprotoncollisions/Pictures/fig12.pdf, id=611, 391.4625pt x 313.17pt>
 File: ./protonprotoncollisions/Pictures/fig12.pdf Graphic file (type pdf)
 
 <use ./protonprotoncollisions/Pictures/fig12.pdf>
@@ -1581,7 +1550,7 @@ put line 139.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<./protonprotoncollisions/Pictures/fig13.pdf, id=611, 511.9125pt x 390.45876pt>
+<./protonprotoncollisions/Pictures/fig13.pdf, id=612, 511.9125pt x 390.45876pt>
 File: ./protonprotoncollisions/Pictures/fig13.pdf Graphic file (type pdf)
 <use ./protonprotoncollisions/Pictures/fig13.pdf>
 Package pdftex.def Info: ./protonprotoncollisions/Pictures/fig13.pdf used on in
@@ -1652,20 +1621,16 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 250.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 250.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: FA765ECF4F2EF1563FFD2B604E4681C4;3322.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 250.
  ) 
 Here is how much of TeX's memory you used:
- 8732 strings out of 493117
- 126871 string characters out of 6135433
+ 8733 strings out of 493117
+ 126885 string characters out of 6135433
  232344 words of memory out of 5000000
  11815 multiletter control sequences out of 15000+600000
  41627 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 31i,12n,55p,1196b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 31i,12n,55p,1196b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -1677,10 +1642,10 @@ ist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/fonts/t
 ype1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/ti
 mes/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (49 pages, 2476425 bytes).
+Output written on main.pdf (49 pages, 2477353 bytes).
 PDF statistics:
- 900 PDF objects out of 1000 (max. 8388607)
- 696 compressed objects within 7 object streams
- 139 named destinations out of 1000 (max. 500000)
+ 901 PDF objects out of 1000 (max. 8388607)
+ 697 compressed objects within 7 object streams
+ 140 named destinations out of 1000 (max. 500000)
  511 words of extra memory for PDF output out of 10000 (max. 10000000)
 
