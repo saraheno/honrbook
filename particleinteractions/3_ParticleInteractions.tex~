@@ -52,7 +52,7 @@ Figure ~\ref{fig:pdgdedx} shows the energy dependence of dEdx for various charge
 The reason the authors use these units is that it allows the dEdx curves for high Z and low Z elements to fit onto the same graph.
 
 \begin{figure}[h]
-\centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/dedx.eps}
+\centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/dedx.pdf}
 \caption{Stolen from the particle data group, this picture shows the energy
 loss per unit length as a function of particle energy}
 \label{fig:pdgdedx}
@@ -65,7 +65,7 @@ stop inside the material.  The thickness of material that will stop a particle (
 
 
 \begin{figure}[h]
-\centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/pdgrange.eps}
+\centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/pdgrange.pdf}
 \caption{Stolen from the particle data group, this picture shows the range of a particle in various materials as a function of particle energy }
 \label{fig:pdgrange}
 \end{figure}
@@ -74,7 +74,7 @@ Of course, because each particle that goes through the material will randomly in
 
 
 \begin{figure}[h]
-\centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/landau.eps}
+\centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/landau.pdf}
 \caption{Stolen from the particle data group, this picture shows the distribution of energy deposits for a 10 GeV muon transversing 1.7 mm of silicon. }
 \label{fig:landau}
 \end{figure}
@@ -83,7 +83,7 @@ Sometimes a particle passes close enough to an atom to interact with the nucleus
 
 
 \begin{figure}[h]
-\centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/multscattcartoon.eps}
+\centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/multscattcartoon.pdf}
 \caption{Stolen from the particle data group, this picture shows a cartoon showing the path of a charged particle undergoing multiple scattering in matter }
 \label{fig:pdgmultscattcartoon}
 \end{figure}
@@ -110,7 +110,7 @@ Compton scatting is scatting of a photon off an electron.  The Feynman diagram i
 
 
 \begin{figure}[h]
-\centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/compton.eps}
+\centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/compton.pdf}
 \caption{Feynmann diagram for Compton scattering of a photon by an electron}
 \label{fig:compton}
 \end{figure}
@@ -119,7 +119,7 @@ Pair production is the conversion of a photon into an electron-position pair thr
 
 
 \begin{figure}[h]
-\centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/pairproduction.eps}
+\centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/pairproduction.pdf}
 \caption{Feynmann diagram for pair production in the field of a nucleus}
 \label{fig:pairproduction}
 \end{figure}
@@ -132,7 +132,7 @@ electron mass, pair production is the most important mechanism.  We will discuss
 
 
 \begin{figure}[h]
-\centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/photoninteractions.eps}
+\centering\includegraphics[scale=0.5]{./particleinteractions/Pictures/photoninteractions.pdf}
 \caption{Stolen from the particle data group, this picture shows the cross sections for possible interactions of photons with matter as a function of photon energy }
 \label{fig:photoninteractions}
 \end{figure}
