@@ -27,25 +27,34 @@
 \contentsline {chapter}{\numberline {4}Statistics}{25}{chapter.4}
 \contentsline {section}{\numberline {4.1}Statistics}{25}{section.4.1}
 \contentsline {chapter}{\numberline {5}Particle accelerators}{27}{chapter.5}
-\contentsline {chapter}{\numberline {6}Calorimeters}{29}{chapter.6}
-\contentsline {section}{\numberline {6.1}Disclaimer}{29}{section.6.1}
-\contentsline {chapter}{\numberline {7}Trackers}{31}{chapter.7}
-\contentsline {section}{\numberline {7.1}Trackers}{31}{section.7.1}
-\contentsline {chapter}{\numberline {8}Particle Identification}{33}{chapter.8}
-\contentsline {section}{\numberline {8.1}Disclaimer}{33}{section.8.1}
-\contentsline {chapter}{\numberline {9}The LHC Detectors}{35}{chapter.9}
-\contentsline {section}{\numberline {9.1}The LHC Detectors}{35}{section.9.1}
-\contentsline {chapter}{\numberline {10}Structure of the proton and proton-proton collisions}{37}{chapter.10}
-\contentsline {section}{\numberline {10.1}Cross section}{37}{section.10.1}
-\contentsline {section}{\numberline {10.2}s, t, u, and q squared}{38}{section.10.2}
-\contentsline {section}{\numberline {10.3}What is in a Proton}{39}{section.10.3}
-\contentsline {section}{\numberline {10.4}Calculation of a cross section in proton proton collisions}{40}{section.10.4}
-\contentsline {section}{\numberline {10.5}What happens when two protons collide?}{40}{section.10.5}
-\contentsline {section}{\numberline {10.6}Minimum bias interaction}{41}{section.10.6}
-\contentsline {section}{\numberline {10.7}Jets}{41}{section.10.7}
-\contentsline {section}{\numberline {10.8}Further Reading}{41}{section.10.8}
-\contentsline {chapter}{\numberline {11}Monte Carlos}{47}{chapter.11}
-\contentsline {section}{\numberline {11.1}Disclaimer}{47}{section.11.1}
-\contentsline {chapter}{\numberline {12}Higgs Discovery}{49}{chapter.12}
-\contentsline {section}{\numberline {12.1}higgs to four leptons}{49}{section.12.1}
+\contentsline {section}{\numberline {5.1}Introduction}{27}{section.5.1}
+\contentsline {section}{\numberline {5.2}Parts of an Accelerator}{28}{section.5.2}
+\contentsline {section}{\numberline {5.3}Energy}{30}{section.5.3}
+\contentsline {section}{\numberline {5.4}Cross Section}{30}{section.5.4}
+\contentsline {section}{\numberline {5.5}Luminosity (L)}{30}{section.5.5}
+\contentsline {section}{\numberline {5.6}Integrated Luminosity}{31}{section.5.6}
+\contentsline {section}{\numberline {5.7}Event}{32}{section.5.7}
+\contentsline {section}{\numberline {5.8}The Data Challenge}{32}{section.5.8}
+\contentsline {section}{\numberline {5.9}Refrences}{32}{section.5.9}
+\contentsline {chapter}{\numberline {6}Calorimeters}{33}{chapter.6}
+\contentsline {section}{\numberline {6.1}Disclaimer}{33}{section.6.1}
+\contentsline {chapter}{\numberline {7}Trackers}{35}{chapter.7}
+\contentsline {section}{\numberline {7.1}Trackers}{35}{section.7.1}
+\contentsline {chapter}{\numberline {8}Particle Identification}{37}{chapter.8}
+\contentsline {section}{\numberline {8.1}Disclaimer}{37}{section.8.1}
+\contentsline {chapter}{\numberline {9}The LHC Detectors}{39}{chapter.9}
+\contentsline {section}{\numberline {9.1}The LHC Detectors}{39}{section.9.1}
+\contentsline {chapter}{\numberline {10}Structure of the proton and proton-proton collisions}{41}{chapter.10}
+\contentsline {section}{\numberline {10.1}Cross section}{41}{section.10.1}
+\contentsline {section}{\numberline {10.2}s, t, u, and q squared}{42}{section.10.2}
+\contentsline {section}{\numberline {10.3}What is in a Proton}{43}{section.10.3}
+\contentsline {section}{\numberline {10.4}Calculation of a cross section in proton proton collisions}{44}{section.10.4}
+\contentsline {section}{\numberline {10.5}What happens when two protons collide?}{44}{section.10.5}
+\contentsline {section}{\numberline {10.6}Minimum bias interaction}{45}{section.10.6}
+\contentsline {section}{\numberline {10.7}Jets}{45}{section.10.7}
+\contentsline {section}{\numberline {10.8}Further Reading}{45}{section.10.8}
+\contentsline {chapter}{\numberline {11}Monte Carlos}{51}{chapter.11}
+\contentsline {section}{\numberline {11.1}Disclaimer}{51}{section.11.1}
+\contentsline {chapter}{\numberline {12}Higgs Discovery}{53}{chapter.12}
+\contentsline {section}{\numberline {12.1}higgs to four leptons}{53}{section.12.1}
 \contentsfinish 

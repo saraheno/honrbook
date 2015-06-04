@@ -1,17 +1,17 @@
 \section{Cross section}\index{Cross Section}
-Imagine a 2-D box in deep space, away from gravity, containing some number of large 2D disks.  If you threw a ball at the box, the probability of hitting a disks is related to the ratio of the cross sectional area of the box to the cross sectional area of the disks.  The cross sectional area of the disks is their “cross section” and it has units of area.  If you look at a solid and imagine scattering particles off the nuclei inside them, it is similar.  Remember that solids are, after all, mostly empty space.  If you project all the nuclei into the 2D front face of the solid, you have our 2-D box.  The cross section area of a nuclei is measured in fm2.  For low energy scattering by the strong force, since the strong force only has a very short range, and interactions can only happen if the ball virtually touches the nucleus, this is a good approximation.  A unit commonly used in the barn, which is 10-28 m2.  Nuclear “cross sections” are around 80 mbarns.  For forces with a longer range, such as E\&M, we define instead an “effective” area.  See any introductory book on particle physics for a more precise definition.
+Imagine a 2-D box in deep space, away from gravity, containing some number of large 2D disks.  If you threw a ball at the box, the probability of hitting a disks is related to the ratio of the cross sectional area of the box to the cross sectional area of the disks.  The cross sectional area of the disks is their “cross section” and it has units of area.  If you look at a solid and imagine scattering particles off the nuclei inside them, it is similar.  Remember that solids are, after all, mostly empty space.  If you project all the nuclei into the 2D front face of the solid, you have our 2-D box.  The cross section area of a nuclei is measured in \(fm^{2}\).  For low energy scattering by the strong force, since the strong force only has a very short range, and interactions can only happen if the ball virtually touches the nucleus, this is a good approximation.  A unit commonly used in the barn, which is \(10^{28} m^{2}\).  Nuclear “cross sections” are around 80 mbarns.  For forces with a longer range, such as E\&M, we define instead an “effective” area.  See any introductory book on particle physics for a more precise definition.
 
 What if instead you threw a steady stream of balls at the box and wanted to calculate the rate at which balls hit beads and are deflected?  Also, as you can imagine, in realistic beams the projectiles do not march single file.  You should imagine them moving in a cylinder with some cross section, like:
 
 If the number of balls in the beam per unit area is na, and the velocity of the balls is v,  then the number of balls reaching the target per second is
 
-\[\Phi = n_{a}v\]
+\begin{equation}\Phi = n_{a}v\end{equation}
 
 and \(\Phi\) is called the flux.  What are the units of \(\Phi\)?
 
 The number of scatters per second is then
 
-\[\frac{dN}{dt}=\Phi !I could not figure out how to this simble here here!\]
+\begin{equation}\frac{dN}{dt}=\Phi !I could not figure out how to this simble here here!\end{equation}
 
 (check that the units work).
 
@@ -29,9 +29,9 @@ As we have seen, in relativity, there are “invariants” that will be measured to 
 
 If \(p_{a}\) is the 4-momentum of particle A and the 4-momenta of the other particles are named similarly, then
 
-\[s=(p_{a}+p_{b})^{2}\]
-\[t=(p_{a}-p_{c})^{2}\]
-\[u=(p_{a}-p_{d})^{2}\]
+\begin{equation}s=(p_{a}+p_{b})^{2}\end{equation}
+\begin{equation}t=(p_{a}-p_{c})^{2}\end{equation}
+\begin{equation}u=(p_{a}-p_{d})^{2}\end{equation}
 
 Remember: the square here means dot product, and the dot product of a 4-vector is the square root of the product of the first components (time-like components) minus the dot product of the 3D part of the 4 vector.  So s, t, u are a bit like a mass.  All these variables have units of \(GeV^{2}\).
 
@@ -39,9 +39,9 @@ Another important variable is \(Q^{2}\).  This can be u for some interactions an
 
 It can be shown in quantum field theory that, in the frame where the 4-momentum of particles a and b are equal but opposite and have high enough energy that we can neglect their mass, that the cross section can be calculated from the physics of the standard model using a simple formula
 
-\[
+\begin{equation}
 \frac{d?}{d\Omega} = \frac{1}{64\Pi^{2}s}\frac{P_{f}}{P_{i}}|M|^{2}
-\]
+\end{equation}
 
 where \(p_{f}\) is the magnitude of the 3-momenta of either particle c or d (why doesn’t it matter which?) and pi is that of either a or b.  What will the ratio of pf to pi be if particles c and d both have momenta large compared to their mass as well?
 
@@ -65,7 +65,7 @@ magine two possible beams in a fixed target experiment: muons and neutrinos.  Mu
 
 In a proton-proton collision, the particles and b are partons in the proton.  For a given final state (particles c and d), there can be a variety of different initial states that can occur.  For example, a Z boson can be created when an up quark annihilates with an anti-up quark or it can be created when an down quark annihilates with an anti-down quark.  It is like our bean has different kinds of balls that have a different effective cross section to interact with the target.  How can we calculate the total cross section for any two partons in the proton to go to a Z and then into, say an electron-positron pair?  We need to integrate over all possible initial states:
 
-\[!!!!I don't even no what to look up to add this math!!!!\]
+\begin{equation}!!!!I don't even no what to look up to add this math!!!!\end{equation}
 
 where the q’s represent the PDFs for the quarks.
 
