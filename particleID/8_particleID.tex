@@ -1,5 +1,22 @@
 \section{Overview}\index{EP}
-Now that we know how the basic elements of a particle physics detector work, let's see how we can use them to identify which types of particles produce which signals in our detector.  We will consider specifically the CMS detector, but virtually all collider detectors use similar identification criteria.
+Now that we know how the basic elements of a particle physics detector work, let's see how we can use them to identify which types of particles produce which signals in our detector.  
+We will consider specifically the CMS detector, but virtually all collider detectors use similar identification criteria.
+
+Particle identification is done using a massive piece of software, written by hundreds of physicists scattered all over the world, called CMSSW.  What does this code do?
+
+When a particle enters a detector element, some sort of detectable signal, usually charge, is made.  This charge is measured, usually using something called an ADC or analog-to-digital converter.  A number in binary (a number in base 2 number system) is produced and stored. For interesting events, every detector element (and there are millions of them, Figure ~\cite{fig:count} shows the channel count by subdetector) that has a reading above some threshold must be pulled from the detector electronics, along with an ID number that will identify which detector element the number came from, assembled into an organized structure in computer memory, and written to some storage media (perhaps computer disk).  
+
+\begin{figure}[h]
+\centering\includegraphics[scale=0.6]{./particleID/Pictures/channelcount.pdf}
+\caption{Channel count for the CMS detector by subdetector}
+\label{fig:count}
+\end{figure} 
+
+CMSSW takes all these 0's and 1', uses calibration data to convert these to energies, times, or whatever is relevent for that subdetector.  Once this is done,   complex computer algorithms are run on this information to figure out which particles were produced.  
+
+We describe below some of the types of algorithms that are used in this code.
+
+
 \newpage \noindent
 Consider the following slice of the CMS detector as viewed in the r-$\phi$ plane: 
 \begin{figure}[h]
@@ -64,7 +81,7 @@ To do this,``jet finding algorithms'' have been developed. The figure below show
 \end{figure}
 \\*
 \noindent
-Let's look at one of these algorithms, which you will easily be able to imagine as code (and which clearly can not be handled any other way).  This algorithm is called the anti-$k_{T}$ algorithm (don't ask) with cone-parameter R. R is typically chosen to be 0.4.
+Let's look at one of these algorithms (which is implemented in CMSSW and is the most popular), which you will easily be able to imagine as code (and which clearly can not be handled any other way).  This algorithm is called the anti-$k_{T}$ algorithm (don't ask) with cone-parameter R. R is typically chosen to be 0.4.
 \\*
 \\*
 $\cdot$ For all possible pairs of particles in an event (particle i and particle j), $d_{ij}$ = min(p$_{Ti}$$^{-2}$, p$_{Tj}$$^{-2}$)$\Delta\frac{R_{ij}^{2}}{R^{2}}$ where $R=\sqrt{(\Delta\phi)^{2}+(\Delta\eta)^{2}}$ and $\Delta\phi$ is the difference in azimuthal angles between the two particles and $\Delta\eta$ is the difference in their pseudorapidities.

@@ -58,28 +58,28 @@
 \contentsline {section}{\numberline {7.6}Further Reading}{45}{section.7.6}
 \contentsline {chapter}{\numberline {8}Particle Identification}{47}{chapter.8}
 \contentsline {section}{\numberline {8.1}Overview}{47}{section.8.1}
-\contentsline {section}{\numberline {8.2}Photons}{48}{section.8.2}
-\contentsline {section}{\numberline {8.3}Electrons}{48}{section.8.3}
-\contentsline {section}{\numberline {8.4}Muons}{48}{section.8.4}
+\contentsline {section}{\numberline {8.2}Photons}{49}{section.8.2}
+\contentsline {section}{\numberline {8.3}Electrons}{49}{section.8.3}
+\contentsline {section}{\numberline {8.4}Muons}{49}{section.8.4}
 \contentsline {section}{\numberline {8.5}Hadrons}{49}{section.8.5}
 \contentsline {section}{\numberline {8.6}Event displays}{49}{section.8.6}
 \contentsline {section}{\numberline {8.7}Neutrinos}{50}{section.8.7}
 \contentsline {section}{\numberline {8.8}Quarks/Gluons (jets)}{51}{section.8.8}
 \contentsline {section}{\numberline {8.9}Further Reading}{52}{section.8.9}
-\contentsline {chapter}{\numberline {9}The LHC Detectors}{53}{chapter.9}
-\contentsline {section}{\numberline {9.1}The LHC Detectors}{53}{section.9.1}
-\contentsline {chapter}{\numberline {10}Structure of the proton and proton-proton collisions}{55}{chapter.10}
-\contentsline {section}{\numberline {10.1}Cross section}{55}{section.10.1}
-\contentsline {section}{\numberline {10.2}s, t, u, and q squared}{56}{section.10.2}
-\contentsline {section}{\numberline {10.3}What is in a Proton}{57}{section.10.3}
-\contentsline {section}{\numberline {10.4}Calculation of a cross section in proton proton collisions}{58}{section.10.4}
-\contentsline {section}{\numberline {10.5}What happens when two protons collide?}{58}{section.10.5}
-\contentsline {section}{\numberline {10.6}Minimum bias interaction}{59}{section.10.6}
-\contentsline {section}{\numberline {10.7}Jets}{59}{section.10.7}
-\contentsline {section}{\numberline {10.8}Further Reading}{59}{section.10.8}
-\contentsline {chapter}{\numberline {11}Monte Carlos}{65}{chapter.11}
-\contentsline {section}{\numberline {11.1}Disclaimer}{65}{section.11.1}
-\contentsline {chapter}{\numberline {12}Higgs Discovery}{67}{chapter.12}
-\contentsline {section}{\numberline {12.1}higgs to four leptons}{67}{section.12.1}
-\contentsline {section}{\numberline {12.2}Acknowledgements}{67}{section.12.2}
+\contentsline {chapter}{\numberline {9}The LHC Detectors}{57}{chapter.9}
+\contentsline {section}{\numberline {9.1}The LHC Detectors}{57}{section.9.1}
+\contentsline {chapter}{\numberline {10}Structure of the proton and proton-proton collisions}{59}{chapter.10}
+\contentsline {section}{\numberline {10.1}Cross section}{59}{section.10.1}
+\contentsline {section}{\numberline {10.2}s, t, u, and q squared}{60}{section.10.2}
+\contentsline {section}{\numberline {10.3}What is in a Proton}{61}{section.10.3}
+\contentsline {section}{\numberline {10.4}Calculation of a cross section in proton proton collisions}{62}{section.10.4}
+\contentsline {section}{\numberline {10.5}What happens when two protons collide?}{62}{section.10.5}
+\contentsline {section}{\numberline {10.6}Minimum bias interaction}{63}{section.10.6}
+\contentsline {section}{\numberline {10.7}Jets}{63}{section.10.7}
+\contentsline {section}{\numberline {10.8}Further Reading}{63}{section.10.8}
+\contentsline {chapter}{\numberline {11}Monte Carlos}{69}{chapter.11}
+\contentsline {section}{\numberline {11.1}Disclaimer}{69}{section.11.1}
+\contentsline {chapter}{\numberline {12}Higgs Discovery}{71}{chapter.12}
+\contentsline {section}{\numberline {12.1}higgs to four leptons}{71}{section.12.1}
+\contentsline {section}{\numberline {12.2}Acknowledgements}{71}{section.12.2}
 \contentsfinish 
