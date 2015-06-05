@@ -90,51 +90,16 @@ Figure 3: figure stolen from facultu.admiramar.edu
 Another important thing to know about quantum mechanics is that it is probabilistic, in the sense often for a given initial state (say, an electron aimed at a piece of metal) there may be many possible final states (say, amount of energy that the electron loses, and the deflection of the electron from its initial direction).  In quantum mechanics, you can only calculate the probabilities of the different possible outcomes; you cannot ever, even with perfect information about the initial state, predict exactly what the final state will be.
 Finally, there is the Heisenberg uncertainty principal.  
 
-
-\section{The world's shortest description of quantum mechanics}
-
-One generally only attempts to learn about particle physics after studying quantum mechanics.  Quantum mechanics is indeed fundamental to particle physics.  However, if a student’s goal is to become involved in particle physics research, it is only strictly necessary to learn a small fraction of this fascinating subject.  In this section, we will try to describe the minimum amount of quantum mechanics you need to understand particle physics.  To really learn quantum mechanics, you need first to study differential equations, and many of your class mates are just not there yet.
-Quantum mechanics is strongly relate to one of the fundamental constants of nature, called h or h-bar (  ) where  .    has the numeric value of 1.054x10-34 Js.  If you see this constant in an equation, you know quantum mechanics is involved.
-Often quantum mechanical systems involve quantization of energies.  The classic example is the energy states of the hydrogen atom (or any atom or molecule).  The electrons can only have certain energies.  If an atom absorbs energy, it can only do this if the energy is the right amount to move the electron between one of these discrete states (approximately… there are corrections to this that are important only when being very precise).  Likewise when an atom that is in one of the higher energy states “de-excites”, it can only emit photons with energies
-For example, photons, the fundamental “packet” of electromagnetic radiation, can only have energies that are integer multiples of the product of its angular frequency (  where f is the frequency of the photon’s oscillation and   where c is the speed of light and   is the photon’s wavelength) and .  Thus   where n is an integer.
-When you combine this with the energy levels of atoms, you get the characteristic absorption/emission spectra of atoms/molecules which can be used to identify them.
-
-
-\begin{figure}[h]
-\centering\includegraphics[scale=0.5]{./ElementaryParticles/Pictures/fig6.pdf}
-\caption{absorption and emission lines}
-\label{fig:light}
-\end{figure}
-
-
-Another important thing to know about quantum mechanics is that it is probabilistic, in the sense often for a given initial state (say, an electron aimed at a piece of metal) there may be many possible final states (say, amount of energy that the electron loses, and the deflection of the electron from its initial direction).  In quantum mechanics, you can only calculate the probabilities of the different possible outcomes; you cannot ever, even with perfect information about the initial state, predict exactly what the final state will be.
-Finally, there is the Heisenberg uncertainty principal.  
-
-
-
 \section{Feynman Diagrams}
 
 Feynman diagrams began as a mnemonic to help particle theorists do the very complicated calculations required by gauge-invariant quantum field theories.  These calculations are done using something which is very important to practicing physicists, but rarely mentioned in undergraduate curriculum: perturbation theory.  In perturbation theory, you first calculate an approximate answer (the “leading order” calculation or LO).  You then calculation a correction to this answer (the “next to leading order” calculation or NLO).  You then calculate a correction to this correction (NNLO).  The Feynman diagrams represent aids to help in each order of the calculation.  However, they are also useful for just helping to visualize how bosons are exchanged between quarks/leptons to create interactions.
 
-Figure~\ref{fig:fig8} below shows the “LO” diagram for annihilation of an up quark and an anti-up quark to a Z boson to an electron-positron pair.
+The figure below shows the “LO” diagram for annihilation of an up quark and an anti-up quark to a Z boson to an electron-positron pair.
 
-
-\begin{figure}[h]
-\centering\includegraphics[scale=0.5]{./ElementaryParticles/Pictures/fig8.pdf}
-\caption{LO Feynmann diagram for production of an electron position pair via a Z boson through the annihilation of an up and anti-up}
-\label{fig:fig8}
-\end{figure}
  
 
-Figure ~\ref{fig:fig9} shows a NNLO (in the strong force) diagram for the same process.
+The figure below shows a NNLO (in the strong force) diagram for the same process.
  
-\begin{figure}[h]
-\centering\includegraphics[scale=0.5]{./ElementaryParticles/Pictures/fig9.pdf}
-\caption{NLO Feynmann diagram for production of an electron position pair via a Z boson through the annihilation of an up and anti-up}
-\label{fig:fig9}
-\end{figure}
-
-
 \section{More on Mesons}
 Mesons are bound states of 2 quarks.  These are very important for particle physics because, although the proton is the lightest stable particle, mesons are the lightest states containing quarks.  They are “unstable”, meaning that they decay, sometimes very quickly, to other types of particles.
 The lightest mesons are called pions.  There are three of them, one with a positive charge, one neutral, and one with a negative charge.  The charged pions decay via the weak force to a muon and a neutrino.  The neutral pion usually decays to two photons.
@@ -142,25 +107,11 @@ The naming conventions for all the mesons are very strange because the standard 
 
 As with the hydrogen atoms, there are also excited state of the two bound quarks.  While with hydrogen, we just say “excited hydrogen”, with the mesons, the excited states often have separate names, as it was not understood at the time of their discovery that they were essentially “excited pions”.  Thus rho mesons, eta mesons, etc are in a sense excited states of bound states of the up and down quark.
 
-\section{The Higgs}
-The  Higgs  boson  plays  a  special  role  in  the  standard  model.    Gauge
--
-invariant  quantum  field  theories 
-generally 
-predict  that  the  force  bosons  should  be  massless.    And  indeed  the  photon  (E\&M),  the  gluon 
-(strong force) are massless.  Although gravity can not yet be described by quantum field theory, in general a 
-$1/r^2$ force indicates a massless boson, and gravity does
-seem to follow this prescription.   Thus naively the 
-standard model predicts that the W and Z boson should be massless.  However, instead, they have a mass 
-about 100x that of the proton!  
-The resolution was the Higgs.
-
 
 \section{Further reading}
-\begin{itemize}
-\item pdg.lbl.gov is always a great site for all things related to particle physics
-\item “Modern Particle Physics” by Mark Thomson
-\item “Introduction to Elementary Particle Physics” by Alessandro Bettini
-\end{itemize}
+•	pdg.lbl.gov is always a great site for all things related to particle physics
+•	“Modern Particle Physics” by Mark Thomson
+•	“Introduction to Elementary Particle Physics” by Alessandro Bettini
+
 
 
