@@ -124,7 +124,7 @@ $\cdot$ Stop when there are no particles left in the particle list.
 \begin{exercise}
 %\begin{frshaded}
 %\fcolorbox{\bordercolor}{\backgroundcolor} 
-{The root file found in https://github.com/saraheno/jetclusteringexercise  has particle 4-momenta for particles reconstructed for a bunch of events. Write code to cluster these into jets. Use the anti-$k_{T}$ cone algorithm with cone parameter 0.4. Make a histogram showing the $p_{T}$ spectra of the jets.}
+{The root file blablabla has particle 4-momenta for particles reconstructed for a bunch of events. Write code to cluster these into jets. Use the anti-$k_{T}$ cone algorithm with cone parameter 0.4. Make a histogram showing the $p_{T}$ spectra of the jets.}
 \end{exercise}
 %\end{frshaded}
 %\vspace{.1cm}
