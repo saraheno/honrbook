@@ -69,16 +69,18 @@
 \contentsline {section}{\numberline {9.1}The LHC Detectors}{59}{section.9.1}
 \contentsline {chapter}{\numberline {10}Structure of the proton and proton-proton collisions}{61}{chapter.10}
 \contentsline {section}{\numberline {10.1}Cross section}{61}{section.10.1}
-\contentsline {section}{\numberline {10.2}s, t, u, and q squared}{62}{section.10.2}
-\contentsline {section}{\numberline {10.3}What is in a Proton}{63}{section.10.3}
-\contentsline {section}{\numberline {10.4}Calculation of a cross section in proton proton collisions}{64}{section.10.4}
-\contentsline {section}{\numberline {10.5}What happens when two protons collide?}{64}{section.10.5}
-\contentsline {section}{\numberline {10.6}Minimum bias interaction}{65}{section.10.6}
-\contentsline {section}{\numberline {10.7}Jets}{65}{section.10.7}
-\contentsline {section}{\numberline {10.8}Further Reading}{65}{section.10.8}
-\contentsline {chapter}{\numberline {11}Monte Carlos}{71}{chapter.11}
-\contentsline {section}{\numberline {11.1}Disclaimer}{71}{section.11.1}
-\contentsline {chapter}{\numberline {12}Higgs Discovery}{73}{chapter.12}
-\contentsline {section}{\numberline {12.1}higgs to four leptons}{73}{section.12.1}
-\contentsline {section}{\numberline {12.2}Acknowledgements}{73}{section.12.2}
+\contentsline {section}{\numberline {10.2}s, t, u, and q squared}{63}{section.10.2}
+\contentsline {section}{\numberline {10.3}What is in a Proton}{64}{section.10.3}
+\contentsline {section}{\numberline {10.4}Calculation of a cross section in proton proton collisions}{65}{section.10.4}
+\contentsline {section}{\numberline {10.5}What happens when two protons collide?}{65}{section.10.5}
+\contentsline {section}{\numberline {10.6}Minimum bias interaction}{66}{section.10.6}
+\contentsline {section}{\numberline {10.7}Jets}{66}{section.10.7}
+\contentsline {section}{\numberline {10.8}W and Z production}{66}{section.10.8}
+\contentsline {section}{\numberline {10.9}top production}{66}{section.10.9}
+\contentsline {section}{\numberline {10.10}Further Reading}{67}{section.10.10}
+\contentsline {chapter}{\numberline {11}Monte Carlos}{73}{chapter.11}
+\contentsline {section}{\numberline {11.1}Disclaimer}{73}{section.11.1}
+\contentsline {chapter}{\numberline {12}Higgs Discovery}{75}{chapter.12}
+\contentsline {section}{\numberline {12.1}higgs to four leptons}{75}{section.12.1}
+\contentsline {section}{\numberline {12.2}Acknowledgements}{75}{section.12.2}
 \contentsfinish 
