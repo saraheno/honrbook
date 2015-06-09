@@ -19,7 +19,7 @@ Remember our goal is to identify the 4-momentum and identify the type of all par
 \section{Showers}
 
 \noindent
-In a particle physics calorimeter, we try to first change the neutral particles (photons, neutrons, K-longs) into charged particles. Then we change single high energy charged particle into a very large number of low energy charged particles in such a way that the number we create is proportional to the kinetic energy of the initial high energy particle. The low energy charged particles travel through matter, interacting with the electrons in the material, transferring their kinetic energy to them, until all the initial kinetic energy is transferred to the material. That material then needs to make some kind of signal that can be detected. You can see a schematic of this process in figure ~\ref{fig:cal1}. An initial particle comes in, somehow interacting with the material of the calorimeter, and is changed gradually into a large number of low energy particles, that ``range out'' in the material. This process is called ``showering''.
+In a particle physics calorimeter, we try to first change the neutral particles (photons, neutrons, K-longs) into charged particles. Then we change single high energy charged particle into a very large number of low energy charged particles in such a way that the number we create is proportional to the kinetic energy of the initial high energy particle. The low energy charged particles travel through matter, interacting with the electrons in the material, transferring their kinetic energy to them, until all the initial kinetic energy is transferred to the material. That material then needs to make some kind of signal that can be detected. You can see a schematic of this process in the figure below. An initial particle comes in, somehow interacting with the material of the calorimeter, and is changed gradually into a large number of low energy particles, that ``range out'' in the material. This process is called ``showering''.
 
 \;
 \;
@@ -27,7 +27,7 @@ In a particle physics calorimeter, we try to first change the neutral particles 
 \begin{figure}[h]
 \centering\includegraphics[scale=1.0]{./calorimetry/Pictures/fig1.pdf}
 \caption{Schematic of a typical calorimeter. The front part is the ``Electromagnetic'' calorimeter and should contain the showers resulting from electrons and photons. The back of the calorimeter is the ``hadronic'' part, and should contain the showers resulting from particles containing quarks (mesons, baryons, etc).}
-\label{fig:cal1}
+\label{fig:pdgdedx}
 \end{figure}
 
 \;
@@ -43,7 +43,7 @@ An electromagnetic shower results when an electron or photon enters a thick piec
 \subsection{Bremsstrahlung}
 
 \noindent
-Bremsstrahlung is German for ``braking radiation'', and is a process that occurs for electrons. As you may have learned in your high school physics course, when a charged particle accelerates, it radiates electromagnetic radiation (photons, the particle of light). What would cause an electron to accelerate? An electron is a charged particle. A nucleus is also charged. For nuclei such as lead or iron, that charge can be large. If an electron passes close enough to a nucleus, the electric force between the two particles causes the electron to accelerate (because the nucleus is much heavier than the electron, and is bound in the lattice of the solid, it does not move). Thus, in the presence of the nucleus, a high energy electron becomes a lower energy electron and a gamma ray (high energy photons). This can be draw as shown in figure ~\ref{fig:cal2}
+Bremsstrahlung is German for ``braking radiation'', and is a process that occurs for electrons. As you may have learned in your high school physics course, when a charged particle accelerates, it radiates electromagnetic radiation (photons, the particle of light). What would cause an electron to accelerate? An electron is a charged particle. A nucleus is also charged. For nuclei such as lead or iron, that charge can be large. If an electron passes close enough to a nucleus, the electric force between the two particles causes the electron to accelerate (because the nucleus is much heavier than the electron, and is bound in the lattice of the solid, it does not move). Thus, in the presence of the nucleus, a high energy electron becomes a lower energy electron and a gamma ray (high energy photons). This can be draw as follows:
 
 
 \;
@@ -52,7 +52,7 @@ Bremsstrahlung is German for ``braking radiation'', and is a process that occurs
 \begin{figure}[h]
 \centering\includegraphics[scale=0.7]{./calorimetry/Pictures/fig2.pdf}
 \caption{An electron radiates off a gamma ray in the presence of a nucleus.}
-\label{fig:cal2}
+\label{fig:pdgdedx}
 \end{figure}
 
 \;
@@ -60,7 +60,7 @@ Bremsstrahlung is German for ``braking radiation'', and is a process that occurs
 \subsection{Pair Production}
 
 \noindent
-A similar process allows a high energy photon to become an electron-positron pair.  The energy of the photon must be at least twice the electron mass in order for this to not violate conservation of energy.  The Feynman diagram is shown in figure \ref{fig:cal3}.
+A similar process allows a high energy photon to become an electron-positron pair.  The energy of the photon must be at least twice the electron mass in order for this to not violate conservation of energy.
 
 
 \;
@@ -69,7 +69,7 @@ A similar process allows a high energy photon to become an electron-positron pai
 \begin{figure}[h]
 \centering\includegraphics[scale=0.7]{./calorimetry/Pictures/fig3.pdf}
 \caption{A high energy photon in the presence of a nucleus turns into an electron-positron pair}
-\label{fig:cal3}
+\label{fig:pdgdedx}
 \end{figure}
 
 \;
@@ -77,7 +77,7 @@ A similar process allows a high energy photon to become an electron-positron pai
 \section{Hadronic Showers}
 
 \noindent
-Electrons interact with the nucleus by producing electromagnetic interaction because of the electromagnetic force. Hadrons, however, can interact with nuclei via the strong force. This can cause a wide variety of processes to occur, often involving the break up of the nucleus. It takes more material to initiate a hadronic shower, as the hadron must pass closer to the nucleus, as the strong force is short range. A diagram of the resulting shower is shown in figure ~\ref{fig:cal4}
+Electrons interact with the nucleus by producing electromagnetic interaction because of the electromagnetic force. Hadrons, however, can interact with nuclei via the strong force. This can cause a wide variety of processes to occur, often involving the break up of the nucleus. It takes more material to initiate a hadronic shower, as the hadron must pass closer to the nucleus, as the strong force is short range. A diagram of the resulting shower is shown below.
 
 \;
 \;
@@ -85,7 +85,7 @@ Electrons interact with the nucleus by producing electromagnetic interaction bec
 \begin{figure}[h]
 \centering\includegraphics[scale=0.5]{./calorimetry/Pictures/fig4.pdf}
 \caption{A figure showing a hadronic shower}
-\label{fig:cal4}
+\label{fig:pdgdedx}
 \end{figure}
 
 \;
@@ -93,7 +93,7 @@ Electrons interact with the nucleus by producing electromagnetic interaction bec
 \section{Detection}
 
 \noindent
-How do we measure the energy gained by the material? For many calorimeters, it is through the process of scintillation. Now, most high Z materials (think lead or uranium) do not scintillator, and are anyway opaque to light. So a calorimeter is often made of layers of the ``passive'' (high Z) material and the ``active'' (light producing) material, often plastic scintillator. A calorimeter that is like a smith island cake and has many layers is called a ``sampling'' calorimeter. The light produced by the scintillator is measuring using a photomultiplier tube or other light sensitive device (figure ~\ref{fig:cal5}).
+How do we measure the energy gained by the material? For many calorimeters, it is through the process of scintillation. Now, most high Z materials (think lead or uranium) do not scintillator, and are anyway opaque to light. So a calorimeter is often made of layers of the ``passive'' (high Z) material and the ``active'' (light producing) material, often plastic scintillator. A calorimeter that is like a smith island cake and has many layers is called a ``sampling'' calorimeter. The light produced by the scintillator is measuring using a photomultiplier tube or other light sensitive device.
 
 
 \;
@@ -102,7 +102,7 @@ How do we measure the energy gained by the material? For many calorimeters, it i
 \begin{figure}[h]
 \centering\includegraphics[scale=0.5]{./calorimetry/Pictures/fig5.pdf}
 \caption{A picture of a PMT stolen from the web site of Hamamatsu corporation, one of the largest manufacturers of these devices.}
-\label{fig:cal5}
+\label{fig:pdgdedx}
 \end{figure}
 
 \;
@@ -119,7 +119,7 @@ Look at this picture of an EM shower in a sampling calorimeter.
 \begin{figure}[h]
 \centering\includegraphics[scale=0.5]{./calorimetry/Pictures/fig6.pdf}
 \caption{Schematic of an electromagnetic shower in a sampling calorimeter, as simulated by the GEANT4 shower simulation code. The colors denote various materials. The black denotes a high Z material, while the green denotes scintillator.}
-\label{fig:cal6}
+\label{fig:pdgdedx}
 \end{figure}
 
 \;
@@ -146,7 +146,7 @@ How good is our calorimeter? This depends on how accurately it measures the ener
 \begin{figure}[h]
 \centering\includegraphics[scale=0.5]{./calorimetry/Pictures/fig7.pdf}
 \caption{Charge collected from the detector when charged pions with a momentum of 300 GeV are steered into it.}
-\label{fig:cal7}
+\label{fig:pdgdedx}
 \end{figure}
 
 \;
@@ -190,7 +190,7 @@ The figure below shows the resolution versus energy for one of the CMS detector$
 \begin{figure}[h]
 \centering\includegraphics[scale=0.5]{./calorimetry/Pictures/fig9.pdf}
 \caption{A figure stolen from JINST 3 S08004 showing the fractional resolution of the CMS barrel electromagnetic calorimeter as measured with electrons as a function of electron energy.}
-\label{fig:cal8}
+\label{fig:pdgdedx}
 \end{figure}
 
 \;
