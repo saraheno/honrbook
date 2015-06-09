@@ -63,7 +63,7 @@
 \contentsline {section}{\numberline {8.5}Hadrons}{51}{section.8.5}
 \contentsline {section}{\numberline {8.6}Event displays}{51}{section.8.6}
 \contentsline {section}{\numberline {8.7}Neutrinos}{53}{section.8.7}
-\contentsline {section}{\numberline {8.8}Quarks/Gluons (jets)}{54}{section.8.8}
+\contentsline {section}{\numberline {8.8}Quarks/Gluons (jets)}{53}{section.8.8}
 \contentsline {section}{\numberline {8.9}Further Reading}{55}{section.8.9}
 \contentsline {chapter}{\numberline {9}The LHC Detectors}{57}{chapter.9}
 \contentsline {section}{\numberline {9.1}The LHC Detectors}{57}{section.9.1}
