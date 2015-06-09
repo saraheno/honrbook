@@ -28,7 +28,7 @@ In general, there are three types of particle accelerators:
 
 \;
 \noindent
-A particle accelerator could be a combination of these general forms. For example the large hadron collider not only makes use of both circular and linear accelerators (Fig. ~\ref{fig:acc1}).
+A particle accelerator could be a combination of these general forms. For example the large hadron collider not only makes use of both circular and linear accelerators (Fig. 1).
 
 \;
 \;
@@ -36,7 +36,7 @@ A particle accelerator could be a combination of these general forms. For exampl
 \begin{figure}[h]
 \centering\includegraphics[scale=0.5]{./Particleaccelerators/Pictures/fig1.pdf}
 \caption{Diagram of the CERN accelerator complex.}
-\label{fig:acc1}
+\label{fig:pdgdedx}
 \end{figure}
 
 \section{Parts of an Accelerator}
@@ -58,7 +58,7 @@ These are the particles that will be accelerated and then collided. LHC accelera
 
 \;
 \noindent
-These protons are supplied from a hydrogen gas bottle. Hydrogen atoms consist of a proton and an electron. After stripping the hydrogen atom of its only electron we are left with a proton, which is then accelerated to required energy before colliding with protons accelerated in the opposite direction. (Figure ~\ref{fig:acc2})
+These protons are supplied from a hydrogen gas bottle. Hydrogen atoms consist of a proton and an electron. After stripping the hydrogen atom of its only electron we are left with a proton, which is then accelerated to required energy before colliding with protons accelerated in the opposite direction.
 
 \;
 \;
@@ -66,7 +66,7 @@ These protons are supplied from a hydrogen gas bottle. Hydrogen atoms consist of
 \begin{figure}[h]
 \centering\includegraphics[scale=0.5]{./Particleaccelerators/Pictures/fig2.pdf}
 \caption{Components of an Accelerator}
-\label{fig:acc2}
+\label{fig:pdgdedx}
 \end{figure}
 
 \;
@@ -151,7 +151,7 @@ The maximum design energy per beam for LHC 7 TeV (tera-electronvolt), correspond
 \begin{figure}[h]
 \centering\includegraphics[scale=1.0]{./Particleaccelerators/Pictures/fig3.pdf}
 \caption{Diagram of interaction region}
-\label{fig:acc3}
+\label{fig:pdgdedx}
 \end{figure}
 
 \;
@@ -205,7 +205,7 @@ Usually, it is expresed as the inverse of cross section (i.e. 1/nb or nb$^{-1}$ 
 \;
 \;
 
-\noindent Fig~\ref{fig:accel4} shows the integrated luminosity (nb$^{-1}$) delivered to the LHC$'s$ experiments (3.5 TeV proton energies) through July 14 2010.
+\noindent Fig.5.4 shows the integrated luminosity (nb$^{-1}$) delivered to the LHC$'s$ experiments (3.5 TeV proton energies) through July 14 2010.
 
 \;
 \;
@@ -213,7 +213,7 @@ Usually, it is expresed as the inverse of cross section (i.e. 1/nb or nb$^{-1}$ 
 \begin{figure}[h]
 \centering\includegraphics[scale=0.7]{./Particleaccelerators/Pictures/fig4.pdf}
 \caption{Integrated Luminosity Through July 14 2010}
-\label{fig:accel4}
+\label{fig:pdgdedx}
 \end{figure}
 
 \;
