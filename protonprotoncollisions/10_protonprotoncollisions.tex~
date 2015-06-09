@@ -31,15 +31,12 @@ Now, you may ask what happens in a collider?  Well, it is just the same.  You ca
 
 \section{s, t, u, and q squared}\index{s, t, u, and q squared}
 
-As we have seen, in relativity, there are ``invariants'' that will be 
-measured to be the same by all observers, regardless of 
-their frame and relative motion of the particle.  One of these is the length of a particle's 
-4-momentum, which is its mass.  In collisions, there are a few of these variables that are important, as cross sections calculated from the standard model must be functions only of these variables and numeric factors.  The most important ones were unimaginably given the names s, t, u and Q2.  Imagine some kind of reaction (could be photon exchange, gluon exchanged, Z exchange etc) where two particles a and b come in and two particles c and d come out  (called a 2-to-2 reaction, figure ~\ref{fig:twototwo}).
+As we have seen, in relativity, there are “invariants” that will be measured to be the same by all observers, regardless of their frame and relative motion of the particle.  One of these is the length of a particle’s 4-momentum, which is its mass.  In collisions, there are a few of these variables that are important, as cross sections calculated from the standard model must be functions only of these variables and numeric factors.  The most important ones were unimaginably given the names s, t, u and Q2.  Imagine some kind of reaction (could be photon exchange, gluon exchanged, Z exchange etc) where two particles a and b come in and two particles c and d come out  (called a 2-to-2 reaction).
 
 \begin{figure}[h]
 \centering\includegraphics[scale=0.5]{./protonprotoncollisions/Pictures/fig1.pdf}
 \caption{generic interaction of 2 particles going to 2 particles}
-\label{fig:twototwo}
+\label{fig:pdgdedx}
 \end{figure}
 
 If \(p_{a}\) is the 4-momentum of particle A and the 4-momenta of the other particles are named similarly, then

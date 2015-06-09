@@ -59,7 +59,7 @@
         {\color{ocre}\thickhrule}
         \vspace*{2cm}%
        \par\nobreak
-    \makebox[0pt]{\Huge \bfseries  Physics for $\rm{21^{st}}$ Century Freshmen }
+    \makebox[0pt]{\Huge \bfseries  Elementary Experimental Higgs Physics }
         \vspace*{2cm}%
 \par\nobreak
 {\includegraphics[width=\linewidth,height=10cm]{Pictures/chapter_head_1.pdf}}
@@ -131,7 +131,7 @@
 \pagestyle{empty} % No headers
 \vspace*{-10cm}%
 
-%\chapterimage{chapter_head_1.pdf} % Table of contents heading image
+\chapterimage{chapter_head_1.pdf} % Table of contents heading image
 \tableofcontents  % Print the table of contents itself
 
  
