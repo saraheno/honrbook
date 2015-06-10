@@ -49,13 +49,13 @@ We will use red to denote 4 vectors and the usual vector notation to denote 3 ve
 
 
 As you may remember from your high school physics, there are several important mathematical operations that are used with vectors.  One is the dot product, a way of making a scalar out of two vectors.  You may remember that:
-
-      $ C= \vec A \cdot \vec B = A_xB_x +A_yB_y +A_zB_z $
-
+\begin{equation}
+      C= \vec A \cdot \vec B = A_xB_x +A_yB_y +A_zB_z 
+\end{equation}
 The dot product of a vector with itself gives the square of the magnitude of the vector.
-      
-     $|{\vec{A}|^2} =\vec A \cdot \vec A  $
-	  
+\begin{equation}      
+     |{\vec{A}|^2} =\vec A \cdot \vec A  
+\end{equation}	  
 \noindent The dot product, in Newtonian physics, is used in calculating work from force and displacement.
 
 There is a dot-like product associated with 4 vectors, and it has some very interesting, useful, and sometimes bewildering properties.
@@ -74,11 +74,12 @@ Imagine two people, (A and B) with rulers and stop watches.  A is standing in th
 	  
 
 Then,
-
- $v_{RB} = v_{RA} - v_B$
-
- $x_{RB} = x_{RA} - x_B t$
-
+\begin{equation}
+ v_{RB} = v_{RA} - v_B
+\end{equation}
+\begin{equation}
+ x_{RB} = x_{RA} - v_B t
+\end{equation}
 
 \noindent This set of equations that transform a variable as it is measured in one frame to the value it will have when measured in another frame is called {\it Galilean Relativity}.
 
@@ -86,8 +87,8 @@ Then,
 However, in relativity, if the red car were moving at the speed of light both A and B would see the distance between them and the car increasing at the same rate.  In other words, all observers will measure the same speed of light regardless of their relative velocities.  Obviously, the equations given above do not predict this.  Einstein developed new equations that give us a measurement in one frame relative to another.  
 
 
-\begin{equation} ct_{RB} = \gamma(ct_{RA} - \beta x_{RA} \end{equation} 
-\begin{equation}  x_{RB} = \gamma(- \beta ct_{RA} + x_{RA} 	 \end{equation} 
+\begin{equation} ct_{RB} = \gamma(ct_{RA} - \beta x_{RA}) \end{equation} 
+\begin{equation}  x_{RB} = \gamma(- \beta ct_{RA} + x_{RA}) 	 \end{equation} 
 
 \noindent where,
 
@@ -110,13 +111,13 @@ Lengths of 4 vectors
 |a|^2 &=&  a_0 a_0 - a_x a_x  \nonumber \\
       &=&  |a'|^2 = a'_0 a'_0 - a'_x a'_x  \nonumber \\
       &=& \gamma (a_0 -\beta a_x) \gamma (a_0 -\beta a_x) - \gamma (-\beta a_0 +a_x ) \gamma (-\beta a_0 +a_x )  \nonumber \\
-      &=&  \gamma^2 (a-0^2  -2 \beta a_x a_0  + \beta^2 a_x^2 - \beta^2 a_0^2  + 2 a_x \beta  a_0  - a_x^2)   \nonumber \\
-      &=& =\gamma^2 ( a-0^2 (1-  \beta^2)  - a_x^2 (1-  \beta^2))   \nonumber \\
-      &=&  a-0^2 - a_x^2  \nonumber  \\
+      &=&  \gamma^2 (a_0^2  -2 \beta a_x a_0  + \beta^2 a_x^2 - \beta^2 a_0^2  + 2 a_x \beta  a_0  - a_x^2)   \nonumber \\
+      &=& =\gamma^2 ( a_0^2 (1-  \beta^2)  - a_x^2 (1-  \beta^2))   \nonumber \\
+      &=&  a_0^2 - a_x^2  \nonumber  \\
       &=& |a|^2  
 \end{eqnarray} 
 
-In particular, this is true for the energy-momentum 4 vector  $|p| = E^2 - (pc)^2$  . (working in 1 spatial dimension! you can extend this to 3)  In fact, 
+In particular, this is true for the energy-momentum 4 vector  $|{\color{red}p}|^2 = E^2 - (pc)^2$  . (working in 1 spatial dimension! you can extend this to 3)  In fact, 
 \begin{equation}
 	  	(mc^2)^2 = E^2 -(pc)^2
 \end{equation}  
@@ -128,7 +129,7 @@ This equation is very important to the LHC.  When we look for particles, we reco
 
 Masses in GeV?  What kind of mass unit is that? You may be more used to kg or g or lbs.  Remember that the eV is a unit of energy, defined as the potential energy gained when an electron moves from one position to another whose potential is higher by 1 V.
 
-We know from Einstein that mass is related to energy through $c^2$.  So eV/c2 is a unit of mass.  GeV/$c^2$ is then $10^6$ eV/$c^2$.  For scale, the proton has a mass of 1 GeV/$c^2$.
+We know from Einstein that mass is related to energy through $c^2$.  So $eV/c^2$ is a unit of mass.  GeV/$c^2$ is then $10^6$ eV/$c^2$.  For scale, the proton has a mass of 1 GeV/$c^2$.
 
 Particle physicists are lazy.  They hate to type even a single extra letter.  Particle physicists are lazier than most.  They have defined a whole unit system designed to help them avoid typing $c$ and $\hbar$ .  Unit systems need a way of defining a time unit, a distance unit, and a weight unit.  
 
@@ -158,7 +159,7 @@ An interesting consequence of special relativity is that the lifetime you measur
 
 We have learned that most heavy particles are not stable, and decay.  Above, we said that particles are identified by their mass, and that particles have a well-defined mass characteristic of their type.  However, this is not quite true.  As you will learn when you take quantum mechanics, a quantum state cannot have a well defined time and a well defined energy (mass).  This is expressed through the Heisenberg uncertainty principle:
 \begin{equation}
-	 \delta E \delta t   \ge \hbar
+	 \Delta E \Delta t   \ge \hbar
 \end{equation} 
 
 \noindent Because of this, when we measure the particle's mass, we get a range of values.  How big is that range?  Remember that we can express the lifetime of a particle, using our new funny units, in GeV, using:
@@ -202,13 +203,27 @@ The CMS detector, whose data we will be using in this course, uses a right-hande
 When two protons appear to collide in a detector, what really collides is the {\it partons} (either quarks or gluons) inside the protons.  A sketch of a collision that produces a Z boson is shown below.
  
 
+\begin{figure}[h]
+\centering\includegraphics[scale=0.5]{./relativity/Pictures/fig1.pdf}
+\caption{Feynman diagram for production of a Z boson in a proton-proton collision, with subsequent decay to electrons}
+\label{fig:collrel}
+\end{figure}
 
-Figure 1: Feynman diagram for production of a Z boson in a proton-proton collision, with subsequent decay to electrons
+
 
 
 The total momentum of the proton is divided among the partons in an unequal way that varies collision by collision.  Sometimes most of the momentum is held by a single parton.  Sometimes it is divided among a very large number of partons.  We can know the distribution of probabilities versus fraction of proton momenta, but cannot know, for a specific collision, what fractions the colliding partons had.  It will be very rare, however, for both partons to have equal but opposite momenta in the lab frame.
 
 It is usually easiest to understand this collision if we transform to the frame where the partons do have equal but opposite momenta.  This special frame is called the center-of-mass frame.  In this frame, the partons have equal but opposite 3-momenta.  The total initial state 2-momenta, therefore, is zero.  Since momentum is conserved, this means the Z boson produced must have zero 3-momenta and therefore zero kinetic energy.  Its only energy will be that due to its mass.  Since energy is also conserved, this means the initial energies of the partons must be half the Z mass (ignoring for now the finite width of the Z).  Since the partons are approximately massless, this means that the initial momenta of the partons must be:
+
+\begin{equation}
+ p_{u} = ( {M_z \over 2},0,0,{M_z \over 2})
+\end{equation}
+\begin{equation}
+ p_{\bar{u}} = ( {M_z \over 2},0,0,-{M_z \over 2})
+\end{equation}
+
+\noindent What about the electrons that are produced?  Again, due to conservation of momentum, their 3-momenta must be equal and opposite.  And, from conservation of energy, their energies must be half the Z mass.  Because they are approximately massless, the magnitude of their 3-momenta must be equal to their energy.  However, their 3 momenta do not have to be along the z axis.  So, in general:
 
 \begin{equation}
  p_{e^+} = (\frac{M_Z}{2}, \frac{M_Z}{2} cos \theta cos \phi ,  \frac{M_Z}{2} cos \theta sin \phi , \frac{M_Z}{2} sin \theta) 
@@ -217,16 +232,16 @@ It is usually easiest to understand this collision if we transform to the frame 
  p_{e^-} = (\frac{M_Z}{2}, \frac{M_Z}{2} cos (\pi - \theta) cos \phi ,  \frac{M_Z}{2} cos  (\pi - \theta) sin \phi , \frac{M_Z}{2} sin  (\pi - \theta)) 
 \end{equation}
 
-\noindent What about the electrons that are produced?  Again, due to conservation of momentum, their 3-momenta must be equal and opposite.  And, from conservation of energy, their energies must be half the Z mass.  Because they are approximately massless, the magnitude of their 3-momenta must be equal to their energy.  However, their 3 momenta do not have to be along the z axis.  So, in general:
+
 	  
 The probability distribution for the polar and azimuthal angles are predicted by the standard model, but is beyond the level of this course.
 
 What will this look like in the lab frame?
 
 Since to boost back into the lab frame, we do a boost along the z axis, only the z components of 3-momentum will change.  The x and y components will stay the same.  The energy will change as well, since (in the massless, highly relativistic approximation)
-
-\noindent $E^2 = p_x^2 + p_y^2 + p_z^2 +$  
-
+\begin{equation}
+E^2 = p_x^2 + p_y^2 + p_z^2   
+\end{equation}
 The polar angle changes, but the azimuthal angle does not.  Because of this, transverse variables are very important to collider physicists; they are most sensitive to the particle produced, and not sensitive to the boost.
 
 The component of momentum transverse to the beam axis is called the {\it transverse momentum}.  It's magnitude is calculated:
@@ -246,7 +261,23 @@ Another variable related to boosts and the polar angle is the rapidity, defined 
 \end{equation} 
 	  
 
-Exercise: show that the difference in rapidity between two particles is independent of the boost in the z direction.
+\vspace{.2cm} 
+\begin{minipage}{0.9\textwidth} 
+\begin{framed}
+%\vspace{.1cm}
+\begin{exercise}
+%\begin{frshaded}
+%\fcolorbox{\bordercolor}{\backgroundcolor} 
+{show that the difference in rapidity between two particles is independent of the boost in the z direction.}
+\end{exercise}
+%\end{frshaded}
+%\vspace{.1cm}
+\end{framed} 
+\end{minipage}
+\vspace{.2cm}
+
+
+
 
 A related variable is the pseudorapidity, defined as:
 
