@@ -13,11 +13,28 @@ enough to reach the detector without decaying.  The beam pipe of the LHC has a
 radius with dimensions measured in cm.  The particle must exist long enough to escape the beam pipe and
 reach the detector and make a signal.  If we take the diameter to be 1 cm, then
 the particle life time must be large enough to travel this far before decay.
-The formula for the probability of a particle traveling a distance $x_0$ or more before decaying is:
+How far does a particle travel before decaying?  We learned in Chapter \ref{EP} that fraction remaining after a time $t_0$ is given by
 \begin{equation}
-P(x_0)=e^{-{t_0 Mc^2 \Gamma} \over {E \bar{h}}}=e^{{-x_0\Gamma Mc^2}\over{pc\bar{h}c}}
+N=N_0 e^{t_0 \over \tau}
 \end{equation}
-where $\Gamma$ is the decay width of the particle (remember that $\Gamma=\bar{h}/\tau$ where $\tau$ is the particle lifetime. Also remember that $\gamma=E/mc^2$ and $\beta=pc/E$.)
+The probability of surviving is $N / N_0$ so
+\begin{equation}
+P(t)= e^{t_0 \over \tau}
+\end{equation}
+To change this to the probability of traveling a distance instead of a time, remember that that, with relativity, the life time for a moving particle depends on the lifetime for the particle at rest as $\tau = \gamma \tau_0$ so we have
+ \begin{equation}
+P(t)=e^{t_0 \over {\gamma \tau_0}}
+\end{equation}
+Position is then related to time by $x_0=vt_0$ or $x_0=\beta c t_0$, so
+\begin{equation}
+P(t)=e^{x_0 \over {\beta c \gamma \tau_0}}
+\end{equation}
+Then, using
+$\Gamma=\bar{h}/\tau_0$, $\gamma=E/mc^2$ where m is the particle's mass 
+and $\beta=pc/E$, we have
+\begin{equation}
+P(x_0)=e^{{-x_0\Gamma mc^2}\over{pc\bar{h}c}}
+\end{equation}
 
 The particle must also interact  with matter in a way that produces a large enough signal to measure in a detector that is small enough to be affordable.  While specialized very large detectors exist which can detect neutrinos, this is not possible at a collider detector.
 
