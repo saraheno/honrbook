@@ -25,62 +25,62 @@
 \contentsline {section}{\numberline {3.1}Introduction}{23}{section.3.1}
 \contentsline {section}{\numberline {3.2}Interactions of charged particles with matter}{24}{section.3.2}
 \contentsline {section}{\numberline {3.3}Interactions of gamma rays with matter}{26}{section.3.3}
-\contentsline {chapter}{\numberline {4}Statistics}{29}{chapter.4}
-\contentsline {section}{\numberline {4.1}Statistics}{29}{section.4.1}
-\contentsline {chapter}{\numberline {5}Particle accelerators}{31}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{31}{section.5.1}
-\contentsline {section}{\numberline {5.2}Parts of an Accelerator}{32}{section.5.2}
-\contentsline {section}{\numberline {5.3}Energy}{34}{section.5.3}
-\contentsline {section}{\numberline {5.4}Cross Section}{34}{section.5.4}
-\contentsline {section}{\numberline {5.5}Luminosity (L)}{34}{section.5.5}
-\contentsline {section}{\numberline {5.6}Integrated Luminosity}{35}{section.5.6}
-\contentsline {section}{\numberline {5.7}Event}{36}{section.5.7}
-\contentsline {section}{\numberline {5.8}The Data Challenge}{36}{section.5.8}
-\contentsline {section}{\numberline {5.9}Refrences}{36}{section.5.9}
-\contentsline {chapter}{\numberline {6}Calorimeters}{37}{chapter.6}
-\contentsline {section}{\numberline {6.1}Basic Idea}{37}{section.6.1}
-\contentsline {section}{\numberline {6.2}Showers}{38}{section.6.2}
-\contentsline {section}{\numberline {6.3}Electromagnetic Showers}{39}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Bremsstrahlung}{39}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Pair Production}{39}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}Hadronic Showers}{40}{section.6.4}
-\contentsline {section}{\numberline {6.5}Detection}{40}{section.6.5}
-\contentsline {section}{\numberline {6.6}Sampling}{41}{section.6.6}
-\contentsline {section}{\numberline {6.7}Energy Resolutions}{41}{section.6.7}
-\contentsline {section}{\numberline {6.8}read}{42}{section.6.8}
-\contentsline {chapter}{\numberline {7}Trackers}{45}{chapter.7}
-\contentsline {section}{\numberline {7.1}Charged particles and magnetic fields}{45}{section.7.1}
-\contentsline {section}{\numberline {7.2}Detecting the trajectory of the charged particle}{47}{section.7.2}
-\contentsline {section}{\numberline {7.3}Tracker Resolutions}{48}{section.7.3}
-\contentsline {section}{\numberline {7.4}Fitting a straight line}{48}{section.7.4}
-\contentsline {section}{\numberline {7.5}Project}{49}{section.7.5}
-\contentsline {section}{\numberline {7.6}Further Reading}{49}{section.7.6}
-\contentsline {chapter}{\numberline {8}Particle Identification}{51}{chapter.8}
-\contentsline {section}{\numberline {8.1}Overview}{51}{section.8.1}
-\contentsline {section}{\numberline {8.2}Photons}{52}{section.8.2}
-\contentsline {section}{\numberline {8.3}Electrons}{53}{section.8.3}
-\contentsline {section}{\numberline {8.4}Muons}{53}{section.8.4}
-\contentsline {section}{\numberline {8.5}Hadrons}{53}{section.8.5}
-\contentsline {section}{\numberline {8.6}Event displays}{53}{section.8.6}
-\contentsline {section}{\numberline {8.7}Neutrinos}{55}{section.8.7}
-\contentsline {section}{\numberline {8.8}Quarks/Gluons (jets)}{55}{section.8.8}
-\contentsline {section}{\numberline {8.9}Further Reading}{57}{section.8.9}
-\contentsline {chapter}{\numberline {9}The LHC Detectors}{59}{chapter.9}
-\contentsline {section}{\numberline {9.1}The LHC Detectors}{59}{section.9.1}
-\contentsline {chapter}{\numberline {10}Structure of the proton and proton-proton collisions}{61}{chapter.10}
-\contentsline {section}{\numberline {10.1}Cross section}{61}{section.10.1}
-\contentsline {section}{\numberline {10.2}s, t, u, and q squared}{63}{section.10.2}
-\contentsline {section}{\numberline {10.3}What is in a Proton}{64}{section.10.3}
-\contentsline {section}{\numberline {10.4}Calculation of a cross section in proton proton collisions}{65}{section.10.4}
-\contentsline {section}{\numberline {10.5}What happens when two protons collide?}{65}{section.10.5}
-\contentsline {section}{\numberline {10.6}Minimum bias interaction}{66}{section.10.6}
-\contentsline {section}{\numberline {10.7}Jets}{66}{section.10.7}
-\contentsline {section}{\numberline {10.8}W and Z production}{66}{section.10.8}
-\contentsline {section}{\numberline {10.9}top production}{66}{section.10.9}
-\contentsline {section}{\numberline {10.10}Further Reading}{67}{section.10.10}
-\contentsline {chapter}{\numberline {11}Monte Carlos}{73}{chapter.11}
-\contentsline {section}{\numberline {11.1}Disclaimer}{73}{section.11.1}
-\contentsline {chapter}{\numberline {12}Higgs Discovery}{75}{chapter.12}
-\contentsline {section}{\numberline {12.1}higgs to four leptons}{75}{section.12.1}
-\contentsline {section}{\numberline {12.2}Acknowledgements}{75}{section.12.2}
+\contentsline {chapter}{\numberline {4}Statistics}{31}{chapter.4}
+\contentsline {section}{\numberline {4.1}Statistics}{31}{section.4.1}
+\contentsline {chapter}{\numberline {5}Particle accelerators}{33}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{33}{section.5.1}
+\contentsline {section}{\numberline {5.2}Parts of an Accelerator}{34}{section.5.2}
+\contentsline {section}{\numberline {5.3}Energy}{36}{section.5.3}
+\contentsline {section}{\numberline {5.4}Cross Section}{36}{section.5.4}
+\contentsline {section}{\numberline {5.5}Luminosity (L)}{36}{section.5.5}
+\contentsline {section}{\numberline {5.6}Integrated Luminosity}{37}{section.5.6}
+\contentsline {section}{\numberline {5.7}Event}{38}{section.5.7}
+\contentsline {section}{\numberline {5.8}The Data Challenge}{38}{section.5.8}
+\contentsline {section}{\numberline {5.9}Refrences}{38}{section.5.9}
+\contentsline {chapter}{\numberline {6}Calorimeters}{39}{chapter.6}
+\contentsline {section}{\numberline {6.1}Basic Idea}{39}{section.6.1}
+\contentsline {section}{\numberline {6.2}Showers}{40}{section.6.2}
+\contentsline {section}{\numberline {6.3}Electromagnetic Showers}{41}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Bremsstrahlung}{41}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Pair Production}{41}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}Hadronic Showers}{42}{section.6.4}
+\contentsline {section}{\numberline {6.5}Detection}{42}{section.6.5}
+\contentsline {section}{\numberline {6.6}Sampling}{43}{section.6.6}
+\contentsline {section}{\numberline {6.7}Energy Resolutions}{43}{section.6.7}
+\contentsline {section}{\numberline {6.8}read}{44}{section.6.8}
+\contentsline {chapter}{\numberline {7}Trackers}{47}{chapter.7}
+\contentsline {section}{\numberline {7.1}Charged particles and magnetic fields}{47}{section.7.1}
+\contentsline {section}{\numberline {7.2}Detecting the trajectory of the charged particle}{49}{section.7.2}
+\contentsline {section}{\numberline {7.3}Tracker Resolutions}{50}{section.7.3}
+\contentsline {section}{\numberline {7.4}Fitting a straight line}{50}{section.7.4}
+\contentsline {section}{\numberline {7.5}Project}{51}{section.7.5}
+\contentsline {section}{\numberline {7.6}Further Reading}{51}{section.7.6}
+\contentsline {chapter}{\numberline {8}Particle Identification}{53}{chapter.8}
+\contentsline {section}{\numberline {8.1}Overview}{53}{section.8.1}
+\contentsline {section}{\numberline {8.2}Photons}{54}{section.8.2}
+\contentsline {section}{\numberline {8.3}Electrons}{55}{section.8.3}
+\contentsline {section}{\numberline {8.4}Muons}{55}{section.8.4}
+\contentsline {section}{\numberline {8.5}Hadrons}{55}{section.8.5}
+\contentsline {section}{\numberline {8.6}Event displays}{55}{section.8.6}
+\contentsline {section}{\numberline {8.7}Neutrinos}{57}{section.8.7}
+\contentsline {section}{\numberline {8.8}Quarks/Gluons (jets)}{57}{section.8.8}
+\contentsline {section}{\numberline {8.9}Further Reading}{59}{section.8.9}
+\contentsline {chapter}{\numberline {9}The LHC Detectors}{61}{chapter.9}
+\contentsline {section}{\numberline {9.1}The LHC Detectors}{61}{section.9.1}
+\contentsline {chapter}{\numberline {10}Structure of the proton and proton-proton collisions}{63}{chapter.10}
+\contentsline {section}{\numberline {10.1}Cross section}{63}{section.10.1}
+\contentsline {section}{\numberline {10.2}s, t, u, and q squared}{65}{section.10.2}
+\contentsline {section}{\numberline {10.3}What is in a Proton}{66}{section.10.3}
+\contentsline {section}{\numberline {10.4}Calculation of a cross section in proton proton collisions}{67}{section.10.4}
+\contentsline {section}{\numberline {10.5}What happens when two protons collide?}{67}{section.10.5}
+\contentsline {section}{\numberline {10.6}Minimum bias interaction}{68}{section.10.6}
+\contentsline {section}{\numberline {10.7}Jets}{68}{section.10.7}
+\contentsline {section}{\numberline {10.8}W and Z production}{68}{section.10.8}
+\contentsline {section}{\numberline {10.9}top production}{68}{section.10.9}
+\contentsline {section}{\numberline {10.10}Further Reading}{69}{section.10.10}
+\contentsline {chapter}{\numberline {11}Monte Carlos}{75}{chapter.11}
+\contentsline {section}{\numberline {11.1}Disclaimer}{75}{section.11.1}
+\contentsline {chapter}{\numberline {12}Higgs Discovery}{77}{chapter.12}
+\contentsline {section}{\numberline {12.1}higgs to four leptons}{77}{section.12.1}
+\contentsline {section}{\numberline {12.2}Acknowledgements}{77}{section.12.2}
 \contentsfinish 
