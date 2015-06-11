@@ -4,8 +4,8 @@
 \contentsline {section}{\numberline {1.2}Forces}{8}{section.1.2}
 \contentsline {section}{\numberline {1.3}The world's shortest description of quantum mechanics}{9}{section.1.3}
 \contentsline {section}{\numberline {1.4}Standard model of particle physics}{11}{section.1.4}
-\contentsline {section}{\numberline {1.5}Properties of fundamental particles}{12}{section.1.5}
-\contentsline {section}{\numberline {1.6}Feynman Diagrams}{12}{section.1.6}
+\contentsline {section}{\numberline {1.5}Properties of fundamental particles}{11}{section.1.5}
+\contentsline {section}{\numberline {1.6}Feynman Diagrams}{13}{section.1.6}
 \contentsline {section}{\numberline {1.7}Non-Fundamental (composite) particles}{13}{section.1.7}
 \contentsline {section}{\numberline {1.8}The Higgs}{14}{section.1.8}
 \contentsline {section}{\numberline {1.9}Further reading}{14}{section.1.9}
