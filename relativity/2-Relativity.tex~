@@ -93,7 +93,7 @@ However, in relativity, if the red car were moving at the speed of light both A 
 \noindent where,
 
 \begin{equation} \beta = v_B /c \end{equation}   	
-\begin{equation} \gamma = \frac{1}{1- \beta^2} \end{equation}  
+\begin{equation} \gamma = \frac{1}{\sqrt{1- \beta^2}} \end{equation}  
 
 
 Note that $\beta$  is a number between 0 and 1, and is the fraction of the speed of light the other measured frame has with respect to your frame of reference.  $\gamma$  is a number that is greater than 1.  It is called the {\it relativistic boost} and will be very useful.
