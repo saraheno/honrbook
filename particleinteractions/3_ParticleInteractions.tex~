@@ -15,19 +15,19 @@ reach the detector and make a signal.  If we take the diameter to be 1 cm, then
 the particle life time must be large enough to travel this far before decay.
 How far does a particle travel before decaying?  We learned in Chapter \ref{EP} that fraction remaining after a time $t_0$ is given by
 \begin{equation}
-N=N_0 e^{t_0 \over \tau}
+N=N_0 e^{-t_0 \over \tau}
 \end{equation}
 The probability of surviving is $N / N_0$ so
 \begin{equation}
-P(t)= e^{t_0 \over \tau}
+P(t)= e^{-t_0 \over \tau}
 \end{equation}
 To change this to the probability of traveling a distance instead of a time, remember that that, with relativity, the life time for a moving particle depends on the lifetime for the particle at rest as $\tau = \gamma \tau_0$ so we have
  \begin{equation}
-P(t)=e^{t_0 \over {\gamma \tau_0}}
+P(t)=e^{-t_0 \over {\gamma \tau_0}}
 \end{equation}
 Position is then related to time by $x_0=vt_0$ or $x_0=\beta c t_0$, so
 \begin{equation}
-P(t)=e^{x_0 \over {\beta c \gamma \tau_0}}
+P(t)=e^{-x_0 \over {\beta c \gamma \tau_0}}
 \end{equation}
 Then, using
 $\Gamma=\bar{h}/\tau_0$, $\gamma=E/mc^2$ where m is the particle's mass 
