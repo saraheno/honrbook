@@ -3,15 +3,15 @@
 
 Einstein's theory of special relativity is one of the most fascinating, elegant, surprising, and powerful theories in modern physics.  The derivation of its laws, beginning from the simple postulate that the speed of light is a constant, independent of the velocity of the person measuring it, along with the resulting profound implications in electromagnetic theory and the nature of space and time is astounding. We, unfortunately, do not have the time to cover everything in this course.  And you, as freshmen, for the most part are just not ready.  You will study this theory in depth when you take 300-level E\&M.
 
-However, to understand what is going on at the LHC, you do need to understand some relativity.  The goal of this tutorial is to teach you the minimum needed to understand the Higgs discovery.  We will approach it from a practical point of view. Although this is anathema to the physicist in you, we will give you formulas without telling you where they come from.  You need to just accept them (For now!  Until you are older!) as experimental reality, just as you accept $\vec{F}=m\vec{a}$  as a fact that you can use as a tool to work other problems.
+However, to understand what is going on at the LHC, you do need to understand some relativity.  The goal of this tutorial is to teach you the minimum needed to understand the Higgs discovery.  We will approach it from a practical point of view. Although this is anathema to the physicist in you, we will give you formulas without telling you where they come from.  You need to just accept them (For now! Until you are older!) as experimental reality, just as you accept $\vec{F}=m\vec{a}$  as a fact that you can use as a tool to work other problems.
 
 \section{4-vectors}\index{4-vectors}
 
-When doing Newtonian mechanics, you are taught about vectors.  You typically work with vectors that have three components, associated with three spatial directions (x, y, z).  Often, then you parameterize these components as a function of a time.  You might calculate the height of a particle above the ground (z) as a function of time, its z-component of velocity as a function of time, or its momentum as a function of time.
+When doing Newtonian mechanics, you are taught about vectors.  You typically work with vectors that have three components, associated with three spatial directions (x, y, z).  Often, you then parameterize these components as a function of a time.  You might calculate the height of a particle above the ground (z) as a function of time, its z-component of velocity as a function of time, or its momentum as a function of time.
 
 With special relativity, instead of these 3-vectors, we will work with 4 component vectors (4-vectors).  The fourth component for our position vector will be {\it time}.  However, time and position have different units (seconds for time and meters distance).  Mixing time and distance is thus mixing apples and oranges, so what can be done?
 
-In special relativity, the speed of light is very special.  It is a constant, and all observers, regardless of their relative velocity, will get the same result when they measure it.   discuss this more later.  Since this is a special number, one of the {\it fundamental constants} of nature, along with  $\hbar$ the fundamental constant of quantum physics, and a few other fundamental numbers.  We can use c to convert time to a distance and write our 4 vector for {\it event} (something that has a time and a position) as
+In special relativity, the speed of light is very special.  It is a constant, and all observers, regardless of their relative velocity, will get the same result when they measure it. We will discuss this more later.  Since this is a special number, one of the {\it fundamental constants} of nature, along with  $\hbar$ the fundamental constant of quantum physics, and a few other fundamental numbers.  We can use c to convert time to a distance and write our 4 vector for {\it event} (something that has a time and a position) as
 \begin{equation}
 	  {\color{red} d}=(ct,x,y,z)
 \end{equation}
@@ -21,7 +21,7 @@ In special relativity, the speed of light is very special.  It is a constant, an
 {\color{red} p}=(E,cp_x, cp_y, cp_z)  
 \end{equation}
 
-where E is the particle''s energy. Again, we use c to make sure all components have the same units.
+where E is the particle's energy. Again, we use c to make sure all components have the same units.
 	 
 We will use red to denote 4 vectors and the usual vector notation to denote 3 vectors.  Thus we can write:
 \begin{equation} 
@@ -104,7 +104,7 @@ Note that these are extremely weird equations.  They imply that observers that a
 
 \section{Length of 4 vectors}\index{Length of 4 vectors}
 
-A 4 vector has the interesting property that all observers, regardless of their relative velocities, will agree on the length of a 4-vector.  Let's prove this:
+A 4 vector has the interesting property that all observers, regardless of their relative velocities, will agree on: the length of a 4-vector.  Let's prove this. 
 
 Lengths of 4 vectors
 \begin{eqnarray}
