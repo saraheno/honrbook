@@ -1,5 +1,4 @@
- 
-\section{Disclaimer}\index{Disclaimer}
+ \section{Disclaimer}\index{Disclaimer}
 
 Einstein's theory of special relativity is one of the most fascinating, elegant, surprising, and powerful theories in modern physics.  The derivation of its laws, beginning from the simple postulate that the speed of light is a constant, independent of the velocity of the person measuring it, along with the resulting profound implications in electromagnetic theory and the nature of space and time is astounding. We, unfortunately, do not have the time to cover everything in this course.  And you, as freshmen, for the most part are just not ready.  You will study this theory in depth when you take 300-level E\&M.
 
@@ -37,7 +36,7 @@ We will use red to denote 4 vectors and the usual vector notation to denote 3 ve
 \begin{exercise}
 %\begin{frshaded}
 %\fcolorbox{\bordercolor}{\backgroundcolor} 
-{show that E and cp have the same units. Remember that the $i^{th}$ component of force is related to energy by $F_i=\frac{dE}{dx_i}$ \newline
+{show that E and cp have the same units. Remember that the $i^{th}$ component of force is related to energy by $F_i=\frac{dE}{dx_i}$
  and to momentum by $F_i = \frac{dp_i}{dt}$}
 \end{exercise}
 %\end{frshaded}
@@ -203,7 +202,7 @@ When two protons appear to collide in a detector, what really collides is the {\
  
 
 \begin{figure}[h]
-\centering\includegraphics[scale=0.5]{./relativity/Pictures/fig1.pdf}
+\centering\includegraphics[scale=0.5]{./relativity/Pictures/Feynman-Ztoee (1).pdf}
 \caption{Feynman diagram for production of a Z boson in a proton-proton collision, with subsequent decay to electrons}
 \label{fig:collrel}
 \end{figure}
