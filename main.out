@@ -1,85 +1,85 @@
-\BOOKMARK [0][-]{chapter.1}{Elementary Particles and Forces}{}% 1
-\BOOKMARK [1][-]{section.1.1}{Elementary Particles}{chapter.1}% 2
-\BOOKMARK [1][-]{section.1.2}{Forces}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.3}{The world's shortest description of quantum mechanics}{chapter.1}% 4
-\BOOKMARK [1][-]{section.1.4}{Standard model of particle physics}{chapter.1}% 5
-\BOOKMARK [1][-]{section.1.5}{Properties of fundamental particles}{chapter.1}% 6
-\BOOKMARK [1][-]{section.1.6}{Feynman Diagrams}{chapter.1}% 7
-\BOOKMARK [1][-]{section.1.7}{Non-Fundamental \(composite\) particles}{chapter.1}% 8
-\BOOKMARK [1][-]{section.1.8}{The Higgs}{chapter.1}% 9
-\BOOKMARK [1][-]{section.1.9}{Further reading}{chapter.1}% 10
-\BOOKMARK [0][-]{chapter.2}{Special Relativity}{}% 11
-\BOOKMARK [1][-]{section.2.1}{Disclaimer}{chapter.2}% 12
-\BOOKMARK [1][-]{section.2.2}{4-vectors}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.3}{Frames \(center-of-mass, lab\) and transforming between frames}{chapter.2}% 14
-\BOOKMARK [1][-]{section.2.4}{Length of 4 vectors}{chapter.2}% 15
-\BOOKMARK [1][-]{section.2.5}{HEP units}{chapter.2}% 16
-\BOOKMARK [1][-]{section.2.6}{Lifetimes of particles}{chapter.2}% 17
-\BOOKMARK [1][-]{section.2.7}{Breit-Wigner}{chapter.2}% 18
-\BOOKMARK [1][-]{section.2.8}{The coordinate system for a collider experiment}{chapter.2}% 19
-\BOOKMARK [1][-]{section.2.9}{Collisions \(conservation of 4-momentum\)}{chapter.2}% 20
-\BOOKMARK [1][-]{section.2.10}{Rapidity and Pseudorapidity}{chapter.2}% 21
-\BOOKMARK [1][-]{section.2.11}{Further reading}{chapter.2}% 22
-\BOOKMARK [0][-]{chapter.3}{Particle Interactions with matter}{}% 23
-\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 24
-\BOOKMARK [1][-]{section.3.2}{Interactions of charged particles with matter}{chapter.3}% 25
-\BOOKMARK [1][-]{section.3.3}{Interactions of gamma rays with matter}{chapter.3}% 26
-\BOOKMARK [0][-]{chapter.4}{Statistics}{}% 27
-\BOOKMARK [1][-]{section.4.1}{Statistics}{chapter.4}% 28
-\BOOKMARK [0][-]{chapter.5}{Particle accelerators}{}% 29
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 30
-\BOOKMARK [1][-]{section.5.2}{Parts of an Accelerator}{chapter.5}% 31
-\BOOKMARK [1][-]{section.5.3}{Energy}{chapter.5}% 32
-\BOOKMARK [1][-]{section.5.4}{Cross Section}{chapter.5}% 33
-\BOOKMARK [1][-]{section.5.5}{Luminosity \(L\)}{chapter.5}% 34
-\BOOKMARK [1][-]{section.5.6}{Integrated Luminosity}{chapter.5}% 35
-\BOOKMARK [1][-]{section.5.7}{Event}{chapter.5}% 36
-\BOOKMARK [1][-]{section.5.8}{The Data Challenge}{chapter.5}% 37
-\BOOKMARK [1][-]{section.5.9}{Refrences}{chapter.5}% 38
-\BOOKMARK [0][-]{chapter.6}{Calorimeters}{}% 39
-\BOOKMARK [1][-]{section.6.1}{Basic Idea}{chapter.6}% 40
-\BOOKMARK [1][-]{section.6.2}{Showers}{chapter.6}% 41
-\BOOKMARK [1][-]{section.6.3}{Electromagnetic Showers}{chapter.6}% 42
-\BOOKMARK [2][-]{subsection.6.3.1}{Bremsstrahlung}{section.6.3}% 43
-\BOOKMARK [2][-]{subsection.6.3.2}{Pair Production}{section.6.3}% 44
-\BOOKMARK [1][-]{section.6.4}{Hadronic Showers}{chapter.6}% 45
-\BOOKMARK [1][-]{section.6.5}{Detection}{chapter.6}% 46
-\BOOKMARK [1][-]{section.6.6}{Sampling}{chapter.6}% 47
-\BOOKMARK [1][-]{section.6.7}{Energy Resolutions}{chapter.6}% 48
-\BOOKMARK [1][-]{section.6.8}{read}{chapter.6}% 49
-\BOOKMARK [0][-]{chapter.7}{Trackers}{}% 50
-\BOOKMARK [1][-]{section.7.1}{Charged particles and magnetic fields}{chapter.7}% 51
-\BOOKMARK [1][-]{section.7.2}{Detecting the trajectory of the charged particle}{chapter.7}% 52
-\BOOKMARK [1][-]{section.7.3}{Tracker Resolutions}{chapter.7}% 53
-\BOOKMARK [1][-]{section.7.4}{Fitting a straight line}{chapter.7}% 54
-\BOOKMARK [1][-]{section.7.5}{Project}{chapter.7}% 55
-\BOOKMARK [1][-]{section.7.6}{Further Reading}{chapter.7}% 56
-\BOOKMARK [0][-]{chapter.8}{Particle Identification}{}% 57
-\BOOKMARK [1][-]{section.8.1}{Overview}{chapter.8}% 58
-\BOOKMARK [1][-]{section.8.2}{Photons}{chapter.8}% 59
-\BOOKMARK [1][-]{section.8.3}{Electrons}{chapter.8}% 60
-\BOOKMARK [1][-]{section.8.4}{Muons}{chapter.8}% 61
-\BOOKMARK [1][-]{section.8.5}{Hadrons}{chapter.8}% 62
-\BOOKMARK [1][-]{section.8.6}{Event displays}{chapter.8}% 63
-\BOOKMARK [1][-]{section.8.7}{Neutrinos}{chapter.8}% 64
-\BOOKMARK [1][-]{section.8.8}{Quarks/Gluons \(jets\)}{chapter.8}% 65
-\BOOKMARK [1][-]{section.8.9}{Further Reading}{chapter.8}% 66
-\BOOKMARK [0][-]{chapter.9}{The LHC Detectors}{}% 67
-\BOOKMARK [1][-]{section.9.1}{The LHC Detectors}{chapter.9}% 68
-\BOOKMARK [0][-]{chapter.10}{Structure of the proton and proton-proton collisions}{}% 69
-\BOOKMARK [1][-]{section.10.1}{Cross section}{chapter.10}% 70
-\BOOKMARK [1][-]{section.10.2}{s, t, u, and q squared}{chapter.10}% 71
-\BOOKMARK [1][-]{section.10.3}{What is in a Proton}{chapter.10}% 72
-\BOOKMARK [1][-]{section.10.4}{Calculation of a cross section in proton proton collisions}{chapter.10}% 73
-\BOOKMARK [1][-]{section.10.5}{What happens when two protons collide?}{chapter.10}% 74
-\BOOKMARK [1][-]{section.10.6}{Minimum bias interaction}{chapter.10}% 75
-\BOOKMARK [1][-]{section.10.7}{Jets}{chapter.10}% 76
-\BOOKMARK [1][-]{section.10.8}{W and Z production}{chapter.10}% 77
-\BOOKMARK [1][-]{section.10.9}{top production}{chapter.10}% 78
-\BOOKMARK [1][-]{section.10.10}{Underlying Event}{chapter.10}% 79
-\BOOKMARK [1][-]{section.10.11}{Further Reading}{chapter.10}% 80
-\BOOKMARK [0][-]{chapter.11}{Monte Carlos}{}% 81
-\BOOKMARK [1][-]{section.11.1}{Disclaimer}{chapter.11}% 82
-\BOOKMARK [0][-]{chapter.12}{Higgs Discovery}{}% 83
-\BOOKMARK [1][-]{section.12.1}{higgs to four leptons}{chapter.12}% 84
-\BOOKMARK [1][-]{section.12.2}{Acknowledgements}{chapter.12}% 85
+\BOOKMARK [0][-]{chapter.1}{Elementary Particles and Forces}{}
+\BOOKMARK [1][-]{section.1.1}{Elementary Particles}{chapter.1}
+\BOOKMARK [1][-]{section.1.2}{Forces}{chapter.1}
+\BOOKMARK [1][-]{section.1.3}{The world's shortest description of quantum mechanics}{chapter.1}
+\BOOKMARK [1][-]{section.1.4}{Standard model of particle physics}{chapter.1}
+\BOOKMARK [1][-]{section.1.5}{Properties of fundamental particles}{chapter.1}
+\BOOKMARK [1][-]{section.1.6}{Feynman Diagrams}{chapter.1}
+\BOOKMARK [1][-]{section.1.7}{Non-Fundamental \(composite\) particles}{chapter.1}
+\BOOKMARK [1][-]{section.1.8}{The Higgs}{chapter.1}
+\BOOKMARK [1][-]{section.1.9}{Further reading}{chapter.1}
+\BOOKMARK [0][-]{chapter.2}{Special Relativity}{}
+\BOOKMARK [1][-]{section.2.1}{Disclaimer}{chapter.2}
+\BOOKMARK [1][-]{section.2.2}{4-vectors}{chapter.2}
+\BOOKMARK [1][-]{section.2.3}{Frames \(center-of-mass, lab\) and transforming between frames}{chapter.2}
+\BOOKMARK [1][-]{section.2.4}{Length of 4 vectors}{chapter.2}
+\BOOKMARK [1][-]{section.2.5}{HEP units}{chapter.2}
+\BOOKMARK [1][-]{section.2.6}{Lifetimes of particles}{chapter.2}
+\BOOKMARK [1][-]{section.2.7}{Breit-Wigner}{chapter.2}
+\BOOKMARK [1][-]{section.2.8}{The coordinate system for a collider experiment}{chapter.2}
+\BOOKMARK [1][-]{section.2.9}{Collisions \(conservation of 4-momentum\)}{chapter.2}
+\BOOKMARK [1][-]{section.2.10}{Rapidity and Pseudorapidity}{chapter.2}
+\BOOKMARK [1][-]{section.2.11}{Further reading}{chapter.2}
+\BOOKMARK [0][-]{chapter.3}{Particle Interactions with matter}{}
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}
+\BOOKMARK [1][-]{section.3.2}{Interactions of charged particles with matter}{chapter.3}
+\BOOKMARK [1][-]{section.3.3}{Interactions of gamma rays with matter}{chapter.3}
+\BOOKMARK [0][-]{chapter.4}{Statistics}{}
+\BOOKMARK [1][-]{section.4.1}{Statistics}{chapter.4}
+\BOOKMARK [0][-]{chapter.5}{Particle accelerators}{}
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}
+\BOOKMARK [1][-]{section.5.2}{Parts of an Accelerator}{chapter.5}
+\BOOKMARK [1][-]{section.5.3}{Energy}{chapter.5}
+\BOOKMARK [1][-]{section.5.4}{Cross Section}{chapter.5}
+\BOOKMARK [1][-]{section.5.5}{Luminosity \(L\)}{chapter.5}
+\BOOKMARK [1][-]{section.5.6}{Integrated Luminosity}{chapter.5}
+\BOOKMARK [1][-]{section.5.7}{Event}{chapter.5}
+\BOOKMARK [1][-]{section.5.8}{The Data Challenge}{chapter.5}
+\BOOKMARK [1][-]{section.5.9}{Refrences}{chapter.5}
+\BOOKMARK [0][-]{chapter.6}{Calorimeters}{}
+\BOOKMARK [1][-]{section.6.1}{Basic Idea}{chapter.6}
+\BOOKMARK [1][-]{section.6.2}{Showers}{chapter.6}
+\BOOKMARK [1][-]{section.6.3}{Electromagnetic Showers}{chapter.6}
+\BOOKMARK [2][-]{subsection.6.3.1}{Bremsstrahlung}{section.6.3}
+\BOOKMARK [2][-]{subsection.6.3.2}{Pair Production}{section.6.3}
+\BOOKMARK [1][-]{section.6.4}{Hadronic Showers}{chapter.6}
+\BOOKMARK [1][-]{section.6.5}{Detection}{chapter.6}
+\BOOKMARK [1][-]{section.6.6}{Sampling}{chapter.6}
+\BOOKMARK [1][-]{section.6.7}{Energy Resolutions}{chapter.6}
+\BOOKMARK [1][-]{section.6.8}{read}{chapter.6}
+\BOOKMARK [0][-]{chapter.7}{Trackers}{}
+\BOOKMARK [1][-]{section.7.1}{Charged particles and magnetic fields}{chapter.7}
+\BOOKMARK [1][-]{section.7.2}{Detecting the trajectory of the charged particle}{chapter.7}
+\BOOKMARK [1][-]{section.7.3}{Tracker Resolutions}{chapter.7}
+\BOOKMARK [1][-]{section.7.4}{Fitting a straight line}{chapter.7}
+\BOOKMARK [1][-]{section.7.5}{Project}{chapter.7}
+\BOOKMARK [1][-]{section.7.6}{Further Reading}{chapter.7}
+\BOOKMARK [0][-]{chapter.8}{Particle Identification}{}
+\BOOKMARK [1][-]{section.8.1}{Overview}{chapter.8}
+\BOOKMARK [1][-]{section.8.2}{Photons}{chapter.8}
+\BOOKMARK [1][-]{section.8.3}{Electrons}{chapter.8}
+\BOOKMARK [1][-]{section.8.4}{Muons}{chapter.8}
+\BOOKMARK [1][-]{section.8.5}{Hadrons}{chapter.8}
+\BOOKMARK [1][-]{section.8.6}{Event displays}{chapter.8}
+\BOOKMARK [1][-]{section.8.7}{Neutrinos}{chapter.8}
+\BOOKMARK [1][-]{section.8.8}{Quarks/Gluons \(jets\)}{chapter.8}
+\BOOKMARK [1][-]{section.8.9}{Further Reading}{chapter.8}
+\BOOKMARK [0][-]{chapter.9}{The LHC Detectors}{}
+\BOOKMARK [1][-]{section.9.1}{The LHC Detectors}{chapter.9}
+\BOOKMARK [0][-]{chapter.10}{Structure of the proton and proton-proton collisions}{}
+\BOOKMARK [1][-]{section.10.1}{Cross section}{chapter.10}
+\BOOKMARK [1][-]{section.10.2}{s, t, u, and q squared}{chapter.10}
+\BOOKMARK [1][-]{section.10.3}{What is in a Proton}{chapter.10}
+\BOOKMARK [1][-]{section.10.4}{Calculation of a cross section in proton proton collisions}{chapter.10}
+\BOOKMARK [1][-]{section.10.5}{What happens when two protons collide?}{chapter.10}
+\BOOKMARK [1][-]{section.10.6}{Minimum bias interaction}{chapter.10}
+\BOOKMARK [1][-]{section.10.7}{Jets}{chapter.10}
+\BOOKMARK [1][-]{section.10.8}{W and Z production}{chapter.10}
+\BOOKMARK [1][-]{section.10.9}{top production}{chapter.10}
+\BOOKMARK [1][-]{section.10.10}{Underlying Event}{chapter.10}
+\BOOKMARK [1][-]{section.10.11}{Further Reading}{chapter.10}
+\BOOKMARK [0][-]{chapter.11}{Monte Carlos}{}
+\BOOKMARK [1][-]{section.11.1}{Disclaimer}{chapter.11}
+\BOOKMARK [0][-]{chapter.12}{Higgs Discovery}{}
+\BOOKMARK [1][-]{section.12.1}{higgs to four leptons}{chapter.12}
+\BOOKMARK [1][-]{section.12.2}{Acknowledgements}{chapter.12}

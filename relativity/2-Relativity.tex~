@@ -202,7 +202,7 @@ When two protons appear to collide in a detector, what really collides is the {\
  
 
 \begin{figure}[h]
-\centering\includegraphics[scale=0.5]{./relativity/Pictures/Feynman-Ztoee (1).pdf}
+\centering\includegraphics[scale=0.4]{./relativity/Pictures/Feynman-Ztoee}
 \caption{Feynman diagram for production of a Z boson in a proton-proton collision, with subsequent decay to electrons}
 \label{fig:collrel}
 \end{figure}
