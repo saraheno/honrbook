@@ -77,15 +77,15 @@
 \contentsmargin{0cm} % Removes the default margin
 
 % Part text styling
-\titlecontents{part}[0cm]
-{\addvspace{35pt}\centering\large\bfseries}
+\titlecontents{section}[0cm]
+{\addvspace{1pt}}
 {}
 {}
 {}
 
 % Chapter text styling
-\titlecontents{chapter}[1.25cm] % Indentation
-{\addvspace{12pt}\large\sffamily\bfseries} % Spacing and font options for chapters
+\titlecontents{section*}[1.25cm] % Indentation
+{\addvspace{1pt}\large\sffamily\bfseries} % Spacing and font options for chapters
 {\color{ocre!60}\contentslabel[\Large\thecontentslabel]{1.25cm}\color{ocre}} % Chapter number
 {\color{ocre}}  
 {\color{ocre!60}\normalsize\;\titlerule*[.5pc]{.}\;\thecontentspage} % Page number
@@ -106,7 +106,7 @@
 {\ \titlerule*[.5pc]{.}\;\thecontentspage} % Page number
 []
 
-% List of figures
+√% List of figures
 \titlecontents{figure}[0em]
 {\addvspace{-5pt}\sffamily}
 {\thecontentslabel\hspace*{1em}}
@@ -127,8 +127,8 @@
 %----------------------------------------------------------------------------------------
 
 % Chapter text styling
-\titlecontents{lchapter}[0em] % Indenting
-{\addvspace{15pt}\large\sffamily\bfseries} % Spacing and font options for chapters
+\titlecontents{section}[0em] % Indenting
+{\addvspace{1pt}\large\sffamily\bfseries} % Spacing and font options for chapters
 {\color{ocre}\contentslabel[\Large\thecontentslabel]{1.25cm}\color{ocre}} % Chapter number
 {}  
 {\color{ocre}\normalsize\sffamily\bfseries\;\titlerule*[.5pc]{.}\;\thecontentspage} % Page number
