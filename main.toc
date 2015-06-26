@@ -69,9 +69,9 @@
 \contentsline {section}{\numberline {9.1}The LHC Detectors}{61}{section.9.1}
 \contentsline {chapter}{\numberline {10}Structure of the proton and proton-proton collisions}{63}{chapter.10}
 \contentsline {section}{\numberline {10.1}Cross section}{63}{section.10.1}
-\contentsline {section}{\numberline {10.2}s, t, u, and q squared}{65}{section.10.2}
-\contentsline {section}{\numberline {10.3}What is in a Proton}{66}{section.10.3}
-\contentsline {section}{\numberline {10.4}Calculation of a cross section in proton proton collisions}{67}{section.10.4}
+\contentsline {section}{\numberline {10.2}s, t, u, and q squared}{64}{section.10.2}
+\contentsline {section}{\numberline {10.3}What is in a Proton}{65}{section.10.3}
+\contentsline {section}{\numberline {10.4}Calculation of a cross section in proton proton collisions}{66}{section.10.4}
 \contentsline {section}{\numberline {10.5}What happens when two protons collide?}{67}{section.10.5}
 \contentsline {section}{\numberline {10.6}Minimum bias interaction}{68}{section.10.6}
 \contentsline {section}{\numberline {10.7}Jets}{68}{section.10.7}
