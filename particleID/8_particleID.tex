@@ -12,7 +12,7 @@ When a particle enters a detector element, some sort of detectable signal, usual
 \label{fig:count}
 \end{figure} 
 
-CMSSW takes all these 0's and 1', uses calibration data to convert these to energies, times, or whatever is relevent for that subdetector.  Once this is done,   complex computer algorithms are run on this information to figure out which particles were produced.  
+CMSSW takes all these 0's and 1', uses calibration data to convert these to energies, times, or whatever is relevent for that subdetector. Once this is done,   complex computer algorithms are run on this information to figure out which particles were produced.  
 
 We describe below some of the types of algorithms that are used in this code.
 
@@ -20,35 +20,35 @@ We describe below some of the types of algorithms that are used in this code.
 Consider the slice of the CMS detector show in Figure \ref{fig:pid1} as viewed in the r-$\phi$ plane: 
 \begin{figure}[h]
 \centering\includegraphics[scale=0.6]{./particleID/Pictures/fig1.pdf}
-\caption{A slice of the CMS detector as viewed in the r-$\phi$ plane with typical signals produced by various types of particles. }
+\caption{A slice of the CMS detector as viewed in the r-$\phi$ plane with typical signals produced by various types of particles.}
 \label{fig:pid1}
 \end{figure} 
 \\*
-The collision point in the figure above is indicated by the convergence of the solid red, green, and blue lines and the dashed green and blue lines.  These represent particles created at a common point when a collision occurs.  Outward from the collision point, we have the silicon tracker, the electromagnetic calorimeter, the hadronic calorimeter, the solenoid magnet, and the muon trackers embedded in the ``return iron'' for the magnet (as you know, magnetic field lines must form closed loops. They cannot have a beginning or an end, until we discover the mythical magnetic monopole. The magnetic field lines that form the field inside the magnet must continue out one end, loop around, and come back to come in the other end. The ``return yoke'', made of iron, guides these field lines so that they do not interfere with the detector electronics).  
+The collision point in the figure above is indicated by the convergence of the solid red, green, and blue lines and the dashed green and blue lines. These represent particles created at a common point when a collision occurs. Outward from the collision point, we have the silicon tracker, the electromagnetic calorimeter, the hadronic calorimeter, the solenoid magnet, and the muon trackers embedded in the ``return iron'' for the magnet (as you know, magnetic field lines must form closed loops. They cannot have a beginning or an end, until we discover the mythical magnetic monopole. The magnetic field lines that form the field inside the magnet must continue out one end, loop around, and come back to come in the other end. The ``return yoke'', made of iron, guides these field lines so that they do not interfere with the detector electronics).  
 \\
 \\
 \noindent
 Let's see how we can use the information from these detectors to identify particles.
 \section{Photons}
-In Figure~\ref{fig:pid1}, the photon is indicated by the dashed blue line.  Photons are electrically neutral so they do not produce a signal in any of the trackers.  Because they can interact with nuclei in the material via the long range electromagnetic interaction of pair production, they shower quickly upon impact, and the shower is almost completely contained in the EM calorimeter.
+In Figure~\ref{fig:pid1}, the photon is indicated by the dashed blue line.  Photons are electrically neutral so they do not produce a signal in any of the trackers. Because they can interact with nuclei in the material via the long range electromagnetic interaction of pair production, they shower quickly upon impact, and the shower is almost completely contained in the EM calorimeter.
 \section{Electrons}
-In figure \ref{fig:pid1}, the electron is indicated by the solid red line.  Their signature is similar to that of a photon (although their initiating interaction is bremsstrahlung, not pair production), but there is an associated charged track.
+In figure \ref{fig:pid1}, the electron is indicated by the solid red line. Their signature is similar to that of a photon (although their initiating interaction is bremsstrahlung, not pair production), but there is an associated charged track.
 \section{Muons}
-In figure \ref{fig:pid1}, the muon is indicated by the solid blue line. Muons are charged and so they produce a track in the inner tracker. Muons predominantly loose energy by exciting or ionizing the electrons in the material.  Because of this, they lose energy slowly. They can pass through the calorimeters, losing only about a GeV of energy.  They are the only charged particle that can do this.  Tracking chambers (gas-based) outside the calorimeters, embedded in the return yoke, are used to indicate a penetrating particle.
+In figure \ref{fig:pid1}, the muon is indicated by the solid blue line. Muons are charged and so they produce a track in the inner tracker. Muons predominantly lose energy by exciting or ionizing the electrons in the material. Because of this, they lose energy slowly. They can pass through the calorimeters, losing only about a GeV of energy.  They are the only charged particle that can do this.  Tracking chambers (gas-based) outside the calorimeters, embedded in the return yoke, are used to indicate a penetrating particle.
 \section{Hadrons}
-In figure \ref{fig:pid1}, a charged hadron is indicated by the solid green line and a neutral hadron is indicated by the dashed green line. Hadrons interact with nuclei via the short-range strong force (QCD) interaction. Therefore, their shower will typically start deeper into the calorimeter and it will take more material to completely convert the kinetic energy of the hadron into energy of the material. The shower is needs the thicker combined electromagnetic and hadronic calorimeter to contain it. Charged and neutral hadrons are distinguished by the presence of a track in the tracker.
+In figure \ref{fig:pid1}, a charged hadron is indicated by the solid green line and a neutral hadron is indicated by the dashed green line. Hadrons interact with nuclei via the short-range strong force (QCD) interaction. Therefore, their shower will typically start deeper into the calorimeter and it will take more material to completely convert the kinetic energy of the hadron into energy of the material. The shower needs the thicker combined electromagnetic and hadronic calorimeter to contain it. Charged and neutral hadrons are distinguished by the presence of a track in the tracker.
 \section{Event displays}
-While for physics results, complex computer algorithms are used to find the particles, the human mind also has very powerful identification capabilities.  Physicists use event displays to look at the information and identify particles ``by hand''.In the vast majority of the cases, when the human ``scanner'' and the computer algorithm disagree, the human is right.  It is important to verify computer algorithms and search for bugs by comparing the results from ``scanning''to the computer based results.
+While we wait for physics results, complex computer algorithms are used to find the particles.  The human mind also has very powerful identification capabilities - physicists use event displays to look at the information and identify particles ``by hand''. In the vast majority of the cases, when the human ``scanner'' and the computer algorithm disagree, the human is right.  It is important to verify computer algorithms and search for bugs by comparing the results from ``scanning'' to the computer based results.
 \\*
 \\*
-Typically two types of displays are used.  One has a cartoon of the detector with symbols to denote energy deposits.  The results from the computer identification algorithm are usually superimposed.  An example is shown in figure ~\ref{fig:pid2}.  You can see the cartoon of the muon chambers in pink.  The tracks reconstructed in the tracker are shown as green lines.  Energies in the EM calorimeter are shown as red blobs and in the HAD calorimeter as blue blobs.  Their shape reflects the segmentation of the electrical readouts of the detector information.
+Typically two types of displays are used. One has a cartoon of the detector with symbols to denote energy deposits.  The results from the computer identification algorithm are usually superimposed.  An example is shown in figure ~\ref{fig:pid2}. You can see the cartoon of the muon chambers in pink. The tracks reconstructed in the tracker are shown as green lines. Energies in the EM calorimeter are shown as red blobs and in the HAD calorimeter as blue blobs. Their shape reflects the segmentation of the electrical readouts of the detector information.
 \begin{figure}[h]
 \centering\includegraphics[scale=0.5]{./particleID/Pictures/fig2.pdf}
 \caption{An event display from the CMS experiment}
 \label{fig:pid2}
 \end{figure}
 \\*
-Another kind of event display is called a ``Lego'' plot (named after the Children's toy), and is the most common way of displaying calorimeter information.  This kind of display is a 3-D plot with two of the axes being the polar angle and the pseudorapidity, and the ``z'' axes being the energy deposited in the calorimeter at that location. Colors indicate which part of the energy was deposited in the electromagnetic and which in the hadronic calorimeter. An example is shown in figure \ref{fig:pid3}, along with the corresponding regular display.
+Another kind of event display is called a ``Lego'' plot (named after the Children's toy), and it is the most common way of displaying calorimeter information.  This kind of display is a 3-D plot with two of the axes being the polar angle and the pseudorapidity, and the ``z'' axes being the energy deposited in the calorimeter at that location. Colors indicate which part of the energy was deposited in the electromagnetic and which in the hadronic calorimeter. An example is shown in figure \ref{fig:pid3}, along with the corresponding regular display.
 \begin{figure}[h]
 \centering\includegraphics[scale=0.5]{./particleID/Pictures/fig3.pdf}
 \caption{A lego display along wih the corresponding regular display of an event taken with the CMS detector.}
@@ -56,10 +56,10 @@ Another kind of event display is called a ``Lego'' plot (named after the Childre
 \end{figure}
 
 \section{Neutrinos}
-There is one particle that is so weakly interacting that does not produce a signal in our detector. However, we can infer their presence using conservation of momentum. The momentum of the beams is along the z-axis. This means that the total initial momentum can only be along the z direction, and the initial component of momentum transverse to the beam axis must be zero. By conservation of momentum, the final component of momentum transverse to the beam axis must also be zero.  So, if we sum the transverse momenta of all observed particles, the sum of the momenta of all unobserved particles must be equal in magnitude but opposite in direct to this, so that the sum is zero.  Usually this can be attributed to a single neutrino. Figure \ref{fig:pid4} shows the particles projected in the transverse plane. Since the observed momenta obviously cannot sum to zero, we infer that a neutrino was present in the event.
+There is one particle that is so weakly interacting that does not produce a signal in our detector. However, we can infer its presence using conservation of momentum. The momentum of the beams is along the z-axis. This means that the total initial momentum can only be along the z direction, and the initial component of momentum transverse to the beam axis must be zero. By conservation of momentum, the final component of momentum transverse to the beam axis must also be zero.  So, if we sum the transverse momenta of all observed particles, the sum of the momenta of all unobserved particles must be equal in magnitude but opposite in direct to this, so that the sum is zero.  Usually this can be attributed to a single neutrino. Figure \ref{fig:pid4} shows the particles projected in the transverse plane. Since the observed momenta obviously cannot sum to zero, we infer that a neutrino was present in the event.
 \begin{figure}[h]
 \centering\includegraphics[scale=0.4]{./particleID/Pictures/fig4.pdf}
-\caption{\small An event display from the D0 detector at the FNAL Tevatron.  The red blob represents energy in the EM calorimeter.  Since it has an associated track, it is identified as an electron. This is probably the decay of a W boson to an electron and a neutrino. The neutrino is assume to have a transverse momenta that is equal in magnitude and opposite in direction to the sum of the momenta of all other particles in the event.}
+\caption{\small An event display from the D0 detector at the FNAL Tevatron. The red blob represents energy in the EM calorimeter. Since it has an associated track, it is identified as an electron. This is probably the decay of a W boson to an electron and a neutrino. The neutrino is assumed to have a transverse momenta that is equal in magnitude and opposite in direction to the sum of the momenta of all other particles in the event.}
 \label{fig:pid4}
 \end{figure}
 \\*
@@ -72,7 +72,7 @@ As you may have noticed from the event displays shown above and from the one sho
 Generally, the individual momenta of the hadrons are not that interesting in our studies of forces and particles; what we really want to know is the momenta of the quarks and gluons that created them. To find this, we just have to figure out which hadrons came from the same ``parent'' particle and (by conservation of momentum), sum their momentum to get the parent momenta.
 \\*
 \noindent
-However, because gluons can be radiated off quark or gluon jets, and the resulting jets are very close to each other (among other more fundamental but technical reasons), it is not trivial to figure out which hadrons belong together, which came from the same ``parent''.
+However, because gluons can be radiated off of quark or gluon jets, and the resulting jets are very close to each other (among other more fundamental but technical reasons), it is not trivial to figure out which hadrons belong together, which came from the same ``parent''.
 \\*
 To do this,``jet finding algorithms'' have been developed. Figure ~\ref{fig:pid5} shows how four different algorithms divided up the calorimeter energies into ``jets''.
 \begin{figure}[h]
@@ -81,7 +81,7 @@ To do this,``jet finding algorithms'' have been developed. Figure ~\ref{fig:pid5
 \end{figure}
 \\*
 \noindent
-Let's look at one of these algorithms (which is implemented in CMSSW and is the most popular), which you will easily be able to imagine as code (and which clearly can not be handled any other way).  This algorithm is called the anti-$k_{T}$ algorithm (don't ask) with cone-parameter R. R is typically chosen to be 0.4.
+Let's look at one of these algorithms (which is implemented in CMSSW and is the most popular), which you will easily be able to imagine as code (and which clearly can not be handled any other way). This algorithm is called the anti-$k_{T}$ algorithm (don't ask) with cone-parameter R. R is typically chosen to be 0.4.
 \\*
 \\*
 \begin{itemize}
