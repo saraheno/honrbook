@@ -1,15 +1,15 @@
 \section{Basic Idea}
 
 \noindent
-The goal of a particle physics detector is to measure the 4-momenta of all particles produced in a collision and to identify their types.  As we discussed in the section on tracking, the 4-momenta of charged particles, such as electrons, pions, etc whose $\left | \eta  \right |$ is not too large (usually less than about 2) can be measured by the tracker. However, we need another way to measure electrically neutral particles or ones at large However, we need another way to measure electrically neutral particles or ones at large $\left | \eta  \right |$.
+The goal of a particle physics detector is to measure the 4-momenta of all particles produced in a collision and to identify their types.  As we discussed in the section on tracking, the 4-momenta of charged particles, such as electrons, pions, etc... whose $\left | \eta  \right |$ is not too large (usually less than about 2) can be measured by the tracker. However, we need another way to measure electrically neutral particles or ones at large. However, we need another way to measure electrically neutral particles or ones at large $\left | \eta  \right |$.
 
 \;
 \noindent
-You may have already encountered the word calorimeter in your high school physics.  In thermodynamics, the temperature of a known (hot) object may be measured by immersing it in a bath and measuring the temperature rise of the bath.  The heat energy of the unknown object becomes that of a known object, allowing measurement. In a HEP calorimeter, the goal is to turn the kinetic energy of the particle into another type of energy that is more easily measured. In the process, the particle is altered so that it no longer reflects its initial properties (especially, the momentum, but sometimes the type is changed) and no further useful measurements can be made.  Calorimeters should therefore be outside of the non-destructive detectors.
+You may have already encountered the word ``calorimeter'' in your high school physics.  In thermodynamics, the temperature of a known (hot) object may be measured by immersing it in a bath and measuring the temperature rise of the bath.  The heat energy of the unknown object becomes that of a known object, allowing measurement. In a HEP calorimeter, the goal is to turn the kinetic energy of the particle into another type of energy that is more easily measured. In the process, the particle is altered so that it no longer reflects its initial properties (especially the momentum, but sometimes the type is changed) and no further useful measurements can be made.  Calorimeters should therefore be outside of the non-destructive detectors.
 
 \;
 \noindent
-Remember our goal is to identify the 4-momentum and identify the type of all particles produced in the collisions.In a calorimeter, as we will discuss, we can often use the shape of the energy deposit to tell if the particle is an either an electron or photon (on the one hand) or a hadron. The calorimeter is segmented so the azimuthal ($\phi$) and polar angle ($\theta$) can be estimated, assuming the particle was produced at the center of the detector, by drawing a line from the production point to the impact point on the calorimeter face. If we assume the particle$'$s mass is small compared to its momentum (massless approximation), the particle$'$s momentum can be estimated as:
+Remember our goal is to identify the 4-momentum and identify the type of all particles produced in the collisions. In a calorimeter, as we will discuss later, we can often use the shape of the energy deposit to tell if the particle is  either an electron or a photon (on the one hand) or a hadron. The calorimeter is segmented so the azimuthal ($\phi$) and polar angle ($\theta$) can be estimated, assuming the particle was produced at the center of the detector, by drawing a line from the production point to the impact point on the calorimeter face. If we assume the particle$'$s mass is small compared to its momentum (massless approximation), the particle$'$s momentum can be estimated as:
 
 \begin{equation}\hspace{34 mm}p = E(l,cos(\theta ),cos(\phi ),cos(\theta ),sin(\phi ),sin(\theta ))\end{equation}
 
@@ -19,7 +19,7 @@ Remember our goal is to identify the 4-momentum and identify the type of all par
 \section{Showers}
 
 \noindent
-In a particle physics calorimeter, we try to first change the neutral particles (photons, neutrons, K-longs) into charged particles. Then we change single high energy charged particle into a very large number of low energy charged particles in such a way that the number we create is proportional to the kinetic energy of the initial high energy particle. The low energy charged particles travel through matter, interacting with the electrons in the material, transferring their kinetic energy to them, until all the initial kinetic energy is transferred to the material. That material then needs to make some kind of signal that can be detected. You can see a schematic of this process in figure ~\ref{fig:cal1}. An initial particle comes in, somehow interacting with the material of the calorimeter, and is changed gradually into a large number of low energy particles, that ``range out'' in the material. This process is called ``showering''.
+In a particle physics calorimeter, we try to first change the neutral particles (photons, neutrons, K-longs) into charged particles. Then, we change single high energy charged particle into a very large number of low energy charged particles in such a way that the number we create is proportional to the kinetic energy of the initial high energy particle. The low energy charged particles travel through matter, interacting with the electrons in the material, transferring their kinetic energy to them, until all the initial kinetic energy is transferred to the material. That material then needs to make some kind of signal that can be detected. You can see a schematic of this process in figure ~\ref{fig:cal1}. An initial particle comes in, somehow interacting with the material of the calorimeter, and is changed gradually into a large number of low energy particles, that ``range out'' in the material. This process is called ``showering''.
 
 \;
 \;
@@ -43,7 +43,7 @@ An electromagnetic shower results when an electron or photon enters a thick piec
 \section{Bremsstrahlung}
 
 \noindent
-Bremsstrahlung is German for ``braking radiation'', and is a process that occurs for electrons. As you may have learned in your high school physics course, when a charged particle accelerates, it radiates electromagnetic radiation (photons, the particle of light). What would cause an electron to accelerate? An electron is a charged particle. A nucleus is also charged. For nuclei such as lead or iron, that charge can be large. If an electron passes close enough to a nucleus, the electric force between the two particles causes the electron to accelerate (because the nucleus is much heavier than the electron, and is bound in the lattice of the solid, it does not move). Thus, in the presence of the nucleus, a high energy electron becomes a lower energy electron and a gamma ray (high energy photons). This can be draw as shown in figure ~\ref{fig:cal2}
+Bremsstrahlung is German for ``braking radiation'', and is a process that occurs for electrons. As you may have learned in your high school physics course, when a charged particle accelerates, it radiates electromagnetic radiation (photons, the particle of light). What would cause an electron to accelerate? An electron is a charged particle. A nucleus is also charged. For nuclei, such as lead or iron, that charge can be large. If an electron passes close enough to a nucleus, the electric force between the two particles causes the electron to accelerate (because the nucleus is much heavier than the electron, and is bound in the lattice of the solid, it does not move). Thus, in the presence of the nucleus, a high energy electron becomes a lower energy electron and a gamma ray (high energy photons). This can be draw as shown in figure ~\ref{fig:cal2}
 
 
 \;
@@ -138,7 +138,7 @@ The ratio of the amounts of material is called the ``sampling fraction''. Howeve
 \section{Energy Resolutions}
 
 \noindent
-How good is our calorimeter? This depends on how accurately it measures the energy of the initial particle. Sometimes we take our calorimeters to test beams, and aim particles of known energy and momentum at them, to see how well they work. The figure below shows the result of aiming a beam of charged pions at the front face of the calorimeter.
+How good is our calorimeter? This depends on how accurately it measures the energy of the initial particle. Sometimes, we take our calorimeters to test beams, and aim particles of known energy and momentum at them, to see how well they work. The figure below shows the result of aiming a beam of charged pions at the front face of the calorimeter.
 
 \;
 \;
@@ -152,11 +152,11 @@ How good is our calorimeter? This depends on how accurately it measures the ener
 \;
 
 \noindent
-The output from the scintillator is charge, and so the x axis units are collected charge after amplification by the photomultiplier and other electronics. The detector is ``calibrated'' by setting associating the mean of this distribution (3457 fC) to the energy of the pions (300 GeV). The ratio of these numbers can be used to estimate the energy of the particle from the charge collected from the shower.  Of course, this is a very simplistic calibration. Getting an accurate calibration over a wide range of particle energies is a subject that could be a book in and of itself. 
+The output from the scintillator is charge, and so the x axis units are collected charge after amplification by the photomultiplier and other electronics. The detector is ``calibrated'' by setting the mean of this distribution (3457 fC) to the energy of the pions (300 GeV). The ratio of these numbers can be used to estimate the energy of the particle from the charge collected from the shower.  Of course, this is a very simplistic calibration. Getting an accurate calibration over a wide range of particle energies is a subject that could be a book in and of itself. 
 
 \;
 \noindent
-As you can see, however, even though the incident particle always had the same energy, the amount of charged collected is not always the same. This is (mainly) because there are random fluctuations between the amount of energy deposited in the passive material and that deposited in the active material. The distribution of measured energies is well approximated by a Gaussian distribution:
+As you can see, however, even though the incident particle always had the same energy, the amount of charge collected is not always the same. This is (mainly) because there are random fluctuations between the amount of energy deposited in the passive material and that deposited in the active material. The distribution of measured energies is well approximated by a Gaussian distribution:
 
 \begin{equation}\hspace{20 mm}f(x,\mu,\sigma^{2}) = \frac{1}{\sigma\sqrt{2\pi }}\: e^{-(x-\mu)^{2}/2\sigma^{2}}\end{equation}
 
@@ -168,21 +168,21 @@ The parameter $\mu$ is the mean of the distribution. The parameter $\sigma$ is t
 
 \;
 \noindent
-The resolution for a calorimeter depends on the energy of the particle. The total number of secondary particles produced that cross the active material is proportional to the energy of the incident particle. The fluctuations on this number are proportional to the square root of this number. The fraction resolution (resolution/means) is thus proportional to $1/\sqrt{x}$.
+The resolution for a calorimeter depends on the energy of the particle. The total number of secondary particles produced that cross the active material is proportional to the energy of the incident particle. The fluctuations on this number are proportional to the square root of this number, x. The fraction resolution (resolution/means) is thus proportional to $1/\sqrt{x}$.
 
 \;
 \noindent
 There are other sources of resolution besides this, and so for a realistic calorimeter, the resolution is given by:
 
-\begin{equation}\hspace{25 mm}\frac{\sigma }{E} = \frac{s}{\sqrt{E}} \oplus \frac{n}{E} \oplus C
+\begin{equation}\hspace{35 mm}\frac{\sigma }{E} = \frac{s}{\sqrt{E}} \oplus \frac{n}{E} \oplus C
 \end{equation}
 
 \;
 \;
 
-where s is called the ``sampling term'' and comes from the mechanism we discussed, n is called the ``noise term'' and is usually dominated by fluctuations in the measured charge due to electronics noise, and c is called the constant term, and is usually dominated by leakage of secondary particles out the back of the detector. The $\oplus$ symbol means ``add in quadrature''. To do this, square each term, add these squares, and take the square root.  As you learn more statistics, you will learn this is a common To do this, square each term, add these squares, and take the square root.  As you learn more statistics, you will learn this is a common procedure when there is more than one source of randomness contributing to a measureable outcome.
+where s is called the ``sampling term'' and comes from the mechanism we discussed, n is called the ``noise term'' and is usually dominated by fluctuations in the measured charge due to electronics noise, and c is called the constant term, and is usually dominated by leakage of secondary particles out the back of the detector. The $\oplus$ symbol means ``add in quadrature''. To do this, square each term, add these squares, and take the square root.  As you learn more statistics, you will learn this is a common procedure when there is more than one source of randomness contributing to a measureable outcome.
 
-The figure below shows the resolution versus energy for one of the CMS detector$'$s calorimeters.
+\noindent The figure below shows the resolution versus energy for one of the CMS detector$'$s calorimeters.
 
 \;
 \;
