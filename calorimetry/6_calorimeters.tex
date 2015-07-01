@@ -11,7 +11,9 @@ You may have already encountered the word ``calorimeter'' in your high school ph
 \noindent
 Remember our goal is to identify the 4-momentum and identify the type of all particles produced in the collisions. In a calorimeter, as we will discuss later, we can often use the shape of the energy deposit to tell if the particle is  either an electron or a photon (on the one hand) or a hadron. The calorimeter is segmented so the azimuthal ($\phi$) and polar angle ($\theta$) can be estimated, assuming the particle was produced at the center of the detector, by drawing a line from the production point to the impact point on the calorimeter face. If we assume the particle$'$s mass is small compared to its momentum (massless approximation), the particle$'$s momentum can be estimated as:
 
-\begin{equation}\hspace{34 mm}p = E(l,cos(\theta ),cos(\phi ),cos(\theta ),sin(\phi ),sin(\theta ))\end{equation}
+\begin{equation}\hspace{34 mm}
+p = E(1,cos(\theta ) \cdot cos(\phi ),cos(\theta ) \cdot sin(\phi ),sin(\theta ))
+\end{equation}
 
 \;
 \;
@@ -19,7 +21,9 @@ Remember our goal is to identify the 4-momentum and identify the type of all par
 \section{Showers}
 
 \noindent
-In a particle physics calorimeter, we try to first change the neutral particles (photons, neutrons, K-longs) into charged particles. Then, we change single high energy charged particle into a very large number of low energy charged particles in such a way that the number we create is proportional to the kinetic energy of the initial high energy particle. The low energy charged particles travel through matter, interacting with the electrons in the material, transferring their kinetic energy to them, until all the initial kinetic energy is transferred to the material. That material then needs to make some kind of signal that can be detected. You can see a schematic of this process in figure ~\ref{fig:cal1}. An initial particle comes in, somehow interacting with the material of the calorimeter, and is changed gradually into a large number of low energy particles, that ``range out'' in the material. This process is called ``showering''.
+In a particle physics calorimeter, we try to first change the neutral particles (photons, neutrons, K-longs) into charged particles. Then, we change single high energy charged particle into a very large number of low energy charged particles in such a way that the number we create is proportional to the kinetic energy of the initial high energy particle. The low energy charged particles travel through matter, interacting with the electrons in the material, transferring their kinetic energy to them, until all the initial kinetic energy is transferred to the material. That material then needs to make some kind of signal that can be detected. You can see a schematic of this process in figure ~\ref{fig:cal1}. An initial particle comes in, somehow interacting with the material of the calorimeter, and is changed gradually into a large number of low energy particles, that ``range out'' in the material. This process is called ``showering'',
+where a single high energy incident particle becomes a large
+number of low energy {\color{red} secondary} particles.
 
 \;
 \;
@@ -150,7 +154,8 @@ How good is our calorimeter? This depends on how accurately it measures the ener
 \;
 
 \noindent
-The output from the scintillator is charge, and so the x axis units are collected charge after amplification by the photomultiplier and other electronics. The detector is ``calibrated'' by setting the mean of this distribution (3457 fC) to the energy of the pions (300 GeV). The ratio of these numbers can be used to estimate the energy of the particle from the charge collected from the shower.  Of course, this is a very simplistic calibration. Getting an accurate calibration over a wide range of particle energies is a subject that could be a book in and of itself. 
+The output from the scintillator is charge, measured in fC (femto-Coulombs), 
+and so the x axis units are collected charge after amplification by the photomultiplier and other electronics. The detector is ``calibrated'' by setting the mean of this distribution (3457 fC) to the energy of the pions (300 GeV). The ratio of these numbers can be used to estimate the energy of the particle from the charge collected from the shower.  Of course, this is a very simplistic calibration. Getting an accurate calibration over a wide range of particle energies is a subject that could be a book in and of itself. 
 
 \;
 \noindent
