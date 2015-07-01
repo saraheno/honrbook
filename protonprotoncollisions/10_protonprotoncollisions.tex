@@ -30,12 +30,31 @@ The number of scatters per second is then
 
 Now, you may ask what happens in a collider?  Well, it is just the same.  You can always move to a frame where one of the protons is at rest, do the calculation there, and move back.  We will see in the next section why our calculation of the cross section does not depend on the frame in which it is calculated.
 
+\section{On cross sections}
+One of the things we need to be able to predict, for our collider, is how many ``hard'' scatterings will occur and how many of each type of particle will be made.  As we saw in the previous section, this is related to a number called the cross sections.  Using the equations of the Standard Model, we can calculate all kinds of cross sections.  We can calculate the cross section for an up quark to annihilate with an anti-up quark with a center-of-mass energy of 125 GeV to produce a virtual Z, which then decays to an electron and a positron.  We can calculate the cross section for a down quark to annihilate with an anti-down at a center-of-mass energy of 87 GeV and form a virtual Z which then decays to a electron and a positron.  We can calculate the cross section for two gluons with a center-of-mass energy of 10 TeV to annihilate to a virtual gluon which then turns into a top quark and an anti-top quark.  
+
+Now, of course, you don't know enough physics and math to do these actual calculations.  And of course you may be saying ``but...  I don't have a beam of up quarks, I have a beam of protons.  So what good does it do if the standard model can calculate the cross sections for up quarks when what I need is the cross section for protons''?
+
+In the following, we are going to try to sketch out for you some of what goes into the calculation for these things and how we related the calculations for the particles of the standard model (say, the quarks) to objects containing many standard model particles (like the proton).
+
 \section{s, t, u, and ${\rm Q^2}$}\index{mandel}
+
+Just how complicated are these cross sections that result from Standard Model calculations?  
+Are they monsterous equations of many variables?
+Actually, if you think about it, you will realize that the resulting formula can not 
+depend on any arbitrary quantity.  In fact, it can be shown (although we won't show you this!)
+that there are only a few variables, that are functions of the kinematics (4-momenta) of the initial or final state particles, on which the resulting cross sections can depend.
 
 As we have seen, in relativity, there are ``invariants'' that will be 
 measured to be the same by all observers, regardless of 
 their frame and relative motion of the particle.  One of these is the length of a particle's 
-4-momentum, which is its mass.  In collisions, there are a few of these variables that are important, as cross sections calculated from the standard model must be functions only of these variables and numeric factors.  The most important ones were unimaginably given the names s, t, u and Q2.  Imagine some kind of reaction (could be photon exchange, gluon exchanged, Z exchange etc) where two particles a and b come in and two particles c and d come out  (called a 2-to-2 reaction, figure ~\ref{fig:twototwo}).
+4-momentum, which is its mass.  In collisions, there are a few of these variables that are important, as cross sections calculated from the standard model must be functions only of these variables and numeric factors.  The most important ones were unimaginably given the names s, t, u and 
+${\rm Q^2}$.  Since these invariants are mass-like things, they will often turn out to 
+be the mass of the virtual particle (one that is not an initial or final state particle, but
+an intermediate particle that can not be observed) in the Feynmann diagram.
+
+  
+Imagine some kind of reaction (could be photon exchange, gluon exchanged, Z exchange etc) where two particles a and b come in and two particles c and d come out  (called a 2-to-2 reaction, figure ~\ref{fig:twototwo}).
 
 \begin{figure}[h]
 \centering\includegraphics[scale=0.5]{./protonprotoncollisions/Pictures/fig1.pdf}
@@ -54,18 +73,28 @@ Remember: the square here means dot product, and the dot product of a 4-vector i
 Another important variable is \(Q^{2}\).  This can be u for some interactions and s for others.  It is the �mass� of the virtual particle that is exchanged in the interaction (the photon, W, Z, etc).  
 Now, you may say: but the photon is massless!  But, that is only if it is observable.  The photon can be ``off-shell'' as long as it is unobservable (for times short compared to that set by the uncertainty principle, using M as E), meaning that it has a non-zero mass.  You will learn more about this when you study quantum mechanics.
 
+Here we are just going to state the result of the cross section calculation in the standard model.
 It can be shown in quantum field theory that, in the frame where the 4-momentum of particles a and b are equal but opposite and have high enough energy that we can neglect their mass, that the cross section can be calculated from the physics of the standard model using a simple formula
 
 \begin{equation}
-\frac{d?}{d\Omega} = \frac{1}{64\Pi^{2}s}\frac{P_{f}}{P_{i}}|M|^{2}
+\frac{d?}{d\Omega} = \frac{1}{64\pi^{2}s}\frac{P_{f}}{P_{i}}|M|^{2}
 \end{equation}
 
-where \(p_{f}\) is the magnitude of the 3-momenta of either particle c or d (why doesn�t it matter which?) and pi is that of either a or b.  What will the ratio of pf to pi be if particles c and d both have momenta large compared to their mass as well?
+where \(p_{f}\) is the magnitude of the 3-momenta of either particle c or d (why doesn't it matter which?) and pi is that of either a or b and ${\rm \Omega}$ is the differential solid angle (so this is the rate as a function of the scattering angle for the final particle realtive to the initial particle). 
+What will the ratio of pf to pi be if particles c and d both have momenta large compared to their mass as well?
 
-\(|M|^{2}\)  is a factor called the �matrix element� which is calculated from the standard model and must be a function of s, t, u and numeric factors.
+\(|M|^{2}\)  is a factor called the ``matrix element'' which is calculated from the standard model and must be a function of s, t, u and numeric factors.
+
+
 
 \section{What is in a Proton?}\index{What is in a Proton}
-You may have been taught that a proton contains two up quarks and a down quark.  This is not true.  In fact, only half the momentum of a proton is carried by quarks.  What carries the other half?  This is a complicated question.  Roughly, we can say that about half the momentum is carried by the up and down quarks, and about half by gluons.  One of the goals of nuclear physics is to understand how the momentum distribution of the proton is divided amoung the protons constituents.  The �Parton Distribution Functions� or PDFs give the probability of finding a �parton� (a constituent of the proton, like a quark or gluon) with a fraction of the proton momentum x.  When you sum over all partons and all x, you should get 1 (when you add them all together, you have the whole momentum of the proton).  Figure ~\ref{fig:pdfpdf} shows results from measurements.
+Okay, fine: we have just written down for you the differential cross section (relative to the final particle scattering angle) for particles in the standard model?  Now we will rough out how to go from that to the scattering for a proton with another proton.  But first, before we do that, we need to know what is in a proton.
+
+
+You may have been taught that a proton contains two up quarks and a down quark.  This is not true.  In fact, only half the momentum of a proton is carried by quarks.  What carries the other half?  This is a complicated question.  Roughly, we can say that about half the momentum is carried by the up and down quarks, and about half by gluons.  And all these particles inside the proton have different momenta (but all very high, so that they are all going at the speed of light).  And what is worse, if you look at one time and then look again at another time, which types of particles and their momenta will change!  Sometimes most of the momenta will be held by one up quark.  Sometimes there will be 100 gluons with about a hundreth of the proton's momenta!  It is a seething mass of paritlces!
+
+
+One of the goals of nuclear physics is to understand how the momentum distribution of the proton is divided amoung the protons constituents.  The ``Parton Distribution Functions'' or PDFs give the probability of finding a ``parton'' (a constituent of the proton, like a quark or gluon) with a fraction of the proton momentum x.  When you sum over all partons and all x, you should get 1 (when you add them all together, you have the whole momentum of the proton).  Figure ~\ref{fig:pdfpdf} shows results from measurements.  Note that the y axis is the average number of partons you will find at that momenta and type.  Of course, since this is a random, probabilistic thing, there will be fluctuations around this, governed by Poisson statistics.
 
 \begin{figure}[h]
 \centering\includegraphics[scale=0.5]{./protonprotoncollisions/Pictures/fig2.pdf}
@@ -80,10 +109,12 @@ Imagine two possible beams in a fixed target experiment: muons and neutrinos.  M
 
 \section{Calculation of a cross section in proton proton collisions}\index{Calculation of a cross section in proton proton collisions}
 
-In a proton-proton collision, the particles and b are partons in the proton.  For a given final state (particles c and d), there can be a variety of different initial states that can occur.  For example, a Z boson can be created when an up quark annihilates with an anti-up quark or it can be created when an down quark annihilates with an anti-down quark.  It is like our bean has different kinds of balls that have a different effective cross section to interact with the target.  How can we calculate the total cross section for any two partons in the proton to go to a Z and then into, say an electron-positron pair?  We need to integrate over all possible initial states:
+Okay, now you have some idea what is in a proton.  How do we take the cross sections from the standard model and the PDFs and turn into into a cross section for proton-proton scattering.  Well, we have to imagine all the different partons that can make the final state we are interested in and sum over them.  In fact, we have to imagine all the momenta (x) for all the partons that can make the final state we are interested in and sum over that.  Since the possible momenta are continuaus, this becomes an integral, while the the other is over a finite number of possibilities, so it is a sum.
+
+
 
 \begin{equation}
-\sigma = \Sigma \int{dx_a dx_b \sigma[q(x_a)\bar{q(x_b)}+q(x_b)\bar{q(x_a)}]}
+\sigma = \Sigma \int{dx_a dx_b \sigma_{ab}[q(x_a)\bar{q(x_b)}+q(x_b)\bar{q(x_a)}]}
 \end{equation}
 
 where the q's represent the PDFs for the quarks.
