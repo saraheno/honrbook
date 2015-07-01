@@ -1,4 +1,14 @@
-main:
-	pdflatex main
+PDFLATEX := pdflatex
+BIBTEX := bibtex
+FILE := ElementaryExperimentalHiggsPhysics
+
+%.pdf:  %.tex
+	$(PDFLATEX) $(FILE).tex && \
+	$(PDFLATEX) $(FILE).tex 
+
+all: $(FILE).pdf
+
+.PHONY: clean
+
 clean:
-	rm -r *.log main.pdf
+	rm -f *.dvi *.aux *.log *.bbl *.blg *~ *.out
