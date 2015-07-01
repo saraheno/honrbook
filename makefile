@@ -11,4 +11,4 @@ all: $(FILE).pdf
 .PHONY: clean
 
 clean:
-	rm -f *.dvi *.aux *.log *.bbl *.blg *~ *.out
+	rm -f *.dvi *.aux *.log *.bbl *.blg *~ *.out ElementaryExperimentalHiggsPhysics.pdf
