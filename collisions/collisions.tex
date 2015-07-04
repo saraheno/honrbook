@@ -22,13 +22,28 @@ Let's do a simple elastic collision problem as a review.  A particle with a spee
 \label{fig:elastic}
 \end{figure}
 
-Let's set our x axis along the initial direction of the first particle, and the y-axis perpendicular to that.
+Let's set our x axis along the initial direction of the first particle, and the y-axis perpendicular to that.  Let's let m be the unknown mass of the two particles, 
+${\rm v_{1,f}}$ be the unknown final speed of the first particle,
+${\rm v_{2,f}}$ be the unknown final speed of the second particle,
+and
+${\rm \theta}$ be the unknown final angle of the second particle.
+We appear to have four unknowns, but we will see that the $m$ will cancel out of the equations, leaving three unknowns.  To solve for three unnknowns, we need three equations.  Luckily for elastic collisions, we have three conservation laws.
 
-Then, using conservation of the x component of momentum, we have:
-$$ $$
+Using conservation of the x component of momentum, we have:
+$$ m 300 = m v_{1,f} \cos{30} + m v_{2,f} \cos{\theta} $$
 
 Using conservation of the y component of momentum, we have:
+$$ 0 = m v_{1,f} \sin{30} + m v_{2,f} \sin{\theta} $$
 
+Using conservation of kinetic energy, we have:
+$$ {1 \over 2} m 300^2 = {1 \over 2} m v_{1,f}^2 + {1 \over 2} m v_{2,f}^2 $$
+
+Can you solve this system of equations?  I hope so.  You should get:
+$v_{1,f}=260~m/s$, $v_{2,f}=150~m/s$, and $\theta = 60^o$.
+
+(hint: try solving the first two for 
+${\rm v_{2,f} \cos{\theta}}$ and ${\rm v_{2,f} \sin{\theta}}$, 
+squaring the resulting equations, and adding them to get rid of the trig functions)
 
 \subsection{Inelastic Collisions}
 
